@@ -110,6 +110,59 @@ teams = [
   You can reach out to us at labweek22@protocol.ai.
 """
 
+# Speakers section.
+#
+# the format is:
+# [[speakers]]
+# name = "Speaker Name"
+# company = "Company"
+# image = "image.jpg"
+
+[[speakers]]
+name = "Marta Evans"
+company = "Protocol Labs"
+image = "speakers/marta-evans.jpg"
+[[speakers]]
+name = "George Lory"
+company = "Protocol Labs"
+image = "speakers/george-lory.jpg"
+[[speakers]]
+name = "Jerry Church"
+company = "Protocol Labs"
+image = "speakers/jerry-church.jpg"
+[[speakers]]
+name = "Marta Evans"
+company = "Protocol Labs"
+image = "speakers/marta-evans.jpg"
+[[speakers]]
+name = "George Lory"
+company = "Protocol Labs"
+image = "speakers/george-lory.jpg"
+[[speakers]]
+name = "Jerry Church"
+company = "Protocol Labs"
+image = "speakers/jerry-church.jpg"
+[[speakers]]
+name = "Marta Evans"
+company = "Protocol Labs"
+image = "speakers/marta-evans.jpg"
+[[speakers]]
+name = "George Lory"
+company = "Protocol Labs"
+image = "speakers/george-lory.jpg"
+[[speakers]]
+name = "Jerry Church"
+company = "Protocol Labs"
+image = "speakers/jerry-church.jpg"
+[[speakers]]
+name = "Marta Evans"
+company = "Protocol Labs"
+image = "speakers/marta-evans.jpg"
+[[speakers]]
+name = "George Lory"
+company = "Protocol Labs"
+image = "speakers/george-lory.jpg"
+
 # schedule section config
 [schedule]
 description="""
