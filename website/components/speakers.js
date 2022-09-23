@@ -23,13 +23,13 @@ const SpeakerButton = ({ link }) => {
     <a href={link}>
       <div className="relative w-full" style={{ paddingTop: "120%"}} >
         <svg className="absolute inset-0" viewBox="0 0 202 244" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1 62.0139V181.986L101 242L201 181.986V62.0139L101 2L1 62.0139Z" stroke="#13506F" stroke-width="2" stroke-miterlimit="10"/>
+          <path d="M1 62.0139V181.986L101 242L201 181.986V62.0139L101 2L1 62.0139Z" stroke="#13506F" strokeWidth="2" strokeMiterlimit="10"/>
         </svg>
         <div className="absolute top-1/2 left-0 right-0 transform -translate-y-1/2 text-center">
           <svg className="inline-block" width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M14.0782 26.9741C21.2092 26.9741 26.9901 21.1933 26.9901 14.0623C26.9901 6.93123 21.2092 1.15039 14.0782 1.15039C6.94716 1.15039 1.16632 6.93123 1.16632 14.0623C1.16632 21.1933 6.94716 26.9741 14.0782 26.9741Z" stroke="#13506F" stroke-width="1.5" stroke-miterlimit="10"/>
-            <path d="M14.0782 7.75537V20.3731" stroke="#13506F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M20.389 14.0625H7.7713" stroke="#13506F" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M14.0782 26.9741C21.2092 26.9741 26.9901 21.1933 26.9901 14.0623C26.9901 6.93123 21.2092 1.15039 14.0782 1.15039C6.94716 1.15039 1.16632 6.93123 1.16632 14.0623C1.16632 21.1933 6.94716 26.9741 14.0782 26.9741Z" stroke="#13506F" strokeWidth="1.5" strokeMiterlimit="10"/>
+            <path d="M14.0782 7.75537V20.3731" stroke="#13506F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
+            <path d="M20.389 14.0625H7.7713" stroke="#13506F" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
           </svg>
           <p className="text-navy">Apply to speak</p>
         </div>

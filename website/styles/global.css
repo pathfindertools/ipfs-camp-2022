@@ -10,9 +10,58 @@
 .markdown ul {
   list-style: disc;
   margin-left: 20px;
-  margin-bottom: 6px;
+  margin-top: 20px;
 }
 
 .markdown ul li {
   margin-top: 6px;
+}
+.markdown p {
+  margin-top: 20px;
+}
+
+.h1 {
+  /* Roc Grotesk - Medium */
+  font-size: 50px;
+  line-height: 120%;
+}
+.h2 {
+  /* Roc Grotesk - Medium */
+  font-size: 36px;
+  line-height: 125%;
+}
+.h3 {
+  /* Filson Soft - Bold */
+  font-size: 30px;
+  line-height: 130%;
+}
+.h4 {
+  /* Filson Soft - Bold */
+  font-size: 28px;
+  line-height: 140%;
+}
+.h5 {
+  /* Filson Soft - Bold */
+  font-size: 20px;
+  line-height: 110%;
+}
+.body1 {
+  /* Filson Soft - Regular */
+  font-size: 16px;
+  line-height: 150%;
+}
+.body2 {
+  /* Filson Soft - Regular */
+  font-size: 14px;
+  line-height: 150%;
+}
+.body3 {
+  /* Filson Soft - Regular */
+  font-size: 12px;
+  line-height: 150%;
+}
+.body4 {
+  /* Filson Soft - Regular */
+  font-size: 11px;
+  line-height: 150%;
 }
