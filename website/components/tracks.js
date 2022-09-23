@@ -15,16 +15,19 @@ const Track = () => {
 export default function Tracks({ config }) {
   const events = [1,2,3,4,5,6,7,8,9,10]
   return (
-    <div className="relative text-white w-full px-6 my-20">
-      <div className="container max-w-6xl mx-auto lg:h-full">
+    <div className="relative w-full px-6 py-20">
+      <div className="absolute inset-0 overflow-hidden">
+        <img src="./tracks-ornament-top.svg" width="716" className="absolute top-0 left-1/2 transform translate-x-40"  />
+        <img src="./tracks-ornament-bottom.svg" width="907" className="absolute bottom-0 right-1/2 transform -translate-x-96"  />
+      </div>
+      {/* <div className="absolute left-1/2 left-0 top-0 bottom-0">
+      </div> */}
+      <div className="container max-w-6xl mx-auto lg:h-full text-white">
 
-        {/* <div className="absolute right-1/2 left-0 top-0 bottom-0">
-          <img className="absolute h-full right-20" src="./about-collage.jpg" />
-        </div> */}
         <h1 className="text-5xl font-bold mb-8">Tracks</h1>
-        <div>
-          <div className="h-full w-px bg-white absolute left-1/2 opacity-20"></div>
-          <div className="grid grid-cols-2 gap-24 p-16">
+        <div className="relative">
+          <div className="h-full w-px bg-white absolute left-1/2 opacity-20 hidden lg:block"></div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 p-16 gap-24 p-16">
             {events.map((event) => {
               return (
                 <Track />
@@ -32,7 +35,9 @@ export default function Tracks({ config }) {
             })}
           </div>
         </div>
-        <a href="#" className="border mx-auto">Propose a Track</a>
+        <div className="text-center mt-8">
+          <a href="#" className="mx-auto inline-block h-10 py-2 px-6 rounded-md bg-gradient-to-tr from-blue-500 to-cyan-500">Propose a Track</a>
+        </div>
 
       </div>
     </div>

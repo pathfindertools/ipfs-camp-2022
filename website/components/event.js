@@ -18,15 +18,13 @@ export function Card({ children, color, onClick }) {
 
   return (
     <div className={classNames(
-        borderColor, 
         'eventcard', 
-        'p-0.5 shadow-md h-full whitespace-normal hover:bg-gradient-to-r hover:from-blue-500 hover:via-cyan-500 hover:to-green-500'
+        'p-0.5 shadow-md h-full whitespace-normal'
       )} onClick={onClick}>
       <div className={classNames(
-          bgColor, 
-          'block p-3 sm:px-3 sm:py-2 h-full hover:bg-white hover:bg-gradient-to-r hover:from-blue-500/10 hover:via-cyan-500/10 hover:to-green-500/10'
-        )}>
-        <div className="text-xs text-gray-600">
+          'rounded-lg block p-3 sm:px-3 sm:py-2 h-full'
+        )} style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,1) 0%, rgba(7,58,83,1) 100%)"}}>
+        <div className="text-xs text-white">
           { children }
         </div>
       </div>
@@ -53,7 +51,7 @@ export function EventCard({ event }) {
 function BlockCard({ event }) {
   return (
     <Card color={event.color}>
-      <h5 className="text-lg font-bold text-gray-900">
+      <h5 className="text-lg font-bold text-white">
         {event.name}
       </h5>
       <div>
@@ -179,46 +177,44 @@ export function EventModal({ children, event }) {
         {children}
       </div>
       <Modal show={isOpen()} onClose={close} size="3xl">
-        <div className="bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 p-1">
-          <div className="bg-white dark:bg-gray-400">
-            <Modal.Header>
-              {event.name}
-            </Modal.Header>
-            <Modal.Body className="space-y-6 overflow-y-scroll max-h-[70vh]">
-              <ul className="list-disc ml-4">
-                <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
-                <li><b>Times</b>: {event.times}</li>
-                <li><b>Organization</b>: {event.org}</li>
-                <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
-              </ul>
-              <div className="event-tags">
-                {event.tags.map((tag, i) => (
-                  (tag && <Tag>{tag}</Tag>)
-                ))}
-              </div>
-              <p className="text-base leading-relaxed prose">
-                <Markdown>{event.description}</Markdown>
-              </p>
-              {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
-            </Modal.Body>
-            <Modal.Footer>
-              {event.website &&
-                <Link href={event.website} prefetch={false} target="_blank">
-                  <a target="_blank" rel="noreferrer">
-                    <Button>
-                      Website
-                    </Button>
-                  </a>
-                </Link>
-              }
-              <Button
-                color="alternative"
-                onClick={close}
-              >
-                Close
-              </Button>
-            </Modal.Footer>
-          </div>
+        <div className="rounded-lg text-white" style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,1) 0%, rgba(7,58,83,1) 100%)"}}>
+          <Modal.Header>
+            <span className="text-white">{event.name}</span>
+          </Modal.Header>
+          <Modal.Body className="space-y-6 overflow-y-scroll max-h-[70vh]">
+            <ul className="list-disc ml-4">
+              <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
+              <li><b>Times</b>: {event.times}</li>
+              <li><b>Organization</b>: {event.org}</li>
+              <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
+            </ul>
+            <div className="event-tags">
+              {event.tags.map((tag, i) => (
+                (tag && <Tag>{tag}</Tag>)
+              ))}
+            </div>
+            <p className="text-base text-white leading-relaxed prose">
+              <Markdown>{event.description}</Markdown>
+            </p>
+            {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
+          </Modal.Body>
+          <Modal.Footer>
+            {event.website &&
+              <Link href={event.website} prefetch={false} target="_blank">
+                <a target="_blank" rel="noreferrer">
+                  <Button>
+                    Website
+                  </Button>
+                </a>
+              </Link>
+            }
+            <Button
+              color="alternative"
+              onClick={close}
+            >
+              Close
+            </Button>
+          </Modal.Footer>
         </div>
       </Modal>
     </>
@@ -239,7 +235,7 @@ function TimeslotTable({ timeslots }) {
         </thead>
         <tbody>
           {timeslots.map((timeslot, i) => (
-            <tr key={i} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+            <tr key={i} className="bg-white border-b">
               <th scope="row" className="px-6 py-4 font-medium text-gray-900 align-top dark:text-white whitespace-nowrap">{timeslot.startTime}</th>
               <td className="px-6 py-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
               <td className="px-6 py-4">

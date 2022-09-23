@@ -4,11 +4,10 @@ import Footer from './footer.js'
 
 export function Layout({ children, config }) {
   return (
-    <div className="flex flex-col min-h-screen bg-white dark:bg-gray-800">
+    <div className="flex flex-col min-h-screen bg-navy">
       <Head>
         <title>{config.devent.name}</title>
         <BaseScript />
-        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@600&display=swap" rel="stylesheet"></link>
       </Head>
 
       <Header config={config} />

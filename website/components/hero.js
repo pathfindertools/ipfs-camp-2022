@@ -9,11 +9,8 @@ const Lockup = (props) => {
         <img src={props.logo} width="1600" />
       </div>
       <div className='flex-grow text-left lg:ml-6'>
-        <div className="mt-4 font-bold text-black mb-2 text-6xl">
+        <div className="mt-6 font-bold mb-2 text-6xl">
           {props.name}
-        </div>
-        <div className="text-lg text-black lg:mt-2 font-bold">
-          {props.tagline}
         </div>
       </div>
     </div>
@@ -22,19 +19,26 @@ const Lockup = (props) => {
 
 export default function Hero({ config }) {
   return (
-    <div className="relative text-gray-300 w-full px-6 lg:px-10 min-h-[70vh] lg:flex lg:items-center">
+    <div className="relative text-white w-full px-6 lg:px-10 min-h-[70vh] lg:flex lg:items-center">
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 bg-black" style={{"background": "rgb(224,22,51)", "background": "linear-gradient(225deg, rgba(224,22,51,1) 5%, rgba(241,130,0,1) 15%, rgba(246,165,0,1) 20%, rgba(89,217,202,1) 50%, rgba(0,169,229,1) 80%, #045d81 100%)"}}></div>
+        <img className="absolute left-1/2 transform translate-x-20 mix-blend-color-burn" width="830" height="823" src="./hero-ornament.svg" />
+      </div>
       <div className="container max-w-6xl mx-auto lg:h-full">
-        <div className="absolute inset-0 overflow-hidden">
-          <img className="absolute bottom-0 left-1/2 transform -translate-x-1/4" src={config.devent.bgimg} style={{ minWidth: "1600px" }} />
-        </div>
+
+
+
         <div className="relative w-full pt-10 pb-28 lg:pt-20">
           <div className="relative z-1 mx-auto min-h-full lg:ml-0 flex flex-col gap-y-3">
             <Lockup name={config.devent.name} logo={config.devent.logo} tagline={config.devent.tagline} />
-            <div className='basis-1/3 my-5'>
-              <div className="text-2xl text-black">
+            <div className='basis-1/3 mb-5'>
+              {/* <div className="text-2xl">
                 {dateRangeStr(config.devent.dateStart, config.devent.dateEnd)}{config.devent.location && ` • ${config.devent.location}`}
+              </div> */}
+              <div className="text-4xl mb-6 w-3/4">
+                {config.devent.tagline}
               </div>
-              <div className="text-md text-black prose leading-7">
+              <div className="text-2xl w-3/4">
                 <Markdown >{config.devent.description}</Markdown>
               </div>
 

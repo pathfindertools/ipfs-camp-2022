@@ -1,25 +1,22 @@
 [devent]
 
 # the name of the devent
-name="LabWeek22"
+name="IPFS Camp"
 
 # where the event is happening
 location="Lisbon, Portugal"
 
 # the dates the devent runs
-dateStart = "2022-10-24"
-dateEnd = "2022-11-4"
+dateStart = "2022-10-28"
+dateEnd = "2022-10-30"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
 tagline="""
-A decentralized conference hosted by Protocol Labs
+IPFS Camp 2022  is a gathering for the entire  IPFS community: devs, operators, implementers,  researchers – and you!
 """
 
 description="""
-
-The Protocol Labs Network is gathering in Lisbon for our first ever decentralized conference. Teams in the network will collaborate on a variety of topics, including decentralized storage, public goods funding, cryptoeconomics, DeSci, and more.
-
-We invite you to join us as we drive breakthroughs in computing to push humanity forward.
+Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
 """
 
 
@@ -34,11 +31,11 @@ rsvpLink="https://airtable.com/shrsicDt1IpeIKVIg"
 # recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
 
 # a link to a logo image for the event
-logo="logo-gradient.svg"
+logo="ipfs-camp-dome.svg"
 
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community
-bgimg="chasm.png"
+bgimg="tree-mandala.png"
 
 # the organizers of the devent (usually a group)
 org="Protocol Labs"

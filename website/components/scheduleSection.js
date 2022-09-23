@@ -18,32 +18,27 @@ export default function ScheduleSection({ events, config }) {
 
   return (
     <article>
-      <div className='w-full pt-56 pb-56 min-h-[10vh]' id='schedule'>
-        <div className="container mx-auto max-w-6xl pb-10 px-6 lg:px-0">
-          <header className="flex flex-row">
-            <h1 className="text-4xl font-bold">
-              Schedule
-            </h1>
-            <a className="text-xs pl-4 self-end text-blue-600" href="/events.json">View as JSON</a>
-          </header>
-          <div className='mt-3'>
-            <div className="mr-20 text-gray-400 float-right">
-              Click &amp; Drag &rarr;
-            </div>
-            {config.schedule?.description && <Markdown>{config.schedule.description}</Markdown>}
-          </div>
+      <div className='relative w-full py-20 min-h-[10vh] text-white' id='schedule'>
+        <div className="absolute inset-0 overflow-hidden">
+          <img src="./schedule-ornament-top.svg" width="991" className="absolute top-10 left-1/2 transform -translate-x-10" />
         </div>
-        <ScrollContainer innerRef={scrollContainer} className="scroll-container bg-gray-100 py-10">
-          <div className="flex-none min-h-full w-full">
-            <div className="content">
-              <ScheduleTable events={annotateEvents(events, config)} config={config} />
-            </div>
+        <div className="relative z-10">
+          <div className="container mx-auto max-w-6xl pb-10 px-6 lg:px-0">
+            <header>
+              <h1 className="text-4xl font-bold block">Schedule</h1>
+              {config.schedule?.description && <Markdown>{config.schedule.description}</Markdown>}
+            </header>
+            <ScrollContainer innerRef={scrollContainer} className="scroll-container py-10 mx-auto max-w-6xl">
+              <div className="flex-none min-h-full w-full">
+                <div className="content">
+                  <ScheduleTable events={annotateEvents(events, config)} config={config} />
+                </div>
+              </div>
+            </ScrollContainer>
+            <BlankCard />
           </div>
-        </ScrollContainer>
-        <div className={`bg-gray-100 p-10 pt-0`}>
-          <BlankCard />
+          <AddEventModal config={config} />
         </div>
-        <AddEventModal config={config} />
       </div>
     </article>
   )
