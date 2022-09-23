@@ -25,7 +25,7 @@ const AccordianItem = ({question, answer}) => {
         </div>
       </div>
       <div className={`p-4 pt-0 border-cyan-400 ${active ? '' : 'hidden'}`}>
-        <Markdown><span className="text-2xl">{answer}</Markdown>
+        <Markdown>{answer}</Markdown>
       </div>
     </div>
   )
