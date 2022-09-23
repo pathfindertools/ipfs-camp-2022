@@ -7,8 +7,8 @@ export default function About({ config }) {
         </div>
         <div className="relative w-1/2 min-h-xl ml-auto py-48">
           <h1 className="text-4xl mb-8">What to expect</h1>
-          <p className="text-lg mb-8">This unique experience is designed to bring together 150 pioneers in the Distributed Web space and is an opportunity to develop your ideas and learn from the IPFS core team and community.</p>
-          <p  className="text-lg">Curabitur blandit tempus porttitor. Curabitur bladit tempus porttitor. Duis mollis, est non commodo luct us, nisi erat porttitor ligula, eget lacinia odio snec elit. Curabitur blandit tempus porttitor. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p className="text-lg mb-8">Set in the colorful and inspiring city of Lisbon, this unique experience is designed to bring together hundreds of pioneers in the Distributed Web space.</p>
+          <p  className="text-lg">100+ talks, dozens of hands-on workshops and problem-solving sessions, and plenty of space for hacking and serendipity. It’s an opportunity to learn from the IPFS core team and community, and discover how you can use or contribute to IPFS to build a better web.</p>
         </div>
       </div>
     </div>
