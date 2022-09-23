@@ -1,25 +1,12 @@
-# LabWeek22
+# IPFS Camp 2022
 
-A decentralized conference hosted by Protocol Labs. We are using this github repository and website to coordinate event listings. The website is published to:
+IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you!
 
-https://labweek2022.plnetwork.io
+https://2022.ipfs.camp/
 
-## LabWeek 2022 Location and Dates
+## IPFS Camp 2022 Location and Dates
 
-LabWeek 2022 is happening October 20th to November 4th, in Lisbon.
-
-## Decentralized Conference
-
-A decentralized conference is a series of related events happening around
-the same place and time, put on by a community. The goal is to enable people
-and groups to host their own events, loosely coordinating with the rest of the
-community.
-
-Events can be run in many formats: roundtables, talks with slides, hack sessions, whiteboard sessions, or more. Anyone can submit subevents, just follow the instructions below!
-
-# Getting started
-
-Please read [this guide](https://bit.ly/LabWeek22HostEvents) to Hosting Events for LabWeek22 before proceeding if you have questions on venues, times, and registration: 
+IPFS Camp 2022 is happening October 28th to October 30th, in Lisbon.
 
 ## Submitting subevents
 
@@ -86,7 +73,8 @@ cd website
 npm run build
 npm run export
 ipfs add -r out
-```
+```pop
+
 
 Publish to fleek:
 - https://blog.fleek.co/posts/fleek-nextJS
