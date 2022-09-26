@@ -23,15 +23,23 @@ Join us for talks, workshops, discussion circles, hacking time, and more, all fo
 # a link to the devent website (what domain do you expect to use?)
 link="https://labweek22.on.fleek.co"
 
+# a link to get tickets
+ticketLink="https://lu.ma/ipfscamp22"
+
 # a link to RSVP for the event
-rsvpLink="https://airtable.com/shrsicDt1IpeIKVIg"
+# rsvpLink="https://airtable.com/shrsicDt1IpeIKVIg"
+
+# a link to apply to speak for the event
+speakLink="https://airtable.com/shrOxmXUqwojf0Bjj"
+
+# a link to propose a track for the event
+proposeTrackLink="https://airtable.com/shrsicDt1IpeIKVIg"
 
 # a link to the recap and videos
-# Dependent on https://github.com/ipfs/ipfs-blog/issues/443 first.
 # recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
 
 # a link to a logo image for the event
-logo="ipfs-camp-dome.svg"
+logo="ipfs-camp-logo.svg"
 
 # a link to a large res image for the hero/splash background.
 # you likely want to use the devent location/city or something meaningful to the community

@@ -25,7 +25,7 @@ export default function ScheduleSection({ events, config }) {
         <div className="relative z-10">
           <div className="container mx-auto max-w-6xl pb-10 px-6 lg:px-0">
             <header>
-              <h1 className="text-4xl font-bold block">Schedule</h1>
+              <h1 className="text-h1 block">Schedule</h1>
               {config.schedule?.description && <Markdown>{config.schedule.description}</Markdown>}
             </header>
             <ScrollContainer innerRef={scrollContainer} className="scroll-container py-10 mx-auto max-w-6xl">

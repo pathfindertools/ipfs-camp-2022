@@ -1,10 +1,15 @@
-export default function Button({target="_self", href="#", children, className}) {  
+export default function Button({target="_self", href="#", children, className, variation="major"}) {
+  const buttonVariations = {
+    major: "text-white bg-gradient-to-r from-red-custom to-yellow-custom",
+    minor: " text-white bg-orange-500",
+    outline: "border-[3px] border-navy text-navy lg:py-2",
+  }
   return (
     <a
       href={href}
       target={target}
       type="button"
-      className={`inline-block px-4 py-2 text-md font-medium text-white bg-blue-500 hover:bg-blue-400 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 lg:px-12 lg:py-2 ${className}`}
+      className={`inline-block text-h5 rounded-lg px-12 h-10 pt-2.5 outline-none focus:outline-none ease-linear transition-all duration-150 ${className} ${buttonVariations[variation]}`}
     >
       {children}
     </a>
