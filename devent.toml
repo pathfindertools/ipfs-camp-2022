@@ -12,7 +12,7 @@ dateEnd = "2022-10-30"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
 tagline="""
-IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers – and you!
+IPFS Camp 2022  is a gathering for the entire  IPFS community: devs, operators, implementers,  researchers – and you!
 """
 
 description="""
@@ -72,15 +72,16 @@ teams = [
 # Answer here at length.
 # """
 [faq]
-
+"What is IPFS Camp 2022?" = """
+IPFS Camp 2022 is a gathering for the entire IPFS community: builders, operators, researchers… and you! There will be talks, workshops, discussion circles, hacking time, and more — all focused on celebrating and advancing IPFS. 
+"""
 "Who is it for? Why should I attend?" = """
 IPFS Camp is for everyone who would like to build the Distributed Web together. The 3-day event is designed for a broad range of interests and experience via multiple, parallel tracks. You can expect to…
-
-  - Meet IPFS creators, maintainers, builders & operators
-  - Learn about progress & plans for IPFS & libp2p
-  - Join discussions and workshops on key goals and challenges
-  - Share your work in building the Distributed Web
-  - Learn how you can contribute to IPFS & grow your own IPFS-based projects
+    - Meet IPFS creators, maintainers, builders & operators
+    - Learn about progress & plans for IPFS & libp2p
+    - Join discussions and workshops on key goals and challenges
+    - Share your work in building the Distributed Web
+    - Learn how you can contribute to IPFS & grow your own IPFS-based projects
 """
 "Sounds great! How do I participate?" = """
 If you don’t have a ticket yet, head to the Tickets section to purchase a ticket or apply for a discounted one.
@@ -88,30 +89,29 @@ If you don’t have a ticket yet, head to the Tickets section to purchase a tick
 This is a decentralized event, with over 15 tracks across 3 days. Explore the track descriptions and schedules, and choose your own adventures depending on your interests! 
 
 We’re keen to showcase builders, users, and ideas from across the community. If you’re interested in giving a talk, sharing your work, or leading a new track, please Apply to Speak.
+This is a decentralized event, with over 15 tracks across 3 days. Explore the track descriptions and schedules, and choose your own adventures depending on your interests! 
 """    
 "What does the ticket include?" = """
-All tickets include entry to the full 3-day event and coffee, pastries, lunch, and dinner at the IPFS Camp venue.
+All tickets include entry to the full 3-day event and coffee, pastries, lunch, and dinner at the IPFS Camp venue. 
 """
 "Can I organize a side event?" = """    
 Yes! Please reach out to camp@ipfs.io if you’d like to discuss listing it on this website.
 """    
 "What's the COVID policy?" = """    
 It has been almost three years since our last in-person IPFS Camp! We’re excited to see everyone’s faces soon! While COVID-19’s most acute days are past, we are taking precautions to help limit spread and protect the health of our IPFS and global communities.
-
 As of September 2022, Portugal has lifted entry requirements related to COVID-19.
-"""
-"Rapid Antigen Testing" = """    
-IPFS Camp will host a 100% free mobile testing site at the entrance to Convento do Beato where every attendee will be required to take an antigen rapid test prior to picking up their badge (regardless of vaccination status).
 
-Tests will be self administered, and results take about 15 minutes to process.
-"""
-"Masks" = """    
+<b>Rapid Antigen Testing</b>
+IPFS Camp will host a 100% free mobile testing site at the entrance to Convento do Beato where every attendee will be required to take an antigen rapid test prior to picking up their badge (regardless of vaccination status).
+Tests will be self administered, and results take about 15 minutes to process. 
+
+<b>Masks</b>
 IPFS Camp will have plenty of masks and hand sanitizer available at the entrance and key locations within the venue each day. We recommend wearing a mask indoors.
-"""
-"Meals" = """    
+
+<b>Meals</b>
 Lunch and dinner will primarily take place in well-ventilated areas or outdoors.
-"""
-"Illness" = """    
+
+<b>Illness</b>
 If you feel sick or have tested positive, stay at home. If at any point during your visit to IPFS Camp you feel sick, please visit our onsite testing center to take a follow-up test. Whether or not you test positive for COVID-19, if you have symptoms that mirror any other communicable disease (i.e. flu, cold, etc.) we ask that you do not visit in-person venues until your symptoms subside. 
 
 If you must cut short your visit to IPFS Camp due to illness, you may email camp@ipfs.io for a ticket refund. We will be sorry to see you go but thankful for your part in keeping the community healthy.
