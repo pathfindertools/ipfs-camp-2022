@@ -2,6 +2,23 @@
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
 
+@font-face {
+  font-family: FilsonSoft;
+  src: url('/fonts/FilsonSoft-Regular.otf');
+}
+@font-face {
+  font-family: FilsonSoftBold;
+  src: url('/fonts/FilsonSoft-Bold.otf');
+}
+@font-face {
+  font-family: RocGroteskMedium;
+  src: url('/fonts/RocGrotesk-Medium.otf');
+}
+@font-face {
+  font-family: RocGroteskBold;
+  src: url('/fonts/RocGrotesk-Bold.otf');
+}
+
 .markdown a {
   color: rgb(29, 78, 216);
   cursor: pointer;
@@ -20,48 +37,73 @@
   margin-top: 20px;
 }
 
-.h1 {
-  /* Roc Grotesk - Medium */
+.text-h1 {
+  font-family: RocGroteskMedium, sans-serif;
+  font-weight: normal;
+  font-style: normal;
   font-size: 50px;
   line-height: 120%;
 }
-.h2 {
-  /* Roc Grotesk - Medium */
+.text-h2 {
   font-size: 36px;
   line-height: 125%;
+  font-family: RocGroteskMedium, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-.h3 {
-  /* Filson Soft - Bold */
+.text-h3 {
   font-size: 30px;
   line-height: 130%;
+  font-family: FilsonSoftBold, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-.h4 {
-  /* Filson Soft - Bold */
+.text-h4 {
   font-size: 28px;
   line-height: 140%;
+  font-family: FilsonSoftBold, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-.h5 {
-  /* Filson Soft - Bold */
+.text-h5 {
   font-size: 20px;
   line-height: 110%;
+  font-family: FilsonSoftBold, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-.body1 {
-  /* Filson Soft - Regular */
+.text-body1 {
   font-size: 16px;
   line-height: 150%;
+  font-family: FilsonSoft, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-.body2 {
-  /* Filson Soft - Regular */
+.text-body2 {
   font-size: 14px;
   line-height: 150%;
+  font-family: FilsonSoft, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-.body3 {
-  /* Filson Soft - Regular */
+.text-body3 {
   font-size: 12px;
   line-height: 150%;
+  font-family: FilsonSoft, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }
-.body4 {
-  /* Filson Soft - Regular */
+.text-body4 {
   font-size: 11px;
   line-height: 150%;
+  font-family: FilsonSoft, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+.text-body-lg {
+  font-size: 23px;
+  line-height: 150%;
+  font-family: FilsonSoft, sans-serif;
+  font-weight: normal;
+  font-style: normal;
 }

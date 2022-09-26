@@ -4,16 +4,7 @@ import Button from './button'
 
 const Lockup = (props) => {
   return (
-    <div className='lg:flex'>
-      <div className='flex-none mt-4 w-16 h-16 lg:w-24 lg:h-24 '>
-        <img src={props.logo} width="1600" />
-      </div>
-      <div className='flex-grow text-left lg:ml-6'>
-        <div className="mt-6 font-bold mb-2 text-6xl">
-          {props.name}
-        </div>
-      </div>
-    </div>
+    <img src={props.logo} className='mr-auto my-20  h-16 lg:h-24'/>
   )
 }
 
@@ -35,27 +26,26 @@ export default function Hero({ config }) {
               {/* <div className="text-2xl">
                 {dateRangeStr(config.devent.dateStart, config.devent.dateEnd)}{config.devent.location && ` • ${config.devent.location}`}
               </div> */}
-              <div className="text-4xl mb-6 w-3/4">
+              <div className="text-h2 mb-6 w-3/4">
                 {config.devent.tagline}
               </div>
-              <div className="text-2xl w-3/4">
+              <div className="text-body-lg w-3/4">
                 <Markdown >{config.devent.description}</Markdown>
               </div>
-
-              {config.devent.rsvpLink &&
-                <div className="space-x-5 mb-10">
+              <div className="flex gap-4">
+                {config.devent.ticketLink &&
+                  <Button href={config.devent.ticketLink} className="mt-8" target="_blank">Get Tickets</Button>
+                }
+                {config.devent.speakLink &&
+                  <Button href={config.devent.speakLink} className="mt-8" target="_blank" variation="outline">Apply to Speak</Button>
+                }
+                {config.devent.rsvpLink &&
                   <Button href={config.devent.rsvpLink} className="mt-8" target="_blank">Get Updates</Button>
-                </div>}
-              {config.devent.recapLink &&
-                <div className="space-x-5 mb-10">
-                  <a
-                    href={config.devent.recapLink}
-                    type="button"
-                    className="inline-block px-5 py-3 mt-8 text-lg font-medium text-white bg-primary hover:bg-blue-400 px-8 py-3 rounded-lg rounded outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                  >
-                    Recap and Videos
-                  </a>
-                </div>}
+                }
+                {config.devent.recapLink &&
+                  <Button href={config.devent.recapLink} className="mt-8" target="_blank">Recap</Button>
+                }
+              </div>
             </div>
           </div>
         </div>

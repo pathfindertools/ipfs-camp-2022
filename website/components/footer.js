@@ -5,7 +5,6 @@ const Logo = ({ image, name }) => {
 		<div className="mb-12">
 			<a href="/" className="flex items-center">
 				<img src={image} className="mr-3 h-20" alt={name} />
-				<span className="self-center text-4xl font-semibold whitespace-nowrap text-white">{name}</span>
 			</a>
 		</div>
 	)
@@ -13,7 +12,7 @@ const Logo = ({ image, name }) => {
 
 const Link = ({ link = "#", name = "" }) => {
 	return (
-		<a className="text-white block" href={link}>{name}</a>
+		<a className="text-body-1 text-white block" href={link}>{name}</a>
 	)
 }
 
@@ -31,7 +30,7 @@ export default function Footer({ config }) {
 				<div className="w-full">
 					<div className="grid grid-cols-3 gap-8 max-w-2xl ">
 						<div>
-							<h3 className="text-white text-base mb-4">IPFS Camp</h3>
+							<h3 className="text-white text-h5 mb-4">IPFS Camp</h3>
 							<nav>
 								<Link name="Tracks" link="#" />
 								<Link name="IPFS CAMP" link="" />
@@ -44,7 +43,7 @@ export default function Footer({ config }) {
 							</nav>
 						</div>
 						<div>
-							<h3 className="text-white text-base mb-4">Related Projects</h3>
+							<h3 className="text-white text-h5 mb-4">Related Projects</h3>
 							<nav>
 								<Link name="IPFS" link="#" />
 								<Link name="IPFS CLUSTER" link="#" />
@@ -54,7 +53,7 @@ export default function Footer({ config }) {
 							</nav>
 						</div>
 						<div>
-							<h3 className="text-white text-base mb-4">Stay Updated</h3>
+							<h3 className="text-white text-h5 mb-4">Stay Updated</h3>
 							<nav>
 								<Link name="Mailing List" link="#" />
 								<Link name="@IPFSBOT" link="#" />

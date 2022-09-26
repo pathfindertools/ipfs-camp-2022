@@ -11,8 +11,8 @@ const Speaker = ({ name, image, company }) => {
         </div>
       </div>
       <div className="text-center">
-        <h3 className="text-2xl text-white">{name}</h3>
-        <p className="text-lg text-navy">{company}</p>
+        <h3 className="text-body-lg text-white">{name}</h3>
+        <p className="text-body1 text-navy">{company}</p>
       </div>
     </div>
   )
@@ -59,11 +59,11 @@ export default function Speakers({ config }) {
         <img src="./speakers-ornament-top.svg" width="884" className="absolute -top-32 left-1/2" />
       </div>
       <div className="relative z-10 container max-w-6xl mx-auto lg:h-full text-white">
-        <h1 className="text-5xl font-bold mb-4">Speakers &amp; Facilitators</h1>
+        <h1 className="text-h1 mb-4">Speakers &amp; Facilitators</h1>
         <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-4 lg:p-16">
-        {config.speakers.map((speaker) => {
+        {config.speakers.map((speaker, i) => {
             return (
-              <Speaker name={speaker.name} image={speaker.image} company={speaker.company} />
+              <Speaker name={speaker.name} image={speaker.image} company={speaker.company} key={i} />
             )
           })}
           <SpeakerButton link="https://protocol.ai" />

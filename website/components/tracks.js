@@ -2,10 +2,10 @@ const Track = () => {
   return (
     <div className="flex gap-12">
       <div className="w-96">
-        <p className="mb-2">28-29 Oct</p>
-        <h4 className="text-xl text-teal-400 font-bold" >Content Routing</h4>
+        <p className="text-body1 mb-2">28-29 Oct</p>
+        <h4 className="text-h5 text-teal-400" >Content Routing</h4>
       </div>
-      <div className="">
+      <div className="text-body1">
         <p>Approaches and protocols to content routing in IPFS, what we've learned  so far, and talks about possible directions for the future... Details → </p>
       </div>
     </div>
@@ -24,13 +24,13 @@ export default function Tracks({ config }) {
       </div> */}
       <div className="container max-w-6xl mx-auto lg:h-full text-white">
 
-        <h1 className="text-5xl font-bold mb-8">Tracks</h1>
+        <h1 className="text-h1 mb-8">Tracks</h1>
         <div className="relative">
           <div className="h-full w-px bg-white absolute left-1/2 opacity-20 hidden lg:block"></div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 p-16 gap-24 p-16">
-            {events.map((event) => {
+            {events.map((event, i) => {
               return (
-                <Track />
+                <Track key={i} />
               )
             })}
           </div>

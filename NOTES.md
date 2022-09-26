@@ -1,0 +1,5 @@
+- Footer
+- Buttons
+- Nav bar
+- Logo
+- Favicon

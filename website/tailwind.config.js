@@ -3,6 +3,8 @@
 const colors = require('./node_modules/tailwindcss/colors');
 const colorSaveList = [];
 const colorExtend = {
+  'red-custom': '#E10035',
+  'yellow-custom': '#FFC300',
   'navy': '#022232',
   'navy-light': '#063147'
 };
