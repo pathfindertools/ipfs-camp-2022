@@ -46,13 +46,13 @@ logo="ipfs-camp-logo.svg"
 bgimg="tree-mandala.png"
 
 # the organizers of the devent (usually a group)
-org="Protocol Labs"
+org="the IPFS Project"
 
 # the website of the organizers
-orglink="https://protocol.ai"
+orglink="https://ipfs.tech"
 
 # url for this event repo
-repo="https://github.com/protocol/labweek-2022"
+repo="https://github.com/pathfindertools/ipfs-camp-2022"
 
 # list the participating teams.
 # the format here is:
