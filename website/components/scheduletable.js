@@ -5,14 +5,14 @@ import genDates from '../lib/genDates.js'
 import dayOffset from '../lib/dayOffset.js'
 import Link from 'next/link.js'
 
-function EventCardWrapper({e, i}) {
+function EventCardWrapper({e}) {
   if (!e.isWithinRange) {
     return null
   }
   return (
     <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full auto-rows-fr`}>
         <Link href={`/${e.hash}`} scroll={false}>
-          <EventCard event={e} key={i} />
+          <EventCard event={e} />
         </Link>
     </div>
   )
@@ -37,12 +37,13 @@ export function ScheduleTable({ events, config }) {
           <div
             className={`flex col-start-${(i + 1)} col-span-1 text-center p-3 bg-sky-900 text-white text-xl shrink-0 rounded-lg`}
             style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,.85) 0%, rgba(7,58,83,.85) 100%)"}}
+            key={i}
           >
             <p className="flex-1 mx-2 text-left">{d.format('ddd')}</p>
             <p className="flex-1 mx-2 text-right">{d.format('MMM DD')}</p>
           </div>
         ))}
-        {sortedEvents.map((e, i) => (<EventCardWrapper e={e} i={i} />))}
+        {sortedEvents.map((e, i) => (<EventCardWrapper e={e} key={i} />))}
       </div>
 
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}

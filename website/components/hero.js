@@ -38,7 +38,7 @@ export default function Hero({ config }) {
               <div className="text-4xl mb-6 w-3/4">
                 {config.devent.tagline}
               </div>
-              <div className="text-2xl w-3/4">
+              <div className="body1 w-3/4">
                 <Markdown >{config.devent.description}</Markdown>
               </div>
 

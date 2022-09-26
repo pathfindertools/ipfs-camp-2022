@@ -28,9 +28,9 @@ export default function Tracks({ config }) {
         <div className="relative">
           <div className="h-full w-px bg-white absolute left-1/2 opacity-20 hidden lg:block"></div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-24 p-16 gap-24 p-16">
-            {events.map((event) => {
+            {events.map((event, i) => {
               return (
-                <Track />
+                <Track key={i} />
               )
             })}
           </div>
