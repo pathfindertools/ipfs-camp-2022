@@ -180,7 +180,6 @@ image = "speakers/george-lory.jpg"
 # schedule section config
 [schedule]
 description="""
-All scheduled events are [optional](/#faq).
 """
 
 # this is a footer section, with any footer links you may want.
