@@ -4,7 +4,7 @@
 name="IPFS Camp"
 
 # where the event is happening
-location="Lisbon, Portugal"
+location="Convento do Beato, Lisbon, Portugal"
 
 # the dates the devent runs
 dateStart = "2022-10-28"
@@ -21,10 +21,10 @@ Join us for talks, workshops, discussion circles, hacking time, and more, all fo
 
 
 # a link to the devent website (what domain do you expect to use?)
-link="https://labweek22.on.fleek.co"
+link="https://2022.ipfs.camp/"
 
 # a link to RSVP for the event
-rsvpLink="https://airtable.com/shrsicDt1IpeIKVIg"
+rsvpLink="https://lu.ma/ipfscamp22"
 
 # a link to the recap and videos
 # Dependent on https://github.com/ipfs/ipfs-blog/issues/443 first.
