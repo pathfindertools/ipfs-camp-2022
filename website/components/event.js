@@ -7,24 +7,15 @@ import classNames from 'classnames'
 import Markdown from './markdown'
 
 export function Card({ children, color, onClick }) {
-
-  var borderColor = 'bg-gray-400'
-  var bgColor = 'bg-white'
-
-  if (color) {
-    borderColor = 'bg-' + color + '-400'
-    bgColor = 'bg-' + color + '-100'
-  }
-
   return (
     <div className={classNames(
         'eventcard', 
         'p-0.5 shadow-md h-full whitespace-normal'
       )} onClick={onClick}>
       <div className={classNames(
-          'rounded-lg block p-3 sm:px-3 sm:py-2 h-full'
+          'rounded-lg block p-3 lg:p-6 h-full'
         )} style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,1) 0%, rgba(7,58,83,1) 100%)"}}>
-        <div className="text-xs text-white">
+        <div className="text-body1 text-white">
           { children }
         </div>
       </div>
@@ -51,16 +42,16 @@ export function EventCard({ event }) {
 function BlockCard({ event }) {
   return (
     <Card color={event.color}>
-      <h5 className="text-lg font-bold text-white">
+      <h5 className="text-h5 mb-4">
         {event.name}
       </h5>
-      <div>
+      <div className="text-body1 mb-4">
         {event.times}
       </div>
-      <div>
+      <div className="text-body1 mb-4">
         👤 {event.attendees} - {event.difficulty}
       </div>
-      <div className="text-gray-900 text-sm mt-3">
+      <div className="text-body1 mb-4">
         {event.org}
       </div>
 
@@ -76,16 +67,16 @@ function BlockCard({ event }) {
 function TrackCard({ event }) {
   return (
     <Card color={event.color}>
-      <h5 className="text-lg font-bold text-gray-900">
+      <h5 className="text-h5 mb-4">
         {event.name}
       </h5>
-      <div>
+      <div className="text-body1 mb-4">
         {event.times}
       </div>
-      <div>
+      <div className="text-body1 mb-4">
         👤 {event.attendees} - {event.difficulty}
       </div>
-      <div className="text-gray-900 text-sm mt-3 text-ellipsis overflow-hidden">
+      <div className=" text-white text-sm mt-3 text-ellipsis overflow-hidden">
         {event.org}
       </div>
 
@@ -224,9 +215,9 @@ export function EventModal({ children, event }) {
 function TimeslotTable({ timeslots }) {
   return (
     <div>
-      <h4 className="py-3 text-sm text-gray-900">Schedule</h4>
-      <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+      <h4 className="py-3 text-sm  text-white">Schedule</h4>
+      <table className="w-full text-sm text-left  text-white">
+        <thead className="text-xs text-gray-700 uppercase bg-gray-50  text-white">
           <tr>
             <th scope="col" className="px-6 py-3">time</th>
             <th scope="col" className="px-6 py-3">speaker</th>
@@ -236,7 +227,7 @@ function TimeslotTable({ timeslots }) {
         <tbody>
           {timeslots.map((timeslot, i) => (
             <tr key={i} className="bg-white border-b">
-              <th scope="row" className="px-6 py-4 font-medium text-gray-900 align-top dark:text-white whitespace-nowrap">{timeslot.startTime}</th>
+              <th scope="row" className="px-6 py-4 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
               <td className="px-6 py-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
               <td className="px-6 py-4">
                 <span className="font-bold">{timeslot.title}</span>
