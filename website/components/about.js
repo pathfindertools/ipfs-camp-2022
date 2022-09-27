@@ -1,6 +1,6 @@
 export default function About({ config }) {
   return (
-    <div className="relative text-white w-full px-6 my-40">
+    <div id="about" className="relative text-white w-full px-6 my-40">
       <div className="container max-w-6xl mx-auto lg:h-full">
         <div className="absolute right-1/2 left-0 top-0 bottom-0">
           <img className="absolute h-full w-auto right-20 object-cover" src="./about-collage.jpg" />
