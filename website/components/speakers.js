@@ -39,21 +39,8 @@ const SpeakerButton = ({ link }) => {
 }
 
 export default function Speakers({ config }) {
-  const speakers = [
-    {name: 'Marta Evans', image: 'speakers/marta-evans.jpg', company: 'Protocol Labs'},
-    {name: 'George Lory', image: 'speakers/george-lory.jpg', company: 'Protocol Labs'},
-    {name: 'Jerry Church', image: 'speakers/jerry-church.jpg', company: 'Protocol Labs'},
-    {name: 'Marta Evans', image: 'speakers/marta-evans.jpg', company: 'Protocol Labs'},
-    {name: 'George Lory', image: 'speakers/george-lory.jpg', company: 'Protocol Labs'},
-    {name: 'Jerry Church', image: 'speakers/jerry-church.jpg', company: 'Protocol Labs'},
-    {name: 'Marta Evans', image: 'speakers/marta-evans.jpg', company: 'Protocol Labs'},
-    {name: 'George Lory', image: 'speakers/george-lory.jpg', company: 'Protocol Labs'},
-    {name: 'Jerry Church', image: 'speakers/jerry-church.jpg', company: 'Protocol Labs'},
-    {name: 'Marta Evans', image: 'speakers/marta-evans.jpg', company: 'Protocol Labs'},
-    {name: 'George Lory', image: 'speakers/george-lory.jpg', company: 'Protocol Labs'},
-  ]
   return (
-    <div className="relative w-full px-6 pt-24">
+    <div id="speakers" className="relative w-full px-6 pt-24">
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-black" style={{"background": "rgb(224,22,51)", "background": "linear-gradient(225deg, rgba(224,22,51,1) 5%, rgba(241,130,0,1) 15%, rgba(246,165,0,1) 20%, rgba(89,217,202,1) 50%, rgba(0,169,229,1) 80%, #045d81 100%)"}}></div>
         <img src="./speakers-ornament-top.svg" width="884" className="absolute -top-32 left-1/2" />

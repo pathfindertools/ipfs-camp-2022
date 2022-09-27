@@ -21,27 +21,27 @@ export default function Burger({
     width: "1.5rem",
     transform: "rotate(45deg)",
     top: "1rem",
-    transition: "top .2s ease-out, transform .1s .2s ease-out, width .1s .2s ease-out"
+    // transition: "top .2s ease-out, transform .1s .2s ease-out, width .1s .2s ease-out"
   } : {
     top: ".6rem",
-    transition: "top .1s .2s ease-in, transform .2s ease-out, width .2s ease-out"
+    // transition: "top .1s .2s ease-in, transform .2s ease-out, width .2s ease-out"
   }
 
   const stylesMiddle = isOpen ? {
     opacity: "0"
   } : {
     top: "1rem",
-    transition: "opacity .1s .01s"
+    // transition: "opacity .1s .01s"
   }
 
   const stylesBottom = isOpen ? {
     top: "1rem",
     transform: "rotate(-45deg)",
     width: "1.5rem",
-    transition: "top .2s ease-out, transform .1s .2s ease-out, width .1s .2s ease-out"
+    // transition: "top .2s ease-out, transform .1s .2s ease-out, width .1s .2s ease-out"
   } : {
     top: "1.4rem",
-    transition: "top .1s .2s ease-in, transform .2s ease-out, width .2s ease-out"
+    // transition: "top .1s .2s ease-in, transform .2s ease-out, width .2s ease-out"
   }
 
   return (
