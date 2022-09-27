@@ -233,27 +233,82 @@ link = "#"
 # [[tracks]]
 # name = "Content Routing"
 # date = "28-29 Oct"
-# description = "Approaches and protocols to content routing in IPFS, what we've learned so far, and talks about possible directions for the future..."
+# description = "Approaches and protocols to content routing in IPFS, what we've learned so far, and talks about possible directions for the future."
 # link = "#"
 [[tracks]]
-name = "Content Routing"
+name = "Data Transfer"
 date = "28-29 Oct"
-description = "Approaches and protocols to content routing in IPFS, what we've learned so far, and talks about possible directions for the future..."
+description = "Getting and sending content. Moving data across the wire. State and evolution of transferring data across the interplanetary stack."
 link = "#"
 [[tracks]]
-name = "Content Routing"
+name = "Compute over Data"
 date = "28-29 Oct"
-description = "Approaches and protocols to content routing in IPFS, what we've learned so far, and talks about possible directions for the future..."
+description = "Producing data without leaving the Merkle Forest -- How do we do it?  How do we make it manageable at scale?  How do we make the results useful and discoverable?  In this track, see what others are up to, and share your own dreams!"
 link = "#"
 [[tracks]]
-name = "Content Routing"
+name = "Libp2p day"
 date = "28-29 Oct"
-description = "Approaches and protocols to content routing in IPFS, what we've learned so far, and talks about possible directions for the future..."
+description = "The first ever libp2p Day: a gathering for libp2p builders, contributors, and maintainers!"
 link = "#"
 [[tracks]]
-name = "Content Routing"
+name = "IPFS for Creatives"
 date = "28-29 Oct"
-description = "Approaches and protocols to content routing in IPFS, what we've learned so far, and talks about possible directions for the future..."
+description = "Calling all creators! This is the first ever IPFS sponsored track for content creators (and supporters!) of all types. Come meet other creatives, learn from other artists and experts in the web3 space, and be one of the first to join our growing community."
+link = "#"
+[[tracks]]
+name = "IPFS Implementations"
+date = "28-29 Oct"
+description = "A wave of new IPFS implementations has grown in the past year. Meet the teams taking IPFS to the next level and find your on-ramp to working on the protocol."
+link = "#"
+[[tracks]]
+name = "Growing with IPFS"
+date = "28-29 Oct"
+description = "Contributing, building, funding, grants, accelerators, decentralized job fair, and more ways to get involved."
+link = "#"
+[[tracks]]
+name = "Learning IPFS 101"
+date = "28-29 Oct"
+description = "A hands on session on getting started with IPFS, including what it is, how to set up an IPFS node, CLI commands, pinning, gateways and more. If you've been wanting to try out IPFS - now's your chance!"
+link = "#"
+[[tracks]]
+name = "IPFS Apps for Fun & Awesome"
+date = "28-29 Oct"
+description = "A highlights reel of the most exciting and useful user and developer tools for IPFS."
+link = "#"
+[[tracks]]
+name = "IPFS 201: Design Patterns & Developer Tools"
+date = "28-29 Oct"
+description = "Workshops, demos, and an expert panel covering IPFS app architectures, developer tools design patterns, developer experience and everything you need to know to build and deploy robust production-grade content-addressed apps."
+link = "#"
+[[tracks]]
+name = "Measurement & Performance"
+date = "28-29 Oct"
+description = " A data-driven approach to the design and operation of IPFS and libp2p through rigorous network measurements, performance evaluation and recommendations for builders and operators."
+link = "#"
+[[tracks]]
+name = "libp2p Privacy"
+date = "28-29 Oct"
+description = "Dive into the current privacy work happening on libp2p and get the chance to provide feedback on direction and next steps and hear from experts in the field."
+link = "#"
+[[tracks]]
+name = "Gaming, Metaverse, & Video"
+date = "28-29 Oct"
+description = "Demos of how IPFS can save bandwidth and increase flexibility. Talks about directions for the future."
+link = "#"
+[[tracks]]
+name = "Browsers"
+date = "28-29 Oct"
+description = "Learn the current status, ongoing challenges, and upcoming work to integrate IPFS and related technologies into browsers and the web itself."
+link = "#"
+[[tracks]]
+name = "Decentralized Job Fair"
+date = "28-29 Oct"
+description = "Whether you are looking for a new role or simply want to learn more about open source projects that you can contribute to, this decentralized job fair is the place to be."
+link = "#"
+[[tracks]]
+name = "IPFS Operators & Enterprise"
+date = "28-29 Oct"
+description = "Explore applications & deployments of IPFS in large scale cloud & enterprise use cases with talks from IPFS operators about their experiences and best practices."
 link = "#"
 
 # Tracks Section
