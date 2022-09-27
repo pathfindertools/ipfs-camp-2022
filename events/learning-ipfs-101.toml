@@ -27,7 +27,11 @@ tags = ["Talks"]
 
 # a description of the track.
 # will show up when the user clicks the event card.
-#description = 
+description = """
+  a hands on session on getting started with IPFS, including what it 
+  is, how to set up an IPFS node, CLI commands, pinning, gateways and more. 
+  If you've been wanting to try out IPFS - now's your chance!
+"""
 
 # schedule is an array of timeslots objects
 # schema:
