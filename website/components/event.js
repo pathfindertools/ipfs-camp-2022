@@ -169,7 +169,7 @@ export function EventModal({ children, event }) {
       </div>
       <Modal show={isOpen()} onClose={close} size="3xl">
         <div className="rounded-lg text-white" style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,1) 0%, rgba(7,58,83,1) 100%)"}}>
-          <Modal.Header>
+          <Modal.Header className="modal-header border-white/20">
             <span className="text-white">{event.name}</span>
           </Modal.Header>
           <Modal.Body className="space-y-6 overflow-y-scroll max-h-[70vh]">
@@ -215,10 +215,10 @@ export function EventModal({ children, event }) {
 function TimeslotTable({ timeslots }) {
   return (
     <div>
-      <h4 className="py-3 text-sm  text-white">Schedule</h4>
-      <table className="w-full text-sm text-left  text-white">
-        <thead className="text-xs text-gray-700 uppercase bg-gray-50  text-white">
-          <tr>
+      <h4 className="py-3 text-sm text-white">Schedule</h4>
+      <table className="w-full text-sm text-left text-white">
+        <thead className="text-xs text-gray-700 uppercase text-white">
+          <tr className="border-b border-white/20">
             <th scope="col" className="px-6 py-3">time</th>
             <th scope="col" className="px-6 py-3">speaker</th>
             <th scope="col" className="px-6 py-3">info</th>
@@ -226,7 +226,7 @@ function TimeslotTable({ timeslots }) {
         </thead>
         <tbody>
           {timeslots.map((timeslot, i) => (
-            <tr key={i} className="bg-white border-b">
+            <tr key={i} className="">
               <th scope="row" className="px-6 py-4 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
               <td className="px-6 py-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
               <td className="px-6 py-4">
@@ -259,7 +259,7 @@ export function AddEventModal({ config }) {
     <>
       <Modal show={isOpen()} onClose={close}>
         <div className="bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 p-1">
-          <div className="bg-white dark:bg-gray-400">
+          <div className="dark:bg-gray-400">
             <Modal.Header>
               Add your event
             </Modal.Header>

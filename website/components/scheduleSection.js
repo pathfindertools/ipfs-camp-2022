@@ -5,7 +5,6 @@ import { BlankCard } from './event.js'
 import { ScheduleTable } from "./scheduletable.js"
 import { AddEventModal } from "./event.js"
 import Markdown from './markdown.js'
-import annotateEvents from '../lib/annotateEvents.js'
 
 export default function ScheduleSection({ events, config }) {
   const scrollContainer = useRef(null);
@@ -31,7 +30,7 @@ export default function ScheduleSection({ events, config }) {
             <ScrollContainer innerRef={scrollContainer} className="scroll-container py-10 mx-auto max-w-6xl">
               <div className="flex-none min-h-full w-full">
                 <div className="content">
-                  <ScheduleTable events={annotateEvents(events, config)} config={config} />
+                  <ScheduleTable events={events} config={config} />
                 </div>
               </div>
             </ScrollContainer>
