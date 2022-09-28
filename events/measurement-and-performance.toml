@@ -1,9 +1,10 @@
 # the name of your track or event
 name = "Measurement and Performance"
 
+
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "yiannisbot"
+dri = "Yiannis Psaras"
 
 # the start date of the event
 date = "2022-10-28"
@@ -12,11 +13,11 @@ date = "2022-10-28"
 days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 17:00"
+times = "13:00 - 17:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "All Welcome"
+difficulty = "Intermediate"
 
 # tags for the event, will show up as labels.
 # pick 1-4
@@ -24,6 +25,10 @@ tags = ["Talks"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
+
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+priority = 1
 
 # a description of the track.
 # will show up when the user clicks the event card.
@@ -41,9 +46,8 @@ description = """
 #  description - string describing the timeslot. 1-3 sentences.
 # 
 # Notes:
-# - recommended start: 09:00
-# - recommended lunch: 12:00 or 13:00
-# - recommended end:   17:00
+# - recommended start: 13:00 (Day 1 is 10-12 keynotes, 12-13 lunch)
+# - recommended end:   17:00, you can run to 18:00 if needed
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]

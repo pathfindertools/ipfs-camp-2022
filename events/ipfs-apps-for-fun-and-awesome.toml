@@ -1,9 +1,9 @@
 # the name of your track or event
 name = "IPFS Apps for Fun and Awesome"
 
-# the github handle of the directly responsible individual for this event
+# the name of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "DeveloperAlly"
+dri = "Ally Haire"
 
 # the start date of the event
 date = "2022-10-28"

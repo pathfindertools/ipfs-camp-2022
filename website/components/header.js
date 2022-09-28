@@ -31,7 +31,7 @@ export default function Header({config}) {
   }
 
   return (
-    <div className="fixed z-20 w-full px-10">
+    <div className="fixed z-50 w-full px-10">
       <div className="absolute inset-0 bg-gradient-to-b from-navy/70 to-navy/20"></div>
       <div className={`absolute inset-0 bg-navy opacity-90 lg:hidden  ${active ? "" : "hidden"}`}></div>
       <div className="container max-w-6xl mx-auto relative z-10 py-6">

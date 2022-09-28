@@ -1,9 +1,9 @@
 # the name of your track or event
 name = "Growing With IPFS"
 
-# the github handle of the directly responsible individual for this event
+# the name handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "whiteflamingo"
+dri = "James Tunningley"
 
 # the start date of the event
 date = "2022-10-30"
@@ -12,7 +12,7 @@ date = "2022-10-30"
 days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 17:00"
+times = "10:00 - 13:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -20,7 +20,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks"]
+tags = ["Talks", "Panels", "Q&A"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -28,7 +28,7 @@ tags = ["Talks"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-  Contributing, building, funding, grants, accelerators, decentralized job fair, and more ways to get involved.
+  Learn about how to grow your skills and/or your project with IPFS! We'll cover contributing, building, open source grants, accelerators, funding, and more ways to get involved.
 """
 
 # schedule is an array of timeslots objects
