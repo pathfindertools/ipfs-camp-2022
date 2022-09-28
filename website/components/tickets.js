@@ -20,7 +20,7 @@ export default function Tickets({ config }) {
       </div>
       <div className="relative z-10 py-20 container max-w-6xl mx-auto lg:h-full text-white ">
         <h1 className="text-h1 mb-4">Tickets</h1>
-        <p className="text-body-lg mb-20">All tickets include entry to the full 3-day event and breakfast, lunch, snacks, and dinner at the IPFS Camp venue.</p>
+        <p className="text-body-lg mb-20">All tickets include entry to the full 3-day event and coffee, morning pastries, lunch, and dinner at the IPFS Camp venue.</p>
         <div className={`grid grid-cols-1 lg:grid-cols-5 gap-5`}>
           {tickets.map((ticket, i)  => {
             return (

@@ -27,7 +27,7 @@ link="https://2022.ipfs.camp/"
 ticketLink="https://lu.ma/ipfscamp22"
 
 # a link to RSVP for the event
-# rsvpLink="https://lu.ma/ipfscamp22"
+# rsvpLink="#tickets"
 
 # a link to apply to speak for the event
 speakLink="https://airtable.com/shrOxmXUqwojf0Bjj"
@@ -57,7 +57,7 @@ repo="https://github.com/pathfindertools/ipfs-camp-2022"
 #   ["Item 2", "#item2"],
 # ]
 navigation = [
-  ["About IPFS", "./#about" ],
+  ["About", "./#about" ],
   ["Tracks", "./#tracks" ],
   ["Tickets", "./#tickets" ],
   ["Schedule", "./#schedule" ],
@@ -131,7 +131,7 @@ ILLNESS: If you feel sick or have tested positive, stay at home. If at any point
 
 If you must cut short your visit to IPFS Camp due to illness, you may email camp@ipfs.io for a ticket refund. We will be sorry to see you go but thankful for your part in keeping the community healthy.
 """
-"How do I reach the organizers" = """    
+"How do I reach the organizers?" = """    
 Please reach out to camp@ipfs.io with any questions or suggestions.
 """
 
@@ -202,38 +202,38 @@ name = "General"
 price = "($400)"
 description = "The essential ticket for attending IPFS Camp 2022. This is for everyone!"
 linkLabel = "Purchase General Ticket"
-link = "#"
+link = "https://lu.ma/ipfscamp22"
 [[tickets]]
 name = "Builder"
 price = "($200)"
 description = "Discounted tickets for builders: anyone who is building with IPFS or related technologies, or contributing to IPFS project or community."
 linkLabel = "Purchase Builder Ticket"
-link = "#"
+link = "https://lu.ma/ipfscamp22_builders"
 [[tickets]]
 name = "Student & Academic"
 price = "($100)"
 description = "Limited tickets for students, educators and researchers with academic affiliation and experience or interest in IPFS."
 linkLabel = "Apply for Academic Ticket"
-link = "#"
+link = "https://airtable.com/shrBS3hLqKlnakxHB"
 [[tickets]]
 name = "Volunteer"
 price = "(Free)"
 description = "Limited tickets for community members who can volunteer for 3 x 2 hour shifts during the event."
 linkLabel = "Apply for Volunteer Ticket"
-link = "#"
+link = "https://airtable.com/shrum6nLOI23vwIcJ"
 [[tickets]]
 name = "IPFS Scholars"
 price = "(Free)"
 description = "This program provides entry, flights, and accommodation for individuals from underrepresented communities, unique circumstances, or developing areas to connect with and contribute to the IPFS ecosystem."
 linkLabel = "Apply to IPFS Scholars Program"
-link = "#"
+link = "https://airtable.com/shrd4kSljHYHxmU1b"
 
 # Tracks Section
 # Hide propose button by commenting out
 #
 [tracksSection]
 title="Tracks"
-proposeLink="#"
+proposeLink="https://airtable.com/shrBQqf7YJRPdrgUo"
 proposeLabel="Propose a Track"
 
 # schedule section
