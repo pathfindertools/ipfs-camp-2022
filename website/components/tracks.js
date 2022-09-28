@@ -1,8 +1,13 @@
-const Track = ({name, date, description, link}) => {
+const Track = ({name, date, description, days}) => {
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+  const startDate = new Date(`${date} 00:00:00`)
+  const day = startDate.getDate() || ''
+  const month = startDate.getMonth()
+
   return (
     <div className="flex gap-4 lg:gap-12 flex-col lg:flex-row">
       <div className="lg:w-1/3">
-        <p className="text-body1 mb-2">{date}</p>
+        <p className="text-body1 mb-2">{day} {months[month]}</p>
         <h4 className="text-h5 text-teal-400" >{name}</h4>
       </div>
       <div className="lg:w-2/3 text-body1">
@@ -30,7 +35,7 @@ export default function Tracks({ config, events }) {
             
             {tracks.map((track, i)  => {
               return (
-                <Track name={track.name} date={track.date} description={track.description} link="" key={i} />
+                <Track name={track.name} date={track.date} description={track.description} days={track.days} key={i} />
               )
             })}
           </div>
