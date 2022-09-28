@@ -1,9 +1,9 @@
 # the name of your track or event
-name = "LibP2P Privacy"
+name = "Libp2p Privacy"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "willscott"
+dri = "Will Scott, Yiannis Psaras"
 
 # the start date of the event
 date = "2022-10-30"
