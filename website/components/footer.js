@@ -1,5 +1,3 @@
-// import { Footer } from 'flowbite-react'
-
 const Logo = ({ image, name }) => {
 	return (
 		<div className="mb-12">
@@ -18,7 +16,6 @@ const Link = ({ link = "#", name = "" }) => {
 
 export default function Footer({ config }) {
 	return (
-
 		<footer className="relative dark:bg-gray-800 p-6">
 			<div className="absolute inset-0 overflow-hidden">
 				<img className="absolute left-1/2 transform translate-x-12 lg:translate-x-24 top-48 lg:top-0 z-0" src="./footer-cubes.svg" />
@@ -32,13 +29,7 @@ export default function Footer({ config }) {
 						<div>
 							<h3 className="text-white text-h5 mb-4">IPFS Camp</h3>
 							<nav>
-								<Link name="Tracks" link="#" />
-								<Link name="Tickets" link="" />
-								<Link name="Schedule" link="" />
-								<Link name="Speakers &amp; Facilitators" link="" />
-								<Link name="FAQ" link="" />
-								<Link name="COVID-19 Policy" link="" />
-								<Link name="Code of Conduct" link="" />
+								{config.devent.navigation.map((item) => <Link name={item[0]} link={item[1]} />)}
 							</nav>
 						</div>
 						<div>
@@ -61,27 +52,6 @@ export default function Footer({ config }) {
 							</nav>
 						</div>
 					</div>
-					{/* 
-					<div>
-						<h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Links</h2>
-						<ul className="text-gray-600 dark:text-gray-400">
-							{Object.keys(config.footer.links).map((k, i) => (
-								<li className="mb-4" key={i}>
-									<a href={config.footer.links[k]} className="hover:underline">{k}</a>
-								</li>
-							))}
-						</ul>
-					</div>
-					<div>
-						<h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Legal</h2>
-						<ul className="text-gray-600 dark:text-gray-400">
-							{Object.keys(config.footer.legal).map((k, i) => (
-								<li className="mb-4" key={i}>
-									<a href={config.footer.links[k]} className="hover:underline">{k}</a>
-								</li>
-							))}
-						</ul>
-					</div> */}
 				</div>
 				<hr className="mt-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 opacity-10" />
 				<div className="sm:flex sm:items-center sm:justify-between container max-w-8xl mx-auto">
