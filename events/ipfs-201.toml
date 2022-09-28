@@ -1,12 +1,12 @@
 # the name of your track or event
 name = "IPFS 201: Design Patterns and Developer Tools"
 
-# the github handle of the directly responsible individual for this event
+# the name handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "2color"
+dri = "Daniel Norman"
 
 # the start date of the event
-date = "2022-10-30"
+date = "2022-10-29"
 
 # how many days the event lasts (1 - N)
 days = 1
@@ -20,7 +20,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks"]
+tags = ["Workshops", "Talks", "Demos"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -28,9 +28,9 @@ tags = ["Talks"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-  Workshops, demos, and an expert panel covering IPFS app architectures, developer tools design 
-  patterns, developer experience and everything you need to know to build and deploy robust 
-  production-grade content-addressed apps.
+  Workshops, demos, and an expert panel covering IPFS app architectures, developer tools, design 
+  patterns and everything you need to know to build and deploy robust 
+  production-grade IPFS apps.
 """
 
 # schedule is an array of timeslots objects
@@ -41,8 +41,8 @@ description = """
 #  description - string describing the timeslot. 1-3 sentences.
 # 
 # Notes:
-# - recommended start: 09:00
-# - recommended lunch: 12:00 or 13:00
+# - recommended start: 10:00
+# - recommended lunch: 13:00
 # - recommended end:   17:00
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon

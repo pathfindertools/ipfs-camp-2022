@@ -1,12 +1,11 @@
 # the name of your track or event
 name = "Data Transfer"
 
-# the github handle of the directly responsible individual for this event
+# the name of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "willscott"
+dri = "Will Scott, Hannah Howard"
 
 # the start date of the event
-#commenting out for now because this track isn't in the schedule
 #date = "2022-10-28"
 
 # how many days the event lasts (1 - N)
@@ -18,7 +17,7 @@ days = 1
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "All Welcome"
+difficulty = "Advanced"
 
 # tags for the event, will show up as labels.
 # pick 1-4
