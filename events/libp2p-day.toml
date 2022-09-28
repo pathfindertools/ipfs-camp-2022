@@ -1,9 +1,9 @@
 # the name of your track or event
-name = "LibP2P Day"
+name = "Libp2p Day"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "p-shahi"
+dri = "Marco Munizaga, Prithvi Shahi"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -43,9 +43,9 @@ description = """
 #  description - string describing the timeslot. 1-3 sentences.
 # 
 # Notes:
-# - recommended start: 09:00
-# - recommended lunch: 12:00 or 13:00
-# - recommended end:   17:00
+# - recommended start: 10:00
+# - recommended lunch: 13:00
+# - recommended end:   16:00 (On 30 Oct, 1h Camp wrapup begins at 16:00)
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
