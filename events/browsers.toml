@@ -1,9 +1,9 @@
 # the name of your track or event
 name = "Browsers"
 
-# the github handle of the directly responsible individual for this event
+# the name handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "autonome"
+dri = "Dietrich Ayala"
 
 # the start date of the event
 date = "2022-10-30"
