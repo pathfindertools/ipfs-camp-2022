@@ -1,10 +1,10 @@
 {
   "browsers": {
     "name": "Browsers",
-    "dri": "autonome",
+    "dri": "Dietrich Ayala",
     "date": "2022-10-30",
     "days": 1,
-    "times": "10:00 - 17:00",
+    "times": "10:00 - 16:00",
     "difficulty": "All Welcome",
     "tags": [
       "Talks"
@@ -98,13 +98,14 @@
   },
   "compute-over-data": {
     "name": "Compute Over Data",
-    "dri": "warpfork",
+    "dri": "Eric Myhre, David Aronchik",
+    "date": "2022-10-28",
     "days": 1,
-    "difficulty": "All Welcome",
+    "difficulty": "Intermediate",
     "tags": [
       "Talks"
     ],
-    "description": "  Producing data without leaving the Merkle Forest -- How do we do it?  How do we make it manageable at scale? \n  How do we make the results useful and discoverable?  In this track, see what others are up to, and share your own dreams!\n",
+    "description": "  Producing data without leaving the Merkle Forest — How do we do it? How do we make it manageable at scale? \n  How do we make the results useful and discoverable? In this track, see what others are up to, and share your own dreams!\n",
     "timeslots": [
       {
         "startTime": "09:00",
@@ -193,11 +194,11 @@
   },
   "content-routing": {
     "name": "Content Routing",
-    "dri": "willscott",
+    "dri": "Will Scott",
     "date": "2022-10-29",
     "days": 1,
-    "times": "10:00 - 17:00",
-    "difficulty": "All Welcome",
+    "times": "10:00 - 13:00",
+    "difficulty": "Intermediate",
     "tags": [
       "Talks"
     ],
@@ -290,9 +291,9 @@
   },
   "data-transfer": {
     "name": "Data Transfer",
-    "dri": "willscott",
+    "dri": "Will Scott, Hannah Howard",
     "days": 1,
-    "difficulty": "All Welcome",
+    "difficulty": "Advanced",
     "tags": [
       "Talks"
     ],
@@ -391,101 +392,16 @@
     "times": "17:00 - 19:00",
     "difficulty": "All Welcome",
     "tags": [
-      "Talks"
+      "Job Fair"
     ],
-    "description": "  Whether you are looking for a new role or simply want to learn more about \n  open source projects that you can contribute to, the Decentralized Job Fair is for you.\n",
-    "timeslots": [
-      {
-        "startTime": "09:00",
-        "speakers": [
-          "@speaker_name",
-          "@other_speaker_name"
-        ],
-        "title": "Welcome standup discussion",
-        "description": ""
-      },
-      {
-        "startTime": "09:30",
-        "speakers": [
-          "@yourname"
-        ],
-        "title": "Track Intro",
-        "description": ""
-      },
-      {
-        "startTime": "10:00",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "10:45",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "11:30",
-        "speakers": [],
-        "title": "Break",
-        "description": ""
-      },
-      {
-        "startTime": "11:45",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "12:30",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "13:00",
-        "speakers": [],
-        "title": "Lunch Break",
-        "description": ""
-      },
-      {
-        "startTime": "14:00",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "14:45",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "15:30",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "16:15",
-        "speakers": [],
-        "title": "Break",
-        "description": ""
-      },
-      {
-        "startTime": "16:30",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      }
-    ]
+    "description": "  Whether you are looking for a new role, hiring for your project, or simply want to learn more about \n  open source projects that you can contribute to, the Decentralized Job Fair is for you.\n"
   },
   "gaming-metaverse-and-video": {
     "name": "Gaming, Metaverse, and Video",
-    "dri": "jnthnvctr",
+    "dri": "Jonathan Victor, Anshuman Prasad",
     "date": "2022-10-30",
     "days": 1,
-    "times": "10:00 - 17:00",
+    "times": "10:00 - 16:00",
     "difficulty": "All Welcome",
     "tags": [
       "Talks"
@@ -579,15 +495,17 @@
   },
   "growing-with-ipfs": {
     "name": "Growing With IPFS",
-    "dri": "whiteflamingo",
+    "dri": "James Tunningley",
     "date": "2022-10-30",
     "days": 1,
-    "times": "10:00 - 17:00",
+    "times": "10:00 - 13:00",
     "difficulty": "All Welcome",
     "tags": [
-      "Talks"
+      "Talks",
+      "Panels",
+      "Q&A"
     ],
-    "description": "  Contributing, building, funding, grants, accelerators, decentralized job fair, and more ways to get involved.\n",
+    "description": "  Learn about how to grow your skills and/or your project with IPFS! We'll cover contributing, building, open source grants, accelerators, funding, and more ways to get involved.\n",
     "timeslots": [
       {
         "startTime": "09:00",
@@ -676,15 +594,17 @@
   },
   "ipfs-201": {
     "name": "IPFS 201: Design Patterns and Developer Tools",
-    "dri": "2color",
-    "date": "2022-10-30",
+    "dri": "Daniel Norman",
+    "date": "2022-10-29",
     "days": 1,
     "times": "10:00 - 17:00",
     "difficulty": "All Welcome",
     "tags": [
-      "Talks"
+      "Workshops",
+      "Talks",
+      "Demos"
     ],
-    "description": "  Workshops, demos, and an expert panel covering IPFS app architectures, developer tools design \n  patterns, developer experience and everything you need to know to build and deploy robust \n  production-grade content-addressed apps.\n",
+    "description": "  Workshops, demos, and an expert panel covering IPFS app architectures, developer tools, design \n  patterns and everything you need to know to build and deploy robust \n  production-grade IPFS apps.\n",
     "timeslots": [
       {
         "startTime": "09:00",
@@ -773,7 +693,7 @@
   },
   "ipfs-apps-for-fun-and-awesome": {
     "name": "IPFS Apps for Fun and Awesome",
-    "dri": "DeveloperAlly",
+    "dri": "Ally Haire",
     "date": "2022-10-28",
     "days": 1,
     "times": "14:00 - 17:00",
@@ -870,7 +790,7 @@
   },
   "ipfs-for-creatives": {
     "name": "IPFS for Creatives",
-    "dri": "Doctorrobinson",
+    "dri": "Zak Robinson",
     "date": "2022-10-29",
     "days": 1,
     "times": "10:00 - 17:00",
@@ -967,10 +887,10 @@
   },
   "ipfs-implementations": {
     "name": "IPFS Implementations",
-    "dri": "b5",
+    "dri": "Brendan O'Brien",
     "date": "2022-10-28",
     "days": 1,
-    "times": "10:00 - 17:00",
+    "times": "13:00 - 17:00",
     "difficulty": "All Welcome",
     "tags": [
       "Talks"
@@ -1072,7 +992,7 @@
     "tags": [
       "Talks"
     ],
-    "description": "  Explore applications & deployments of IPFS in large scale cloud & \n  enterprise use cases with talks from IPFS operators about their experiences and best practices.\n",
+    "description": "  Explore applications & deployments of IPFS in large scale cloud & \n  enterprise use cases, with talks from IPFS operators about their experiences and best practices.\n",
     "timeslots": [
       {
         "startTime": "09:00",
@@ -1161,7 +1081,6 @@
   },
   "keynotes": {
     "name": "Keynotes",
-    "dri": "mosh",
     "date": "2022-10-28",
     "days": 1,
     "times": "10:00 - 12:00",
@@ -1171,12 +1090,12 @@
     ],
     "timeslots": [
       {
-        "startTime": "09:00",
+        "startTime": "010:00",
         "speakers": [
           "@speaker_name",
           "@other_speaker_name"
         ],
-        "title": "Welcome standup discussion",
+        "title": "Welcome",
         "description": ""
       },
       {
@@ -1210,48 +1129,6 @@
         "speakers": [],
         "title": "Open Slot",
         "description": ""
-      },
-      {
-        "startTime": "12:30",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "13:00",
-        "speakers": [],
-        "title": "Lunch Break",
-        "description": ""
-      },
-      {
-        "startTime": "14:00",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "14:45",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "15:30",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "16:15",
-        "speakers": [],
-        "title": "Break",
-        "description": ""
-      },
-      {
-        "startTime": "16:30",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
       }
     ]
   },
@@ -1261,7 +1138,7 @@
     "date": "2022-10-28",
     "days": 1,
     "times": "10:00 - 13:00",
-    "difficulty": "All Welcome",
+    "difficulty": "Beginner",
     "tags": [
       "Talks"
     ],
@@ -1353,8 +1230,8 @@
     ]
   },
   "libp2p-day": {
-    "name": "LibP2P Day",
-    "dri": "p-shahi",
+    "name": "Libp2p Day",
+    "dri": "Marco Munizaga, Prithvi Shahi",
     "website": "https://discuss.libp2p.io/t/first-ever-libp2p-day-oct-30-lisbon-portugal/1582",
     "date": "2022-10-30",
     "days": 1,
@@ -1362,7 +1239,8 @@
     "difficulty": "All Welcome",
     "tags": [
       "Talks",
-      "Workshops"
+      "Workshops",
+      "Unconference"
     ],
     "description": "  The first ever libp2p Day: a gathering for libp2p builders, contributors, and maintainers!\n",
     "timeslots": [
@@ -1422,42 +1300,18 @@
       {
         "startTime": "14:00",
         "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "14:45",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "15:30",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
-      },
-      {
-        "startTime": "16:15",
-        "speakers": [],
-        "title": "Break",
-        "description": ""
-      },
-      {
-        "startTime": "16:30",
-        "speakers": [],
-        "title": "Open Slot",
-        "description": ""
+        "title": "Unconference",
+        "description": "A libp2p unconference!"
       }
     ]
   },
   "libp2p-privacy": {
-    "name": "LibP2P Privacy",
-    "dri": "willscott",
-    "date": "2022-10-28",
-    "days": 1,
+    "name": "Libp2p Privacy",
+    "dri": "Will Scott, Yiannis Psaras",
+    "date": "2022-10-30",
+    "days": 0.5,
     "times": "14:00 - 17:00",
-    "difficulty": "All Welcome",
+    "difficulty": "Intermediate",
     "tags": [
       "Talks"
     ],
@@ -1550,14 +1404,15 @@
   },
   "measurement-and-performance": {
     "name": "Measurement and Performance",
-    "dri": "yiannisbot",
+    "dri": "Yiannis Psaras",
     "date": "2022-10-28",
     "days": 1,
-    "times": "10:00 - 17:00",
-    "difficulty": "All Welcome",
+    "times": "13:00 - 17:00",
+    "difficulty": "Intermediate",
     "tags": [
       "Talks"
     ],
+    "priority": 1,
     "description": "  A data-driven approach to the design and operation of IPFS \n  and libp2p through rigorous network measurements, performance evaluation and \n  recommendations for builders and operators.\n",
     "timeslots": [
       {

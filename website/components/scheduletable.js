@@ -10,7 +10,7 @@ function EventCardWrapper({e}) {
     return null
   }
   return (
-    <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full auto-rows-fr`}>
+    <div className={`col-start-${(e.startDay + 1)} col-end-${(e.startDay + e.days + 1)} shrink-0 h-full `}>
         <Link href={`/${e.hash}`} scroll={false}>
           <EventCard event={e} />
         </Link>
@@ -24,15 +24,16 @@ export function ScheduleTable({ events, config }) {
 
   const numDays = Number(dayOffset(startDate, endDate) + 1)
   const days = genDates(startDate, numDays)
-  
-  const topEvents = events.filter(item => item.position === "top")
-  const bottomEvents = events.filter(item => item.position === "bottom")
-  const defaultEvents = events.filter(item => item.position != "top" && item.position != "bottom")
-  const sortedEvents = [...topEvents, ...defaultEvents, ...bottomEvents]
+
+  const prioritizedEvents = events.sort((a, b) => {
+    const aPriority = a.priority || 10
+    const bPriority = b.priority || 10
+    return aPriority - bPriority
+  })
 
   return (
     <>
-      <div className={`schedule-days no-flex grid grid-cols-${numDays} gap-4`}>
+      <div className={`schedule-day no-flex grid grid-cols-${numDays} grid-flow-row-dense gap-4`}>
         {days.map((d, i) => (
           <div
             className={`flex col-start-${(i + 1)} col-span-1 text-center p-3 bg-sky-900 text-white text-xl shrink-0 rounded-lg`}
@@ -43,7 +44,7 @@ export function ScheduleTable({ events, config }) {
             <p className="flex-1 mx-2 text-right">{d.format('MMM DD')}</p>
           </div>
         ))}
-        {sortedEvents.map((e, i) => (<EventCardWrapper e={e} key={i} />))}
+        {prioritizedEvents.map((e, i) => (<EventCardWrapper e={e} key={i} />))}
       </div>
 
       <div className="invisible"> {/* trick tailwindcss to generate the required columns */}

@@ -1,10 +1,13 @@
-import { AddEventModal } from "./event"
+const Track = ({name, date, description, days}) => {
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
+  const startDate = new Date(`${date} 00:00:00`)
+  const day = startDate.getDate() || ''
+  const month = startDate.getMonth()
 
-const Track = ({name, date, description, link}) => {
   return (
     <div className="flex gap-4 lg:gap-12 flex-col lg:flex-row">
       <div className="lg:w-1/3">
-        <p className="text-body1 mb-2">{date}</p>
+        <p className="text-body1 mb-2">{day} {months[month]}</p>
         <h4 className="text-h5 text-teal-400" >{name}</h4>
       </div>
       <div className="lg:w-2/3 text-body1">
@@ -15,7 +18,9 @@ const Track = ({name, date, description, link}) => {
 }
 
 export default function Tracks({ config, events }) {
-  const tracks = config.tracks
+  const tracks = events.sort((a, b) => {
+    return a.name - b.name
+  })
   return (
     <div id="tracks" className="relative w-full py-20">
       <div className="absolute inset-0 overflow-hidden">
@@ -27,9 +32,10 @@ export default function Tracks({ config, events }) {
         <div className="relative">
           <div className="h-full w-px bg-white absolute left-1/2 opacity-20 hidden lg:block"></div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:p-10 lg:gap-24 lg:mb-20">
-            {events.map((track, i)  => {
+            
+            {tracks.map((track, i)  => {
               return (
-                <Track name={track.name} date={track.date} description={track.description} link="" key={i} />
+                <Track name={track.name} date={track.date} description={track.description} days={track.days} key={i} />
               )
             })}
           </div>
