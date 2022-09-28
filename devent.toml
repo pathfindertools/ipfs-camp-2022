@@ -144,49 +144,77 @@ Please reach out to camp@ipfs.io with any questions or suggestions.
 # image = "image.jpg"
 
 [[speakers]]
-name = "Marta Evans"
-company = "Protocol Labs"
-image = "speakers/marta-evans.jpg"
+name = "Boris Mann"
+company = "FISSION"
+image = "speakers/boris-mann.jpeg"
 [[speakers]]
-name = "George Lory"
-company = "Protocol Labs"
-image = "speakers/george-lory.jpg"
+name = "Brendan O'Brien"
+company = "Number Zero"
+image = "speakers/brendan-obrien.jpeg"
 [[speakers]]
-name = "Jerry Church"
-company = "Protocol Labs"
-image = "speakers/jerry-church.jpg"
+name = "Brooklyn Zelenka"
+company = "FISSION"
+image = "speakers/brooklyn-zelenka.jpeg"
 [[speakers]]
-name = "Marta Evans"
-company = "Protocol Labs"
-image = "speakers/marta-evans.jpg"
+name = "Camila Ramos"
+company = "PlanetScale, Women Build Web 3"
+image = "speakers/camila-ramos.jpeg"
 [[speakers]]
-name = "George Lory"
-company = "Protocol Labs"
-image = "speakers/george-lory.jpg"
+name = "Carson Farmer"
+company = "Textile"
+image = "speakers/carson-farmer.png"
 [[speakers]]
-name = "Jerry Church"
-company = "Protocol Labs"
-image = "speakers/jerry-church.jpg"
+name = "Cayman Nava"
+company = "ChainSafe Systems"
+image = "speakers/cayman-nava.png"
 [[speakers]]
-name = "Marta Evans"
+name = "Dietrich Ayala"
 company = "Protocol Labs"
-image = "speakers/marta-evans.jpg"
+image = "speakers/dietrich-ayala.png"
 [[speakers]]
-name = "George Lory"
+name = "Hannah Howard"
 company = "Protocol Labs"
-image = "speakers/george-lory.jpg"
+image = "speakers/hannah-howard.jpeg"
 [[speakers]]
-name = "Jerry Church"
+name = "Juan Benet"
 company = "Protocol Labs"
-image = "speakers/jerry-church.jpg"
+image = "speakers/juan-benet.jpeg"
 [[speakers]]
-name = "Marta Evans"
+name = "Marcin Rataj"
 company = "Protocol Labs"
-image = "speakers/marta-evans.jpg"
+image = "speakers/marcin-rataj.png"
 [[speakers]]
-name = "George Lory"
+name = "Ranger Mauve"
+company = "Agregore Browser"
+image = "speakers/mauve-signweaver.jpeg"
+[[speakers]]
+name = "Michelle Lee"
 company = "Protocol Labs"
-image = "speakers/george-lory.jpg"
+image = "speakers/michelle_lee.jpg"
+[[speakers]]
+name = "Molly Mackinlay"
+company = "Protocol Labs"
+image = "speakers/molly-mackinlay.jpeg"
+[[speakers]]
+name = "Niklas Rindtorff"
+company = "LabDAO"
+image = "speakers/niklas-rindtorff.jpeg"
+[[speakers]]
+name = "Ruben Amenyogbo"
+company = "Protocol Labs"
+image = "speakers/ruben-amenyogbo.jpeg"
+[[speakers]]
+name = "Sara Feenan"
+company = "Infura"
+image = "speakers/sara-feenan.png"
+[[speakers]]
+name = "Tanguy Cizain"
+company = "Status.im"
+image = "speakers/tanguy-cizain.jpeg"
+[[speakers]]
+name = "Wes Floyd"
+company = "Protocol Labs"
+image = "speakers/wes-floyd.jpeg""
 
 # Ticket Items
 #
