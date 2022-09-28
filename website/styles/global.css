@@ -105,6 +105,13 @@ html {
   font-weight: normal;
   font-style: normal;
 }
+.text-body-md {
+  font-size: 20px;
+  line-height: 150%;
+  font-family: FilsonSoft, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
 .text-body-lg {
   font-size: 23px;
   line-height: 150%;
