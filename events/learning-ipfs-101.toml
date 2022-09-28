@@ -16,7 +16,7 @@ times = "10:00 - 13:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "All Welcome"
+difficulty = "Beginner"
 
 # tags for the event, will show up as labels.
 # pick 1-4
