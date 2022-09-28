@@ -57,7 +57,7 @@ repo="https://github.com/pathfindertools/ipfs-camp-2022"
 #   ["Item 2", "#item2"],
 # ]
 navigation = [
-  ["About IPFS", "./#about" ],
+  ["About", "./#about" ],
   ["Tracks", "./#tracks" ],
   ["Tickets", "./#tickets" ],
   ["Schedule", "./#schedule" ],
