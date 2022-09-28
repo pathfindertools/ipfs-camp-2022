@@ -3,7 +3,7 @@ name = "Keynotes"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "mosh"
+# dri = "mosh"
 
 # the start date of the event
 date = "2022-10-28"
@@ -43,9 +43,9 @@ tags = ["Talks"]
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
+startTime="010:00"
 speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
+title="Welcome"
 description=""
 
 [[timeslots]]
@@ -74,48 +74,6 @@ description=""
 
 [[timeslots]]
 startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
 speakers=[]
 title="Open Slot"
 description=""
