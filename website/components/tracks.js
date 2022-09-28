@@ -22,7 +22,7 @@ export default function Tracks({ config, events }) {
     return a.name - b.name
   })
   return (
-    <div id="tracks" className="relative w-full py-20">
+    <div id="tracks" className="relative w-full p-6 py-20">
       <div className="absolute inset-0 overflow-hidden">
         <img src="./tracks-ornament-top.svg" width="716" className="absolute top-0 left-1/2 transform translate-x-40"  />
         <img src="./tracks-ornament-bottom.svg" width="907" className="absolute bottom-0 right-1/2 transform -translate-x-96"  />
@@ -31,7 +31,7 @@ export default function Tracks({ config, events }) {
         <h1 className="text-h1 mb-8">{config.tracksSection.title}</h1>
         <div className="relative">
           <div className="h-full w-px bg-white absolute left-1/2 opacity-20 hidden lg:block"></div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:p-10 lg:gap-24 lg:mb-20">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:p-10 lg:gap-24 mb-12 lg:mb-20">
             
             {tracks.map((track, i)  => {
               return (
