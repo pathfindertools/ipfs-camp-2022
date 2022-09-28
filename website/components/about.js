@@ -1,7 +1,7 @@
 export default function About({ config }) {
   return (
     <div id="about" className="relative text-white w-full px-6 lg:my-40">
-      <div className="container max-w-6xl mx-auto lg:h-full">
+      <div className="container max-w-7xl mx-auto lg:h-full">
         <div className="relative lg:w-1/2 min-h-xl ml-auto pt-20 pb-10 lg:py-24">
           <h1 className="text-h1 mb-8">What to expect</h1>
           <div className="text-body-lg">

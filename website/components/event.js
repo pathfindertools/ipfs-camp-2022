@@ -51,6 +51,11 @@ function BlockCard({ event }) {
       <div className="text-body1 mb-4">
         👤 {event.attendees} - {event.difficulty}
       </div>
+      {event.dri &&
+        <div className="text-body1 mb-4">
+          {event.dri}
+        </div>
+      }
       <div className="text-body1 mb-4">
         {event.org}
       </div>
@@ -258,10 +263,10 @@ export function AddEventModal({ config }) {
   return (
     <>
       <Modal show={isOpen()} onClose={close}>
-        <div className="bg-gradient-to-r from-blue-500 via-cyan-500 to-green-500 p-1">
+        <div className="rounded-lg text-white" style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,1) 0%, rgba(7,58,83,1) 100%)"}}>
           <div className="dark:bg-gray-400">
             <Modal.Header>
-              Add your event
+              <span className="text-white">Add your event</span>
             </Modal.Header>
             <Modal.Body className="space-y-6">
               The event listings in this website are coordinated through GitHub.

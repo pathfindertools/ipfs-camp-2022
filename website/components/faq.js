@@ -17,9 +17,9 @@ export default function FAQ({ config }) {
   const title = "FAQ"
 
   return (
-    <div id={ slugify(title) } className={`w-full p-6 lg:py-20 min-h-[10vh]`}>
-      <div className='container max-w-6xl mx-auto text-white'>
-        <div className="container max-w-6xl mx-auto py-10">
+    <div id={ slugify(title) } className={`w-full p-10 lg:py-20 min-h-[10vh]`}>
+      <div className='container max-w-7xl mx-auto text-white'>
+        <div className="container max-w-7xl mx-auto py-10">
           <h1 className="text-h1 mb-8">{title}</h1>
           <Accordian items={faq}></Accordian>
         </div>
