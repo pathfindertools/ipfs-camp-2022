@@ -1,1 +1,1649 @@
-{}
+{
+  "browsers": {
+    "name": "Browsers",
+    "dri": "autonome",
+    "date": "2022-10-30",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Learn the current status, ongoing challenges, and upcoming work \n  to integrate IPFS and related technologies into browsers and the web itself.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "compute-over-data": {
+    "name": "Compute Over Data",
+    "dri": "warpfork",
+    "days": 1,
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Producing data without leaving the Merkle Forest -- How do we do it?  How do we make it manageable at scale? \n  How do we make the results useful and discoverable?  In this track, see what others are up to, and share your own dreams!\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "content-routing": {
+    "name": "Content Routing",
+    "dri": "willscott",
+    "date": "2022-10-29",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Approaches and protocols to content routing in IPFS, what we've learned so far, and talks about possible directions for the future.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "data-transfer": {
+    "name": "Data Transfer",
+    "dri": "willscott",
+    "days": 1,
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Getting and sending content. Moving data across the wire.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "decentralized-job-fair": {
+    "name": "Decentralized Job Fair",
+    "dri": "Jeremy Kloth",
+    "date": "2022-10-29",
+    "days": 1,
+    "times": "17:00 - 19:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Whether you are looking for a new role or simply want to learn more about \n  open source projects that you can contribute to, the Decentralized Job Fair is for you.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "gaming-metaverse-and-video": {
+    "name": "Gaming, Metaverse, and Video",
+    "dri": "jnthnvctr",
+    "date": "2022-10-30",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Demos of how IPFS can save bandwidth and increase flexibility. Talks about directions for the future.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "growing-with-ipfs": {
+    "name": "Growing With IPFS",
+    "dri": "whiteflamingo",
+    "date": "2022-10-30",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Contributing, building, funding, grants, accelerators, decentralized job fair, and more ways to get involved.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "ipfs-201": {
+    "name": "IPFS 201: Design Patterns and Developer Tools",
+    "dri": "2color",
+    "date": "2022-10-30",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Workshops, demos, and an expert panel covering IPFS app architectures, developer tools design \n  patterns, developer experience and everything you need to know to build and deploy robust \n  production-grade content-addressed apps.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "ipfs-apps-for-fun-and-awesome": {
+    "name": "IPFS Apps for Fun and Awesome",
+    "dri": "DeveloperAlly",
+    "date": "2022-10-28",
+    "days": 1,
+    "times": "14:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  A highlights reel of the most exciting and useful user and developer tools for IPFS.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "ipfs-for-creatives": {
+    "name": "IPFS for Creatives",
+    "dri": "Doctorrobinson",
+    "date": "2022-10-29",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Calling all creators! This is the first ever IPFS sponsored track for content creators (and supporters!) of all \n  types. Come meet other creatives, learn from other artists and experts in the web3 space, and be one of the \n  first to join our growing community.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "ipfs-implementations": {
+    "name": "IPFS Implementations",
+    "dri": "b5",
+    "date": "2022-10-28",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  A wave of new IPFS implementations has grown in the past year. Meet the teams \n  taking IPFS to the next level and find your on-ramp to working on the protocol\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "ipfs-operators-and-enterprise": {
+    "name": "IPFS Operators and Enterprise",
+    "dri": "Cory Schwartz",
+    "date": "2022-10-29",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Explore applications & deployments of IPFS in large scale cloud & \n  enterprise use cases with talks from IPFS operators about their experiences and best practices.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "keynotes": {
+    "name": "Keynotes",
+    "dri": "mosh",
+    "date": "2022-10-28",
+    "days": 1,
+    "times": "10:00 - 12:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "learning-ipfs-101": {
+    "name": "Learning IPFS 101",
+    "dri": "DeveloperAlly",
+    "date": "2022-10-28",
+    "days": 1,
+    "times": "10:00 - 13:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  a hands on session on getting started with IPFS, including what it \n  is, how to set up an IPFS node, CLI commands, pinning, gateways and more. \n  If you've been wanting to try out IPFS - now's your chance!\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "libp2p-day": {
+    "name": "LibP2P Day",
+    "dri": "p-shahi",
+    "website": "https://discuss.libp2p.io/t/first-ever-libp2p-day-oct-30-lisbon-portugal/1582",
+    "date": "2022-10-30",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks",
+      "Workshops"
+    ],
+    "description": "  The first ever libp2p Day: a gathering for libp2p builders, contributors, and maintainers!\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "libp2p-privacy": {
+    "name": "LibP2P Privacy",
+    "dri": "willscott",
+    "date": "2022-10-28",
+    "days": 1,
+    "times": "14:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "description": "  Dive into the current privacy work happening on libp2p \n  and get the chance to provide feedback on direction and next steps and hear from experts in the field.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  },
+  "measurement-and-performance": {
+    "name": "Measurement and Performance",
+    "dri": "yiannisbot",
+    "date": "2022-10-28",
+    "days": 1,
+    "times": "10:00 - 17:00",
+    "difficulty": "All Welcome",
+    "tags": [
+      "Talks"
+    ],
+    "priority": 1,
+    "description": "  A data-driven approach to the design and operation of IPFS \n  and libp2p through rigorous network measurements, performance evaluation and \n  recommendations for builders and operators.\n",
+    "timeslots": [
+      {
+        "startTime": "09:00",
+        "speakers": [
+          "@speaker_name",
+          "@other_speaker_name"
+        ],
+        "title": "Welcome standup discussion",
+        "description": ""
+      },
+      {
+        "startTime": "09:30",
+        "speakers": [
+          "@yourname"
+        ],
+        "title": "Track Intro",
+        "description": ""
+      },
+      {
+        "startTime": "10:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "10:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "11:30",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "11:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "12:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "13:00",
+        "speakers": [],
+        "title": "Lunch Break",
+        "description": ""
+      },
+      {
+        "startTime": "14:00",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "14:45",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "15:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      },
+      {
+        "startTime": "16:15",
+        "speakers": [],
+        "title": "Break",
+        "description": ""
+      },
+      {
+        "startTime": "16:30",
+        "speakers": [],
+        "title": "Open Slot",
+        "description": ""
+      }
+    ]
+  }
+}
