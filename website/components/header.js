@@ -4,7 +4,7 @@ import Burger from './burger'
 const navItems = [
   {
     link: "./#about",
-    label: "About IPFS"
+    label: "About"
   },{
     link: "./#tickets",
     label: "Tickets"
