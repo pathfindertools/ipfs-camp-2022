@@ -239,4 +239,5 @@ proposeLabel="Propose a Track"
 # schedule section
 [schedule]
 description="""
+Choose your own adventure from over 16 tracks across 3 days. 
 """

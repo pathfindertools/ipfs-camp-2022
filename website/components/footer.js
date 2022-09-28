@@ -16,24 +16,24 @@ const Link = ({ link = "#", name = "" }) => {
 
 export default function Footer({ config }) {
 	return (
-		<footer className="relative dark:bg-gray-800 p-6">
+		<footer className="relative dark:bg-gray-800 p-6 lg:px-10">
 			<div className="absolute inset-0 overflow-hidden">
 				<img className="absolute left-1/2 transform translate-x-12 lg:translate-x-24 top-48 lg:top-0 z-0" src="./footer-cubes.svg" />
 			</div>
-			<div className="relative z-10 container max-w-6xl mx-auto">
+			<div className="relative z-10 container max-w-7xl mx-auto">
 				<div className="w-full">
 					<Logo image={config.devent.logo} name={config.devent.name} />
 				</div>
-				<div className="w-full">
+				<div className="w-full text-white text-body-1">
 					<div className="grid grid-cols-2 mb-8 lg:grid-cols-3 gap-8 max-w-2xl ">
 						<div>
-							<h3 className="text-white text-h5 mb-4">IPFS Camp</h3>
+							<h3 className="mb-4">IPFS Camp</h3>
 							<nav>
-								{config.devent.navigation.map((item) => <Link name={item[0]} link={item[1]} />)}
+								{config.devent.navigation.map((item, i) => <Link name={item[0]} link={item[1]} key={i} />)}
 							</nav>
 						</div>
 						<div>
-							<h3 className="text-white text-h5 mb-4">Related Projects</h3>
+							<h3 className="mb-4">Related Projects</h3>
 							<nav>
 								<Link name="IPFS" link="https://ipfs.tech/" />
 								<Link name="IPFS Cluster" link="https://ipfscluster.io/" />
@@ -43,7 +43,7 @@ export default function Footer({ config }) {
 							</nav>
 						</div>
 						<div>
-							<h3 className="text-white text-h5 mb-4">Stay Updated</h3>
+							<h3 className="mb-4">Stay Updated</h3>
 							<nav>
 								<Link name="@IPFS" link="https://twitter.com/ipfs" />
 								<Link name="IPFS Blog" link="https://blog.ipfs.tech/" />

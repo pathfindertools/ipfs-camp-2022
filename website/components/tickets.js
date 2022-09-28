@@ -18,7 +18,7 @@ export default function Tickets({ config }) {
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute inset-0 bg-black" style={{"background": "rgb(224,22,51)", "background": "linear-gradient(45deg, rgba(224,22,51,1) 5%, rgba(241,130,0,1) 15%, rgba(246,165,0,1) 20%, rgba(89,217,202,1) 50%, rgba(0,169,229,1) 80%, #045d81 100%)"}}></div>
       </div>
-      <div className="relative z-10 py-20 container max-w-6xl mx-auto lg:h-full text-white ">
+      <div className="relative z-10 py-20 container max-w-7xl mx-auto lg:h-full text-white ">
         <h1 className="text-h1 mb-4">Tickets</h1>
         <p className="text-body-lg mb-20">All tickets include entry to the full 3-day event and coffee, morning pastries, lunch, and dinner at the IPFS Camp venue.</p>
         <div className={`grid grid-cols-1 lg:grid-cols-5 gap-5`}>

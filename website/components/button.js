@@ -1,8 +1,8 @@
 export default function Button({target="_self", href="#", children, className, variation="major"}) {
   const buttonVariations = {
-    major: "text-white bg-gradient-to-tr from-red-custom to-yellow-custom py-3",
+    major: "text-white bg-gradient-to-tr from-red-custom to-yellow-custom py-2",
     minor: " text-white bg-orange-500",
-    outline: "border-[3px] border-navy text-navy py-2",
+    outline: "border-[3px] border-cyan-800 text-cyan-800 py-1",
   }
   return (
     <a

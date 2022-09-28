@@ -34,7 +34,7 @@ export default function Header({config}) {
     <div className="fixed z-50 w-full px-10">
       <div className="absolute inset-0 bg-gradient-to-b from-navy/70 to-navy/20"></div>
       <div className={`absolute inset-0 bg-navy opacity-90 lg:hidden  ${active ? "" : "hidden"}`}></div>
-      <div className="container max-w-6xl mx-auto relative z-10 py-6">
+      <div className="container max-w-7xl mx-auto relative z-10 py-5">
         <div className={`text-body1 text-white lg:text-right lg:block ${active ? "" : "hidden"}`}>
           {config.devent.navigation.map((item, i) => {
             return (

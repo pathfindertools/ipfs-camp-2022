@@ -35,7 +35,7 @@ export default function Accordian({items}) {
 
   return (
     <div className={`rounded-xl bg-navy-light border border-cyan-400`}>
-      <div className='container max-w-6xl mx-auto text-white'>
+      <div className='container max-w-7xl mx-auto text-white'>
         {Object.keys(items).map((item, i) => (
           <AccordianItem question={item} answer={items[item]} key={i} />
         ))}

@@ -37,7 +37,7 @@ export function ScheduleTable({ events, config }) {
         {days.map((d, i) => (
           <div
             className={`flex col-start-${(i + 1)} col-span-1 text-center p-3 bg-sky-900 text-white text-xl shrink-0 rounded-lg`}
-            style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,.85) 0%, rgba(7,58,83,.85) 100%)"}}
+            style={{background: "linear-gradient(0deg, rgba(2,34,50,.85) 0%, rgba(7,58,83,.85) 100%)"}}
             key={i}
           >
             <p className="flex-1 mx-2 text-left">{d.format('ddd')}</p>
