@@ -41,6 +41,7 @@ html {
   margin-top: 20px;
 }
 
+/* TODO: Move this into tailwind config */
 .text-h1 {
   font-family: RocGroteskMedium, sans-serif;
   font-weight: normal;
@@ -110,4 +111,16 @@ html {
   font-family: FilsonSoft, sans-serif;
   font-weight: normal;
   font-style: normal;
+}
+
+@media only screen and (max-width: 768px) {
+  .text-h1 {
+    font-size: 40px;
+  }
+  .text-h5 {
+    font-size: 17px;
+  }
+  .text-body-lg {
+    font-size: 19px;
+  }
 }
