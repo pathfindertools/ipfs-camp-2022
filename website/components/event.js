@@ -59,7 +59,6 @@ function BlockCard({ event }) {
       <div className="text-body1 mb-4">
         {event.org}
       </div>
-
       <div className="event-tags">
         {event.tags.map((tag, i) => (
           (tag && <Tag key={i}>{tag}</Tag>)
@@ -81,6 +80,11 @@ function TrackCard({ event }) {
       <div className="text-body1 mb-4">
         👤 {event.attendees} - {event.difficulty}
       </div>
+      {event.dri &&
+        <div className="text-body1 mb-4">
+          {event.dri}
+        </div>
+      }
       <div className=" text-white text-sm mt-3 text-ellipsis overflow-hidden">
         {event.org}
       </div>
