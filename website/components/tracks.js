@@ -30,7 +30,7 @@ export default function Tracks({ config, events }) {
             
             {tracks.map((track, i)  => {
               return (
-                <Track name={track.name} date={track.date} description={i} link="" key={i} />
+                <Track name={track.name} date={track.date} description={track.description} link="" key={i} />
               )
             })}
           </div>
