@@ -3,7 +3,7 @@ name = "Content Routing"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "willscott"
+dri = "Will Scott"
 
 # the start date of the event
 date = "2022-10-29"
