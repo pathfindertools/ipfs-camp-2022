@@ -3,7 +3,7 @@ name = "Compute Over Data"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "warpfork, aronchik"
+dri = "Eric Myhre, David Aronchik"
 
 # the start date of the event
 date = "2022-10-28"
