@@ -240,19 +240,3 @@ proposeLabel="Propose a Track"
 [schedule]
 description="""
 """
-
-# this is a footer section, with any footer links you may want.
-# there are three sections: links (general), legal (policy + terms), and social.
-[footer]
-
-[footer.links]
-"Protocol Labs" = "https://protocol.ai/"
-"Event Github" = "https://github.com/protocol/labweek-2022"
-
-[footer.legal]
-"Privacy Policy" = "#"
-"Terms & Conditions" = "#"
-
-[footer.social]
-twitter = "ipfs"
-github = "ipfs"

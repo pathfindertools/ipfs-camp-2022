@@ -33,32 +33,31 @@ export default function Footer({ config }) {
 							<h3 className="text-white text-h5 mb-4">IPFS Camp</h3>
 							<nav>
 								<Link name="Tracks" link="#" />
-								<Link name="IPFS CAMP" link="" />
-								<Link name="Tracks" link="" />
 								<Link name="Tickets" link="" />
 								<Link name="Schedule" link="" />
-								<Link name="Speakers" link="" />
-								<Link name="FAQAbout IPFS" link="" />
-								<Link name="Privacy Policy" link="" />
+								<Link name="Speakers & Facilitators" link="" />
+								<Link name="FAQ" link="" />
+								<Link name="COVID-19 Policy" link="" />
+								<Link name="Code of Conduct" link="" />
 							</nav>
 						</div>
 						<div>
 							<h3 className="text-white text-h5 mb-4">Related Projects</h3>
 							<nav>
-								<Link name="IPFS" link="#" />
-								<Link name="IPFS CLUSTER" link="#" />
-								<Link name="LIBP2P" link="#" />
-								<Link name="IPLD" link="#" />
-								<Link name="MULTIFORMATS" link="#" />
+								<Link name="IPFS" link="https://ipfs.tech/" />
+								<Link name="IPFS Cluster" link="https://ipfscluster.io/" />
+								<Link name="libp2p" link="https://libp2p.io/" />
+								<Link name="IPLD" link="https://ipld.io/" />
+								<Link name="Multiformats" link="https://multiformats.io/" />
 							</nav>
 						</div>
 						<div>
 							<h3 className="text-white text-h5 mb-4">Stay Updated</h3>
 							<nav>
-								<Link name="Mailing List" link="#" />
-								<Link name="@IPFSBOT" link="#" />
-								<Link name="IPFS Blog" link="#" />
-								<Link name="Join IRC channel" link="#" />
+								<Link name="@IPFS" link="https://twitter.com/ipfs" />
+								<Link name="IPFS Blog" link="https://blog.ipfs.tech/" />
+								<Link name="Forum" link="https://discuss.ipfs.tech/" />
+								<Link name="Discord/Matrix/Slack" link="https://docs.ipfs.tech/community/chat/" />
 							</nav>
 						</div>
 					</div>
