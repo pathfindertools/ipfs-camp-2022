@@ -6,7 +6,7 @@ name = "Data Transfer"
 dri = "Will Scott, Hannah Howard"
 
 # the start date of the event
-#date = "2022-10-28"
+date = "2022-10-29"
 
 # how many days the event lasts (1 - N)
 days = 1

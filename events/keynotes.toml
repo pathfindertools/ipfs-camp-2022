@@ -20,14 +20,14 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks"]
+tags = ["Talks", "Panels"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
 
 # a description of the track.
 # will show up when the user clicks the event card.
-#description = 
+description = "A warm and wonderful kickoff to IPFS Camp with keynote speakers, fireside chats, and a sampling of community talks and community perspectives on the present and future of IPFS."
 
 # schedule is an array of timeslots objects
 # schema:
