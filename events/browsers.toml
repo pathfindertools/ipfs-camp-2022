@@ -25,6 +25,10 @@ tags = ["Talks"]
 # a color, to group key events visually. use sparingly
 # color="purple"
 
+# the priority in the schedule table, leave commented if you don't need to control this
+# 1 will appear at the top, higher numbers appear closer to bottom
+# priority = 1
+
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
