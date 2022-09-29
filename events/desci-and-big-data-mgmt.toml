@@ -28,9 +28,9 @@ tags = ["Talks"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-  Decentralized Science (DeSci) is one of the fastest growing communities within 
-  the Web3 ecosystem, which aims to accelerate scientific breakthroughs and foster 
-  open collaboration by leveraging modern Web3 technologies (IPFS) and crypto-incentives (IP-NFTs).
+  DeSci aims to accelerate scientific breakthroughs and foster open collaboration via 
+  Web3 technologies (IPFS) and crypto-incentives (IP-NFTs). In this track we will cover the 
+  projects that are revolutionizing research through open collaboration on IPFS.
 """
 
 # schedule is an array of timeslots objects
