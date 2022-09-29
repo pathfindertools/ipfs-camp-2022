@@ -11,10 +11,11 @@ export function Card({ children, color, onClick }) {
     <div className={classNames(
         'eventcard', 
         'p-0.5 shadow-md h-full whitespace-normal'
-      )} onClick={onClick}>
+      )}
+      onClick={onClick}>
       <div className={classNames(
           'rounded-lg block p-3 lg:p-6 h-full'
-        )} style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,1) 0%, rgba(7,58,83,1) 100%)"}}>
+        )} style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,.85) 0%, rgba(7,58,83,.85) 100%)"}}>
         <div className="text-body1 text-white">
           { children }
         </div>
@@ -178,10 +179,15 @@ export function EventModal({ children, event }) {
       </div>
       <Modal show={isOpen()} onClose={close} size="3xl">
         <div className="rounded-lg text-white" style={{background: "rgb(2,34,50)", background: "linear-gradient(0deg, rgba(2,34,50,1) 0%, rgba(7,58,83,1) 100%)"}}>
-          <Modal.Header className="modal-header border-white/20">
-            <span className="text-white">{event.name}</span>
-          </Modal.Header>
-          <Modal.Body className="space-y-6 overflow-y-scroll max-h-[70vh]">
+          <div class="relative flex justify-between items-start p-6 pb-4 rounded-t">
+            <div className="absolute bottom-0 h-px left-6 right-6 bg-white/20" />
+            <h3 class="text-h5 text-white">{event.name}</h3>
+            <button onClick={close} type="button" class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white" data-modal-toggle="defaultModal">
+              <svg aria-hidden="true" class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+          <Modal.Body className="rounded-b space-y-6 overflow-y-scroll max-h-[70vh]">
             <ul className="list-disc ml-4">
               <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
               <li><b>Times</b>: {event.times}</li>
@@ -198,23 +204,14 @@ export function EventModal({ children, event }) {
             </p>
             {event.timeslots && <TimeslotTable timeslots={event.timeslots} />}
           </Modal.Body>
-          <Modal.Footer>
+          {/* <div class="flex items-center p-6 space-x-2 rounded-b">
             {event.website &&
               <Link href={event.website} prefetch={false} target="_blank">
-                <a target="_blank" rel="noreferrer">
-                  <Button>
-                    Website
-                  </Button>
-                </a>
+                <a target="_blank" rel="noreferrer"><Button>Website</Button></a>
               </Link>
             }
-            <Button
-              color="alternative"
-              onClick={close}
-            >
-              Close
-            </Button>
-          </Modal.Footer>
+            <Button color="alternative" onClick={close}>Close</Button>
+          </div> */}
         </div>
       </Modal>
     </>
@@ -236,9 +233,9 @@ function TimeslotTable({ timeslots }) {
         <tbody>
           {timeslots.map((timeslot, i) => (
             <tr key={i} className="">
-              <th scope="row" className="px-6 py-4 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
-              <td className="px-6 py-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
-              <td className="px-6 py-4">
+              <th scope="row" className="px-6 py-2 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
+              <td className="px-6 py-2 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
+              <td className="px-6 py-2">
                 <span className="font-bold">{timeslot.title}</span>
                 <br/>
                 <p>{timeslot.description}</p>
@@ -297,10 +294,19 @@ export function AddEventModal({ config }) {
 }
 
 export function Tag({ children }) {
+  const bgColors = {
+    'talks': 'bg-cyan-500',
+    'panels': 'bg-orange-400',
+    'demos': 'bg-yellow-400',
+    'job-fair': 'bg-sky-500',
+    'unconference': 'bg-teal-500',
+    'workshops': 'bg-violet-400',
+  }
+  const category = slugify(children)
   return (
-    <button className="px-1.5 py-0.5 mr-1 my-1 border border-gray-400 text-gray-400 rounded-full text-xs cursor-default">
-      {children}
-    </button>
+    <div className={`inline-block px-4 py-1 mr-2 my-1 text-navy rounded-full text-body1 ${bgColors[category] || "bg-green-400"}`}>
+      <span className="relative top-0.5">{children}</span>
+    </div>
   )
 }
 
@@ -331,6 +337,15 @@ function dateStr(date, days) {
 
   const d2 = d1.add(days - 1, 'day')
   return d1.format("MMM DD") +' - '+ d2.format("MMM DD")
+}
+
+function slugify(s) {
+  return s
+    .toLowerCase()
+    .trim()
+    .replace(/[^\w\s-]/g, '')
+    .replace(/[\s_-]+/g, '-')
+    .replace(/^-+|-+$/g, '')
 }
 
 export default EventCard
