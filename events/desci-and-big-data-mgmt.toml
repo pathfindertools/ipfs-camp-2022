@@ -1,9 +1,9 @@
 # the name of your track or event
-name = "Decentralized Science (desci) and Big Data Management"
+name = "Decentralized Science (DeSci) and Big Data Management"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "wesfloyd"
+dri = "Wes Floyd, Niklas Rindtorff, Eleanor D."
 
 # the start date of the event
 date = "2022-10-28"
