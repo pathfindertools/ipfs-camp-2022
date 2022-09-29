@@ -48,57 +48,46 @@ description = """
 # - recommended end:   16:00 (On 30 Oct, 1h Camp wrapup begins at 16:00)
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
-[[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=[Marco Munizaga]
+speakers=["Marco Munizaga"]
 title="Intro to libp2p: helping with real world application problems"
 description=""
 
 [[timeslots]]
 startTime="10:25"
-speakers=[Steve Loeppky]
+speakers=["Steve Loeppky"]
 title="A month in PL EngRes libp2p Development and how you can be involved"
 description=""
 
 [[timeslots]]
 startTime="10:45"
-speakers=[Marten Seemann]
+speakers=["Marten Seemann"]
 title="Browser connectivity state of the union and demo"
 description=""
 
 [[timeslots]]
 startTime="11:15"
-speakers=[Max Inden]
+speakers=["Max Inden"]
 title="Why WebRTC"
 description=""
 
 [[timeslots]]
 startTime="11:40"
-speakers=[Dennis Trautwein]
+speakers=["Dennis Trautwein"]
 title="Hole Punching"
 description=""
 
 [[timeslots]]
 startTime="12:05"
-speakers=[Tanguy Menduist]
+speakers=["Tanguy Menduist"]
 title="nim-libp2p"
 description=""
 
 [[timeslots]]
 startTime="12:30"
-speakers=[Laurent Senta]
+speakers=["Laurent Senta"]
 title="Testground + libp2p"
 description=""
 
