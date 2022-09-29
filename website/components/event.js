@@ -187,7 +187,7 @@ export function EventModal({ children, event }) {
               <span class="sr-only">Close modal</span>
             </button>
           </div>
-          <Modal.Body className="rounded-b space-y-6 overflow-y-scroll max-h-[70vh]">
+          <Modal.Body className="rounded-b space-y-6 overflow-y-scroll max-h-[70vh] pb-6">
             <ul className="list-disc ml-4">
               <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
               <li><b>Times</b>: {event.times}</li>
@@ -233,9 +233,9 @@ function TimeslotTable({ timeslots }) {
         <tbody>
           {timeslots.map((timeslot, i) => (
             <tr key={i} className="">
-              <th scope="row" className="px-6 py-2 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
-              <td className="px-6 py-2 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
-              <td className="px-6 py-2">
+              <th scope="row" className="px-6 pt-4 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
+              <td className="px-6 pt-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
+              <td className="px-6 pt-4">
                 <span className="font-bold">{timeslot.title}</span>
                 <br/>
                 <p>{timeslot.description}</p>
