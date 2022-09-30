@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "IPFS 201: Design Patterns and Developer Tools"
+name = "IPFS 201: App Design Patterns and Developer Tools"
 
 # the name handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -16,11 +16,11 @@ times = "10:00 - 17:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "All Welcome"
+difficulty = "Intermediate"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Workshops", "Talks", "Demos"]
+tags = ["Workshops", "Talks", "Demos", "Panels"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -30,7 +30,7 @@ tags = ["Workshops", "Talks", "Demos"]
 description = """
   Workshops, demos, and an expert panel covering IPFS app architectures, developer tools, design 
   patterns and everything you need to know to build and deploy robust 
-  production-grade IPFS apps.
+  production-grade apps using IPFS.
 """
 
 # schedule is an array of timeslots objects
@@ -47,79 +47,85 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
+speakers=["Daniel Norman"]
+title="Track introduction"
+description="**Dapps** are all the rave, but there's no consensus about how they should be built. \n\n There's a cambrian explosion of developer tools and many emerging design patterns using IPFS. This introduction will set the stage for some of the fantastic speakers we have during the day who'll be sharing the state of the art in app design patterns and developer tools."
+
+[[timeslots]]
+startTime="10:20"
+speakers=[""]
+title="Fission & The WebNative SDK"
 description=""
 
 [[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
+startTime="10:50"
+speakers=["Carson Farmer"]
+title="Introduction to Tableland"
 description=""
 
 [[timeslots]]
-startTime="11:30"
+startTime="11:20"
 speakers=[]
-title="Break"
+title="☕️🫖Break"
 description=""
 
 [[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
+startTime="11:25"
+speakers=["Alex Potsides"]
+title="Debugging js-ipfs and js-libp2p Like a Pro"
 description=""
 
 [[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
+startTime="12:05"
+speakers=[""]
+title="Panel: State of the IPFS DevTools ecosystem"
+description=""
+
+[[timeslots]]
+startTime="12:45"
+speakers=["Mauve Signweaver"]
+title="What is IPLD Anyway?"
 description=""
 
 [[timeslots]]
 startTime="13:00"
-speakers=[]
-title="Lunch Break"
+speakers=[""]
+title="Lunch 🍱🍔"
 description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Open Slot"
+speakers=["Lidel"]
+title="Using the DAG API to efficiently fetch geoip data with IPFS"
+description=""
+
+[[timeslots]]
+startTime="14:20"
+speakers=["Horacio Herrera"]
+title="Local-First, Multi-Device Applications With IPFS"
 description=""
 
 [[timeslots]]
 startTime="14:45"
-speakers=[]
-title="Open Slot"
+speakers=["Chris Anderson"]
+title="UCAN Build Apps with IPFS"
 description=""
 
 [[timeslots]]
-startTime="15:30"
+startTime="15:40"
 speakers=[]
-title="Open Slot"
+title="☕️🫖Break"
 description=""
 
 [[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
+startTime="15:50"
+speakers=["Hector Sanjuan"]
+title="State without consensus: introduction to Merkle-CRDTs on IPFS"
 description=""
 
 [[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
+startTime="16:40"
+speakers=[""]
+title="TBD"
 description=""
