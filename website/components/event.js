@@ -297,6 +297,7 @@ export function Tag({ children }) {
   const bgColors = {
     'talks': 'bg-cyan-500',
     'panels': 'bg-orange-400',
+    'panel': 'bg-orange-400',
     'demos': 'bg-yellow-400',
     'job-fair': 'bg-sky-500',
     'unconference': 'bg-teal-500',
