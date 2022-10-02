@@ -50,7 +50,7 @@ description = """
 startTime="10:00"
 speakers=["Daniel Norman"]
 title="Track introduction"
-description="**Dapps** are all the rave, but there's no consensus about how they should be built. \n\n There's a cambrian explosion of developer tools and many emerging design patterns using IPFS. This introduction will set the stage for some of the fantastic speakers we have during the day who'll be sharing the state of the art in app design patterns and developer tools."
+description="Dapps are all the rave, but there's no consensus about how they should be built. \n\n There's a cambrian explosion of developer tools and many emerging design patterns using IPFS. This introduction will set the stage for some of the fantastic speakers we have during the day who'll be sharing the state of the art in app design patterns and developer tools."
 
 [[timeslots]]
 startTime="10:20"
