@@ -29,8 +29,7 @@ tags = ["Job Fair"]
 # will show up when the user clicks the event card.
 description = """
   Whether you are looking for a new role, hiring for your project, or simply want to learn more about 
-  open source projects that you can contribute to, the Decentralized Job Fair is for you. For this event
-  please register separately <a href="https://lu.ma/ipfscamp22.jobfair">here</a> to attend.
+  open source projects that you can contribute to, the Decentralized Job Fair is for you.
 """
 
 # schedule is an array of timeslots objects
