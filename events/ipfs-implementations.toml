@@ -3,7 +3,7 @@ name = "IPFS Implementations"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "Brendan O'Brien"
+dri = "b5"
 
 # the start date of the event
 date = "2022-10-28"
@@ -28,8 +28,9 @@ tags = ["Talks"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-  A wave of new IPFS implementations has grown in the past year. Meet the teams 
-  taking IPFS to the next level and find your on-ramp to working on the protocol
+  Are you looking to choose the right IPFS implementation to build on? Do you want to find an IPFS implementation to _work_ on? This track aims to answer both.
+  
+  Meet the teams taking IPFS to the next level. Find an implementation that you can bet your project on, or if you dare, let yourself be nerd sniped int working on the protocol itself.
 """
 
 # schedule is an array of timeslots objects
@@ -45,79 +46,57 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
 startTime="13:00"
-speakers=[]
-title="Lunch Break"
+speakers=["@b5"]
+title="Interplanetary Cambrian Explosion"
+description="""
+A wave of new IPFS implementations has grown in the past year. This track introduction will give an overview of recent developments in IPFS implementaions, and how existing ones are adapting to meet new demands. 
+"""
+
+[[timeslots]]
+startTime="13:30"
+speakers=["Paolo Insogana"]
+title="Elastic IPFS"
 description=""
 
 [[timeslots]]
 startTime="14:00"
+speakers=["@lidel?"]
+title="IPFS, the Spec"
+description=""
+
+[[timeslots]]
+startTime="14:30"
 speakers=[]
-title="Open Slot"
+title="break - 15 min"
 description=""
 
 [[timeslots]]
 startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@ramfox"]
+title="Iroh: Efficient IPFS in Rust"
+description="Overview of iroh, a next-generation implementation of IPFS"
 
 [[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
+startTime="15:45"
+speakers=["@aschmahmann?"]
+title="State of Kubo"
 description=""
 
 [[timeslots]]
 startTime="16:15"
-speakers=[]
-title="Break"
-description=""
+speakers=["@rklaehn"]
+title="A new approach to IPFS pinning and caching"
+description="""
+Ipfs-Embed is a small embeddable version of a subset of IPFS, written in rust. It is used in production in the German manufacturing industry.
+
+This talk will present a novel API for pinning, caching and garbage collection that is designed for the use case of highly interactive and dynamic applications with soft real time requirements.
+
+Afterwards there will be a discussion about advantages and disadvantages of this approach, and how it compares to the Kubo API.
+"""
 
 [[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
+startTime="13:00"
+speakers=["@achingbrain"]
+title="State of JS-IPFS"
 description=""
