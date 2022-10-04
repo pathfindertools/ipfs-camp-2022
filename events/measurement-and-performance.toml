@@ -51,79 +51,67 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
 startTime="13:00"
-speakers=[]
-title="Lunch Break"
+speakers=["Yiannis Psaras"]
+title="Data-Driven Protocol Design: What it is and what are the benefits"
+description=""
+
+[[timeslots]]
+startTime="13:30"
+speakers=["Leo Balduf"]
+title="Bitswap and IPFS real-time metrics analysis"
 description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Open Slot"
+speakers=["Mikel Cortes"]
+title="A Deep Dive into Provider Records"
 description=""
 
 [[timeslots]]
-startTime="14:45"
+startTime="14:30"
+speakers=["Guillaume Michel"]
+title="DHT Routing Table Health"
+description=""
+
+[[timeslots]]
+startTime="15:00"
 speakers=[]
-title="Open Slot"
+title="Coffee Break"
 description=""
 
 [[timeslots]]
 startTime="15:30"
-speakers=[]
-title="Open Slot"
+speakers=["Dennis Trautwein"]
+title="DHT Lookup Latency Performance"
 description=""
 
 [[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
+startTime="16:00"
+speakers=["Pedro Akos Costa"]
+title="Lessons from IPFS workloads and implications for Multi-Level DHTs"
 description=""
 
 [[timeslots]]
-startTime="16:30"
+startTime="16:20"
+speakers=["Ian Davis"]
+title="Thunderdome: A tool to instrument your real-world experiments"
+description=""
+
+[[timeslots]]
+startTime="16:40"
+speakers=["Srivatsan Sidhar"]
+title="Identifying CID Eclipse Attacks through network measurements"
+description=""
+
+[[timeslots]]
+startTime="17:00"
 speakers=[]
-title="Open Slot"
+title="Open Discussion: Bring your own ideas!"
+description=""
+
+[[timeslots]]
+startTime="17:30"
+speakers=[]
+title="End"
 description=""
