@@ -30,7 +30,7 @@ tags = ["Talks"]
 description = """
   Are you looking to choose the right IPFS implementation to build on? Do you want to find an IPFS implementation to _work_ on? This track aims to answer both.
   
-  Meet the teams taking IPFS to the next level. Find an implementation that you can bet your project on, or if you dare, let yourself be nerd sniped int working on the protocol itself.
+  Meet the teams taking IPFS to the next level. Find an implementation that you can bet your project on, or if you dare, let yourself be nerd sniped into working on the protocol itself.
 """
 
 # schedule is an array of timeslots objects
@@ -68,7 +68,7 @@ description=""
 [[timeslots]]
 startTime="14:30"
 speakers=[]
-title="break - 15 min"
+title="Break - 15 min"
 description=""
 
 [[timeslots]]
