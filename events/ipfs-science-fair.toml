@@ -51,7 +51,5 @@ difficulty = "All Welcome"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-#description = """
-#This is a day of technical talks and workshops about projects across computing and innovation systems. 
-#Check out the line up on the website. Social gathering 17:00 - 19:00.
-#"""
+description = "Come browse an evening Science Fair of fun and fascinating IPFS projects!"
+
