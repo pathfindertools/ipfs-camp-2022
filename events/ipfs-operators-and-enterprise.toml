@@ -46,79 +46,98 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
+startTime="09:50"
+speakers=["Cory Schwartz"]
+title="Track Introduction"
+description="Welcome!"
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
+speakers=["Sara Freenan (Consensys)"]
+title="Build the web we want"
+description="""
+Recently, we deprecated our public gateway and it came to light that creators
+had been using our public gateway url, along with the CID, in their NFT
+metadata, instead of using the CID. 
+
+I would like to take this opportunity to remind people that IPFS is about building
+a decentralised web that is not beholden to one company or organisation. CIDs are
+content identifiers, not resource locators. The beauty of the protocol is that the
+content can be found on the network using the CID via the cooperation of the node
+providers, and the built in redundancy of the protocol. 
+
+The decentralised and resilient web we want will rely on people embedding these new
+patterns into whatever they create and build on top of the protocol and we at Infura
+want to help in whatever way we can.
+"""
+
+[[timeslots]]
+startTime="11:00"
+speakers=["Jay Graber (BlueSky)"]
+title=""
 description=""
 
 [[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
+startTime="12:00"
+speakers=["Alan Shaw (Protocol Labs)"]
+title="Elastic IPFS -- The scales are off the charts!"
+description="""
+What even is Elastic IPFS and how much stretch does it have? THIS is the story of the
+brand new multi tenant IPFS implementation that runs in the cloud, separates read and
+write pipelines to really, truly achieve web scale beyond anything this world has even
+seen before.
+"""
 
 [[timeslots]]
 startTime="13:00"
 speakers=[]
-title="Lunch Break"
+title="Lunch"
 description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["Thibault Meunier (Cloudflare)"]
+title="Secure your IPFS website"
+description="""
+For wallets, decentralized exchanges, DeFi insurer, or DAO management, most IPFS
+applications are relying on HTTP. This setup allows applications to be accessible by
+current web users, with minimal modifications. It also enables developers to leverage
+common web engineering practice. However, these HTTP endpoints have to be secured, and
+trust provided by the decentralized-network has to be carried to end-users. HTTPS is
+not enough. This talk will present the setup of a browser based IPFS app.
+"""
 
 [[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
+startTime="15:00"
+speakers=["Héctor Sanjuán (Protocol Labs)"]
+title="Pinset orchestration with IPFS Cluster"
+description="""
+IPFS Cluster makes distributing a pinset across an scalable set of Kubo peers easy.
+In this talk, we will explore the basic features, setup and monitoring for home and
+production deployments.
+"""
 
 [[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
+startTime="16:00"
+speakers=["Oleg Silkin"]
+title="What Kubernetes Operators Do That Regular Deployments Do Not"
+description="""
+By the end of this talk  users will know how Kubernetes Operators can improve their
+experience with deploying large-scale applications in their clusters. Attendees will
+also learn how IPFS Cluster leverages the Operator SDK in order to easily perform
+horizontal scaling of Web3 storage. 
+"""
 
 [[timeslots]]
-startTime="16:15"
+startTime="17:00"
 speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
-description=""
+title="IPFS Service Panel"
+description="""
+Panel discussion of gateway operators, pinning services, and others who operate IPFS
+services.
+"""
+# Still recruiting people to join this panel.
+# Panel members:
+# * Thibault Munier
+# * Jay Graber
+# * ~bifrost
