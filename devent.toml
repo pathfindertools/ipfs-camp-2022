@@ -1,7 +1,8 @@
 [devent]
 
 # the name of the devent
-name="IPFS Camp"
+name="IPFS Camp 2022"
+seoDescription="IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers in Lisbon"
 
 # where the event is happening
 location="Convento do Beato, Lisbon, Portugal"
