@@ -21,7 +21,7 @@ Join us for talks, workshops, discussion circles, hacking time, and more, all fo
 """
 
 
-# a link to the devent website (what domain do you expect to use?)
+# a link to the devent website (what domain do you expect to use?) also used for canonical tag
 link="https://2022.ipfs.camp/"
 
 # a link to get tickets
@@ -35,6 +35,8 @@ speakLink="https://airtable.com/shrOxmXUqwojf0Bjj"
 
 # a link to the recap and videos
 # recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
+
+ogImage="/ipfs-camp-og.png"
 
 # a link to a logo image for the event
 logo="ipfs-camp-logo.svg"

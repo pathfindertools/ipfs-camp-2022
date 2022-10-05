@@ -8,7 +8,13 @@ export function Layout({ children, config }) {
       <Head>
         <title>{config.devent.name}</title>
         <meta name="description" content={config.devent.seoDescription} />
-        <meta property="og:image" content="/ipfs-camp-og.png" />
+        <link rel="canonical" href={config.devent.link} />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={config.devent.ogImage} />
+        <meta property="og:url" content={config.devent.link} />
+        <meta property="og:title" content={config.devent.name} />
+        <meta property="og:description" content={config.devent.seoDescription} />
+
         <BaseScript />
         {/* Google Tag Manager */}
         <script
