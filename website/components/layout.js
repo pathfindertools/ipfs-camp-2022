@@ -7,6 +7,8 @@ export function Layout({ children, config }) {
     <div className="flex flex-col min-h-screen bg-navy">
       <Head>
         <title>{config.devent.name}</title>
+        <meta name="description" content={config.devent.seoDescription} />
+        <meta property="og:image" content="/ipfs-camp-og.png" />
         <BaseScript />
         {/* Google Tag Manager */}
         <script
