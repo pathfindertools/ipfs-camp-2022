@@ -72,13 +72,13 @@ want to help in whatever way we can.
 """
 
 [[timeslots]]
-startTime="11:00"
+startTime="10:45"
 speakers=["Jay Graber (BlueSky)"]
 title=""
 description=""
 
 [[timeslots]]
-startTime="12:00"
+startTime="11:30"
 speakers=["Alan Shaw (Protocol Labs)"]
 title="Elastic IPFS -- The scales are off the charts!"
 description="""
@@ -89,13 +89,7 @@ seen before.
 """
 
 [[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch"
-description=""
-
-[[timeslots]]
-startTime="14:00"
+startTime="12:15"
 speakers=["Thibault Meunier (Cloudflare)"]
 title="Secure your IPFS website"
 description="""
@@ -108,7 +102,14 @@ not enough. This talk will present the setup of a browser based IPFS app.
 """
 
 [[timeslots]]
-startTime="15:00"
+startTime="13:00"
+speakers=[]
+title="Lunch"
+description=""
+
+
+[[timeslots]]
+startTime="14:00"
 speakers=["Héctor Sanjuán (Protocol Labs)"]
 title="Pinset orchestration with IPFS Cluster"
 description="""
@@ -118,7 +119,7 @@ production deployments.
 """
 
 [[timeslots]]
-startTime="16:00"
+startTime="15:45"
 speakers=["Oleg Silkin"]
 title="What Kubernetes Operators Do That Regular Deployments Do Not"
 description="""
@@ -129,7 +130,7 @@ horizontal scaling of Web3 storage.
 """
 
 [[timeslots]]
-startTime="17:00"
+startTime="16:30"
 speakers=[]
 title="IPFS Service Panel"
 description="""
