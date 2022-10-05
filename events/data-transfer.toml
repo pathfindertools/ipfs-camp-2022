@@ -3,7 +3,7 @@ name = "Data Transfer"
 
 # the name of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "Will Scott, Hannah Howard"
+dri = "Hannah Howard"
 
 # the start date of the event
 date = "2022-10-29"
@@ -13,7 +13,7 @@ days = 1
 
 # the event times (shows up in the event card)
 #commenting out for now because this track isn't in the schedule
-#times = "10:00 - 12:00"
+times = "14:00 - 17:30"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -46,69 +46,39 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
+startTime="14:00"
 speakers=[]
-title="Open Slot"
+title="Arrival and welcome"
 description=""
 
 [[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
+startTime="14:15"
+speakers=["@hannahhoward"]
+title="Track Introduction"
 description=""
 
 [[timeslots]]
-startTime="11:30"
+startTime="14:30"
+speakers=["@rangermauve"]
+title="What is IPLD Anyway?"
+description=""
+
+[[timeslots]]
+startTime="15:00"
 speakers=[]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
+startTime="15:15"
+speakers=["@hannahhoward","@willscott"]
+title="Data Transfer Tutorial"
 description=""
 
 [[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
+startTime="15:45"
+speakers=["@b5"]
+title="How Bitswap Works"
 description=""
 
 [[timeslots]]
@@ -119,6 +89,18 @@ description=""
 
 [[timeslots]]
 startTime="16:30"
+speakers=["@jorropo"]
+title="RAPIDE"
+description=""
+
+[[timeslots]]
+startTime="17:00"
+speakers=["@hannahhoward"]
+title="The Future Of Content Addressed Data Transfer"
+description="Some ideas for massively improving data transfer speed"
+
+[[timeslots]]
+startTime="17:15"
 speakers=[]
-title="Open Slot"
+title="Open discussion and wrap-up"
 description=""
