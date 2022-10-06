@@ -46,79 +46,55 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Open Slot"
+speakers=["Will Scott"]
+title="Vision: Privacy-preserving, P2P communication over libp2p"
 description=""
 
 [[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
+startTime="14:15"
+speakers=["Miti Mazmudar"]
+title="Integrating Private Information Retrieval into IPFS"
+description=""
+
+[[timeslots]]
+startTime="15:00"
+speakers=["Guillaume Michel", "Elizabeth Binks"]
+title="Double-Hashing as a way to increase reader privacy"
 description=""
 
 [[timeslots]]
 startTime="15:30"
+speakers=["Guillaume Michel", "Elizabeth Binks"]
+title="Deployment and Transition Options of Double Hashing"
+description=""
+
+[[timeslots]]
+startTime="15:45"
 speakers=[]
-title="Open Slot"
+title="Coffee Break"
+description=""
+
+[[timeslots]]
+startTime="16:00"
+speakers=["Manfred"]
+title="From 'Privacy-First Messaging' to 'Extreme Communication'"
 description=""
 
 [[timeslots]]
 startTime="16:15"
-speakers=[]
-title="Break"
+speakers=["Erik Daniel"]
+title="Private Set Intersection for IPFS"
 description=""
 
 [[timeslots]]
-startTime="16:30"
+startTime="16:45"
 speakers=[]
-title="Open Slot"
+title="Open Discussion, or Panel (to be confirmed)"
+description=""
+
+[[timeslots]]
+startTime="17:15"
+speakers=[]
+title="End"
 description=""
