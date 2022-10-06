@@ -1,8 +1,7 @@
 [devent]
 
 # the name of the devent
-name="IPFS Camp 2022"
-seoDescription="IPFS Camp 2022 is a gathering for the entire IPFS community: devs, operators, implementers, researchers in Lisbon"
+name="IPFS Camp"
 
 # where the event is happening
 location="Convento do Beato, Lisbon, Portugal"
@@ -17,11 +16,15 @@ IPFS Camp 2022  is a gathering for the entire  IPFS community: devs, operators, 
 """
 
 description="""
-Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS. October 28-30, Lisbon, Portugal
+Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
+"""
+
+description="""
+Please reach out to camp@ipfs.io for more information if you would like to sponsor IPFS Camp 2022.
 """
 
 
-# a link to the devent website (what domain do you expect to use?) also used for canonical tag
+# a link to the devent website (what domain do you expect to use?)
 link="https://2022.ipfs.camp/"
 
 # a link to get tickets
@@ -35,8 +38,6 @@ speakLink="https://airtable.com/shrOxmXUqwojf0Bjj"
 
 # a link to the recap and videos
 # recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"
-
-ogImage="/ipfs-camp-og.png"
 
 # a link to a logo image for the event
 logo="ipfs-camp-logo.svg"
@@ -98,12 +99,7 @@ teams = [
 IPFS Camp 2022 is a gathering for the entire IPFS community: builders, operators, researchers… and you! There will be talks, workshops, discussion circles, hacking time, and more — all focused on celebrating and advancing IPFS. 
 """
 "Who is it for? Why should I attend?" = """
-IPFS Camp is for everyone who would like to build the Distributed Web together. The 3-day event is designed for a broad range of interests and experience via multiple, parallel tracks. You can expect to…
-    - Meet IPFS creators, maintainers, builders & operators
-    - Learn about progress & plans for IPFS & libp2p
-    - Join discussions and workshops on key goals and challenges
-    - Share your work in building the Distributed Web
-    - Learn how you can contribute to IPFS & grow your own IPFS-based projects
+IPFS Camp is for everyone who would like to build the Distributed Web together. The 3-day event is designed for a broad range of interests and experience via multiple, parallel tracks. You can expect to… meet IPFS creators, maintainers, builders & operators, learn about progress & plans for IPFS & libp2p, Join discussions and workshops on key goals and challenges, share your work in building the Distributed Web and learn how you can contribute to IPFS & grow your own IPFS-based projects.
 """
 "Sounds great! How do I participate?" = """
 If you don’t have a ticket yet, head to the Tickets section to purchase a ticket or apply for a discounted one.
@@ -256,7 +252,7 @@ link = "https://airtable.com/shrum6nLOI23vwIcJ"
 name = "IPFS Scholars"
 price = "(Free)"
 description = "This program provides entry, flights, and accommodation for individuals from underrepresented communities, unique circumstances, or developing areas to connect with and contribute to the IPFS ecosystem."
-linkLabel = "Apply to IPFS Scholars Program"
+linkLabel = "Sold out!"
 link = "https://airtable.com/shrd4kSljHYHxmU1b"
 
 # Tracks Section
