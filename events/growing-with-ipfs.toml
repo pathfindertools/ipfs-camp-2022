@@ -51,73 +51,55 @@ title="Welcome standup discussion"
 description=""
 
 [[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
+speakers=["James Tunningley"]
+title="Welcome Remarks"
 description=""
 
 [[timeslots]]
-startTime="10:45"
+startTime="10:10"
+speakers=["Daniel Norman"]
+title="Turning your IPFS ideas into reality as a builder"
+description=""
+
+[[timeslots]]
+startTime="10:30"
+speakers=["Niki Gokani, Erin OConnor, Dawn Kelly"]
+title="Getting started: Hackathons & Grants"
+description=""
+
+[[timeslots]]
+startTime="10:50"
+speakers=["Nandit Mehra"]
+title="Succeeding with IPFS with the Founder of Lighthouse"
+description=""
+
+[[timeslots]]
+startTime="11:15"
 speakers=[]
-title="Open Slot"
+title="Coffee Break"
 description=""
 
 [[timeslots]]
 startTime="11:30"
-speakers=[]
-title="Break"
+speakers=["Ruben"]
+title="Beyond Hackathons: Making your startup a reality (Accelerators & Investment)"
 description=""
 
 [[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
+startTime="11:55"
+speakers=["Lacey (moderator), Shaun Johnson (Tachyon), Carlos Silva (Faber)"]
+title="[Panel] Investing, Web3 Business Models & Failcon"
 description=""
 
 [[timeslots]]
 startTime="12:30"
 speakers=[]
-title="Open Slot"
+title="How to get hired in the ecosystem"
 description=""
 
 [[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
+startTime="12:45"
+speakers=["James Tunningley + key PL speakers, i.e. Daniel, Sonia, Erin, Ruben, Lacey, tbc talent POC"]
+title="Open Q&A (Growing with IPFS Track)"
 description=""
