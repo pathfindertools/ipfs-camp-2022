@@ -1,37 +1,33 @@
 # the name of your track or event
-name = "Learning IPFS 101"
+name = "Measurement and Performance Unconf"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "DeveloperAlly"
+dri = "Yiannis Psaras"
 
 # the start date of the event
-date = "2022-10-28"
+date = "2022-10-29"
 
 # how many days the event lasts (1 - N)
 days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 13:00"
+times = "14:00 - 17:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "Beginner"
+difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks"]
+tags = ["Unconf"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
 
 # a description of the track.
 # will show up when the user clicks the event card.
-description = """
-  a hands on session on getting started with IPFS, including what it 
-  is, how to set up an IPFS node, CLI commands, pinning, gateways and more. 
-  If you've been wanting to try out IPFS - now's your chance!
-"""
+description = ""
 
 # schedule is an array of timeslots objects
 # schema:
