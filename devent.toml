@@ -98,12 +98,7 @@ teams = [
 IPFS Camp 2022 is a gathering for the entire IPFS community: builders, operators, researchers… and you! There will be talks, workshops, discussion circles, hacking time, and more — all focused on celebrating and advancing IPFS. 
 """
 "Who is it for? Why should I attend?" = """
-IPFS Camp is for everyone who would like to build the Distributed Web together. The 3-day event is designed for a broad range of interests and experience via multiple, parallel tracks. You can expect to…
-    - Meet IPFS creators, maintainers, builders & operators
-    - Learn about progress & plans for IPFS & libp2p
-    - Join discussions and workshops on key goals and challenges
-    - Share your work in building the Distributed Web
-    - Learn how you can contribute to IPFS & grow your own IPFS-based projects
+IPFS Camp is for everyone who would like to build the Distributed Web together. The 3-day event is designed for a broad range of interests and experience via multiple, parallel tracks. You can expect to… Meet IPFS creators, maintainers, builders & operators; Learn about progress & plans for IPFS & libp2p; Join discussions and workshops on key goals and challenges; Share your work in building the Distributed Web; Learn how you can contribute to IPFS & grow your own IPFS-based projects.
 """
 "Sounds great! How do I participate?" = """
 If you don’t have a ticket yet, head to the Tickets section to purchase a ticket or apply for a discounted one.
