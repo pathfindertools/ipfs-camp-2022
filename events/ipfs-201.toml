@@ -104,13 +104,13 @@ description="An overview of how the [ipfs-geoip](https://github.com/ipfs-shipyar
 startTime="14:15"
 speakers=["Horacio Herrera"]
 title="Local-First, Multi-Device Applications With IPFS"
-description="In this talk, we'd like to share the ideas and technical approaches we came up with while building Mintter on top of IPFS for the past 2.5 years. Some of the challenges we faced didn’t have easy, or plug-and-play solutions at the time, such as multi-device, decentralized identity, version control, etc. Mintter is a hypertext system for knowledge management in open discussion groups. While working on the product, we were greatly inspired by the work of the founding fathers of hypertext: Doug Engelbart, Ted Nelson and others."
+description="In this talk, we'd like to share the ideas and technical approaches we came up with while building [Mintter](https://mintter.com/) on top of IPFS for the past 2.5 years. Some of the challenges we faced didn’t have easy, or plug-and-play solutions at the time, such as multi-device, decentralized identity, version control, etc. Mintter is a hypertext system for knowledge management in open discussion groups. While working on the product, we were greatly inspired by the work of the founding fathers of hypertext: Doug Engelbart, Ted Nelson and others."
 
 [[timeslots]]
 startTime="14:40"
 speakers=["Chris Anderson"]
 title="UCAN Build Apps with IPFS"
-description=""
+description="Learn how content addressed user-centric protocols like IPFS, [DID](https://www.w3.org/TR/did-core/), and [UCAN](https://ucan.xyz/) will change the web, and how to build Node.js applications using them. \n\n The [web3.storage](https://web3.storage/) team will share the latest APIs and walk you through building your own application data model. Start with DID-based self-sovereign auth, a great opportunity to learn about the next wave of digital identity, and write code to upload files as well as JSON objects. They'll discuss IPFS data structures like IPLD trees and graphs, and how they can be used in applications."
 
 [[timeslots]]
 startTime="15:30"
