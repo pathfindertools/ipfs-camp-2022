@@ -28,7 +28,7 @@ tags = ["Talks"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-  Approaches and protocols to content routing in IPFS, what we've learned so far, and talks about possible directions for the future.
+  Approaches and protocols to content routing in IPFS, what we've learned so far, and directions for the future.
 """
 
 # schedule is an array of timeslots objects
@@ -46,78 +46,66 @@ description = """
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
+speakers=[]
+title="Arrival / Breakfast"
 description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
+speakers=["@willscott"]
+title="Track Intro"
 description=""
+
+[[timeslots]]
+startTime="10:15"
+speakers=["@masih", "@guseggert", "@ajnavarro"]
+title="State of Content Routing"
+description="What's going on with DHTs, hydras, indexers, and reframe"
 
 [[timeslots]]
 startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@gammazero"]
+title="Scaling content routing"
+description="How many CIDs are there, and what are the open scaling questions in content routing?"
 
 [[timeslots]]
-startTime="11:30"
+startTime="11:00"
 speakers=[]
 title="Break"
 description=""
 
 [[timeslots]]
+startTime="11:15"
+speakers=["@ischasny"]
+title="Workshop: Indexed content routing"
+description="Explore Kubo delegated routing to publish and query indexers"
+
+[[timeslots]]
 startTime="11:45"
+speakers=["@guseggert", "@willscott", "TBD"]
+title="Panel: the future of content routing"
+description="How could inter-planetary content routing continue to evolve going forward?"
+
+[[timeslots]]
+startTime="12:15"
 speakers=[]
-title="Open Slot"
+title="Break"
 description=""
 
 [[timeslots]]
 startTime="12:30"
 speakers=[]
-title="Open Slot"
+title="TBA"
 description=""
+
+[[timeslots]]
+startTime="12:45"
+speakers=["@elijaharita"]
+title="Keeping Estuary Content Available"
+description="How Estuary keeps content available today and in the future"
 
 [[timeslots]]
 startTime="13:00"
 speakers=[]
 title="Lunch Break"
-description=""
-
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
 description=""
