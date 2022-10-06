@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Learning IPFS 101"
+name = "IPFS 101 / User Apps on IPFS"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -12,7 +12,7 @@ date = "2022-10-28"
 days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 13:00"
+times = "13:00 - 17:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -47,79 +47,61 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
 startTime="13:00"
-speakers=[]
-title="Lunch Break"
+speakers=["Ryan Baumann"]
+title="Breaking Free of the Client-Server Model with IPFS"
 description=""
 
 [[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
+startTime="13:30"
+speakers=["Lindsay Walker"]
+title="Hands On with IPFS - Installing, using the CLI and implementing kubo in a boilerplate app"
 description=""
 
 [[timeslots]]
 startTime="14:45"
+speakers=["Hugo Valtier (Jorropo)"]
+title="Why Build on IPFS?"
+description=""
+
+[[timeslots]]
+startTime="15:00"
 speakers=[]
-title="Open Slot"
+title="Skiff - web3 email, drive & docs"
 description=""
 
 [[timeslots]]
 startTime="15:30"
 speakers=[]
-title="Open Slot"
+title="Huddle01"
+description=""
+
+[[timeslots]]
+startTime="16:00"
+speakers=[]
+title="Openlinks - web3 Linktree"
 description=""
 
 [[timeslots]]
 startTime="16:15"
 speakers=[]
-title="Break"
+title="Portrait.gg"
 description=""
 
 [[timeslots]]
 startTime="16:30"
 speakers=[]
-title="Open Slot"
+title="NIMI.eth"
+description=""
+
+[[timeslots]]
+startTime="16:45"
+speakers=[]
+title="Endless Jewellery"
+description=""
+
+[[timeslots]]
+startTime="16:55"
+speakers=[]
+title="Wrap up"
 description=""
