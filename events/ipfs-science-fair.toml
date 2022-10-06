@@ -12,7 +12,7 @@ date = "2022-10-28"
 days = 1
 
 # the event times (shows up in the event card)
-times = "17:00 - 21:00"
+times = "17:00 - 19:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -20,7 +20,7 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-# tags = ["Talks", "Workshops"]
+tags = ["Science Fair"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
