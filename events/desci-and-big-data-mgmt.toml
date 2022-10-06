@@ -47,79 +47,55 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
+startTime="12:00"
+speakers=["Niklas Rindtorff"]
+title="LabDAO (DeSci, LabDAO Overview, Partnership, etc.)"
 description=""
 
 [[timeslots]]
 startTime="12:30"
-speakers=[]
-title="Open Slot"
+speakers=["Wes Floyd"]
+title="Bacalhau (Overview and DeSci Use Cases)"
 description=""
 
 [[timeslots]]
 startTime="13:00"
-speakers=[]
-title="Lunch Break"
+speakers=["Martin Karlsen"]
+title="Lateral (Discourse Graphs w/Ceramic)"
+description=""
+
+[[timeslots]]
+startTime="13:20"
+speakers=["Shady el Damaty"]
+title="Holonym or OpSci?"
+description=""
+
+[[timeslots]]
+startTime="13:40"
+speakers=["Gordon Gould"]
+title="New Atlantis"
 description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Open Slot"
+speakers=["Nate Jacobs"]
+title="Publications Group"
 description=""
 
 [[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
+startTime="14:20"
+speakers=["Carla .."]
+title="DeSci Labs"
 description=""
 
 [[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
+startTime="14:40"
 speakers=[]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
+startTime="15:00"
+speakers=["LabDAO + Bacalhau"]
+title="Workshop (details tbd, 60-90m)"
 description=""
