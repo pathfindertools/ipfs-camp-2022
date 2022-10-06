@@ -54,7 +54,7 @@ description="Dapps are all the rave, but there's no consensus about how they sho
 
 [[timeslots]]
 startTime="10:20"
-speakers=[""]
+speakers=["Boris Mann"]
 title="Fission & The WebNative SDK"
 description=""
 
@@ -71,14 +71,14 @@ title="☕️ Break"
 description=""
 
 [[timeslots]]
-startTime="11:25"
+startTime="11:30"
 speakers=["Alex Potsides"]
 title="Debugging js-ipfs and js-libp2p Like a Pro"
-description=""
+description="The lead maintainer of js-ipfs and js-libp2p will share tips and tricks for debugging js-ipfs"
 
 [[timeslots]]
 startTime="12:05"
-speakers=[""]
+speakers=["Brendan O'Brien (b5)", "Brooklyn Zelenka", "Carson Farmer", "Sara Feenan"]
 title="Panel: State of the IPFS DevTools ecosystem"
 description=""
 
@@ -86,7 +86,7 @@ description=""
 startTime="12:45"
 speakers=["Mauve Signweaver"]
 title="What is IPLD Anyway?"
-description=""
+description="This talk will go over what IPLD is, how lenses like Schemas and Advanced Data Layouts work, and why they could be useful for your application."
 
 [[timeslots]]
 startTime="13:00"
@@ -98,34 +98,40 @@ description=""
 startTime="14:00"
 speakers=["Lidel"]
 title="Using the DAG API to efficiently fetch geoip data with IPFS"
-description=""
+description="An overview of how the [ipfs-geoip](https://github.com/ipfs-shipyard/ipfs-geoip) library works and the recent refactor to use the DAG API."
 
 [[timeslots]]
-startTime="14:20"
+startTime="14:15"
 speakers=["Horacio Herrera"]
 title="Local-First, Multi-Device Applications With IPFS"
-description=""
+description="In this talk, we'd like to share the ideas and technical approaches we came up with while building Mintter on top of IPFS for the past 2.5 years. Some of the challenges we faced didn’t have easy, or plug-and-play solutions at the time, such as multi-device, decentralized identity, version control, etc. Mintter is a hypertext system for knowledge management in open discussion groups. While working on the product, we were greatly inspired by the work of the founding fathers of hypertext: Doug Engelbart, Ted Nelson and others."
 
 [[timeslots]]
-startTime="14:45"
+startTime="14:40"
 speakers=["Chris Anderson"]
 title="UCAN Build Apps with IPFS"
 description=""
 
 [[timeslots]]
-startTime="15:40"
+startTime="15:30"
 speakers=[]
 title="☕️ Break"
 description=""
 
 [[timeslots]]
-startTime="15:50"
+startTime="15:45"
 speakers=["Hector Sanjuan"]
 title="State without consensus: introduction to Merkle-CRDTs on IPFS"
-description=""
+description="Merkle-DAGs are fun, but even more  when they can be used to compute an ever-evolving state (i.e. a database) collaboratively maintained by a set of peers that may come and go as they please. Join us to learn about Merkle-CRDTs, what use-cases they fit and how they power things like IPFS Cluster pinset distribution."
 
 [[timeslots]]
-startTime="16:40"
+startTime="16:15"
+speakers=["Manfred Touron"]
+title="What's next for the Berty Protocol"
+description="Most people aware of Berty won't know that we've made an underlying protocol that could power many other projects. We want to change that and help more builders to create powerful dApps. Let's look at what problems we're addressing and how."
+
+[[timeslots]]
+startTime="16:35"
 speakers=[""]
 title="TBD"
 description=""

@@ -187,7 +187,7 @@ export function EventModal({ children, event }) {
               <span class="sr-only">Close modal</span>
             </button>
           </div>
-          <Modal.Body className="rounded-b space-y-6 overflow-y-scroll max-h-[70vh] pb-6">
+          <Modal.Body className="rounded-b space-y-6 overflow-y-scroll max-h-[90vh] pb-6">
             <ul className="list-disc ml-4">
               <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
               <li><b>Times</b>: {event.times}</li>
@@ -225,20 +225,20 @@ function TimeslotTable({ timeslots }) {
       <table className="w-full text-sm text-left text-white">
         <thead className="text-xs text-gray-700 uppercase text-white">
           <tr className="border-b border-white/20">
-            <th scope="col" className="px-6 py-3">time</th>
-            <th scope="col" className="px-6 py-3">speaker</th>
-            <th scope="col" className="px-6 py-3">info</th>
+            <th scope="col" className="px-2 md:px-6 py-3">time</th>
+            <th scope="col" className="px-2 md:px-6 py-3">speaker</th>
+            <th scope="col" className="px-2 md:px-6 py-3">info</th>
           </tr>
         </thead>
         <tbody>
           {timeslots.map((timeslot, i) => (
-            <tr key={i} className="">
-              <th scope="row" className="px-6 pt-4 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
-              <td className="px-6 pt-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
-              <td className="px-6 pt-4">
+            <tr key={i} className="even:bg-cyan-900">
+              <th scope="row" className="px-2 md:px-6 pt-4 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
+              <td className="px-2 md:px-6 pt-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
+              <td className="px-2 md:px-6 pt-4">
                 <span className="font-bold">{timeslot.title}</span>
                 <br/>
-                <p>{timeslot.description}</p>
+                <p><Markdown>{timeslot.description}</Markdown></p>
               </td>
             </tr>
           ))}
