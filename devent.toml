@@ -20,6 +20,10 @@ description="""
 Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS. October 28-30, Lisbon, Portugal
 """
 
+description="""
+Please reach out to camp@ipfs.io if you would like to sponsor IPFS Camp 2022.
+"""
+
 
 # a link to the devent website (what domain do you expect to use?) also used for canonical tag
 link="https://2022.ipfs.camp/"
