@@ -233,9 +233,9 @@ function TimeslotTable({ timeslots }) {
         <tbody>
           {timeslots.map((timeslot, i) => (
             <tr key={i} className="even:bg-cyan-900">
-              <th scope="row" className="px-2 md:px-6 pt-4 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
-              <td className="px-2 md:px-6 pt-4 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
-              <td className="px-2 md:px-6 pt-4">
+              <th scope="row" className="px-2 md:px-6 py-2 font-medium text-white align-top whitespace-nowrap">{timeslot.startTime}</th>
+              <td className="px-2 md:px-6 py-2 align-top">{timeslot.speakers && timeslot.speakers.join(", ")}</td>
+              <td className="px-2 md:px-6 py-2">
                 <span className="font-bold">{timeslot.title}</span>
                 <br/>
                 <p><Markdown>{timeslot.description}</Markdown></p>
