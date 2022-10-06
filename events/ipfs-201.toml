@@ -108,7 +108,7 @@ description="In this talk, we'd like to share the ideas and technical approaches
 
 [[timeslots]]
 startTime="14:40"
-speakers=["Chris Anderson"]
+speakers=["Chris Anderson", "David Choi", "Alan Shaw"]
 title="UCAN Build Apps with IPFS"
 description="Learn how content addressed user-centric protocols like IPFS, [DID](https://www.w3.org/TR/did-core/), and [UCAN](https://ucan.xyz/) will change the web, and how to build Node.js applications using them. \n\n The [web3.storage](https://web3.storage/) team will share the latest APIs and walk you through building your own application data model. Start with DID-based self-sovereign auth, a great opportunity to learn about the next wave of digital identity, and write code to upload files as well as JSON objects. They'll discuss IPFS data structures like IPLD trees and graphs, and how they can be used in applications."
 
