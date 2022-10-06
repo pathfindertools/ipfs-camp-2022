@@ -29,7 +29,7 @@ tags = ["Talks"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-  Getting and sending content. Moving data across the wire.
+  How do IPFS nodes request, send, and receive content? How does data move efficiently across the wire? Let's learn the state of the art in data transfer, and explore directions for future improvements.
 """
 
 # schedule is an array of timeslots objects
