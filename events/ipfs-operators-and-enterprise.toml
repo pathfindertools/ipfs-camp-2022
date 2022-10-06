@@ -46,37 +46,79 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime=""
-speakers=["Sara Freenan"]
-title="Build the web we want"
+startTime="09:00"
+speakers=["@speaker_name", "@other_speaker_name"]
+title="Welcome standup discussion"
 description=""
 
 [[timeslots]]
-startTime=""
-speakers=["Thibault Meunier"]
-title="Secure your IPFS website"
+startTime="09:30"
+speakers=["@yourname"]
+title="Track Intro"
 description=""
 
 [[timeslots]]
-startTime=""
-speakers=["Jay Graber"]
-title="TBD"
+startTime="10:00"
+speakers=[]
+title="Open Slot"
 description=""
 
 [[timeslots]]
-startTime=""
-speakers=["Héctor Sanjuán"]
-title="Pinset orchestration with IPFS Cluster"
+startTime="10:45"
+speakers=[]
+title="Open Slot"
 description=""
 
 [[timeslots]]
-startTime=""
-speakers=["Oleg Silkin"]
-title="What Kubernetes Operators Do That Regular Deployments Do Not"
+startTime="11:30"
+speakers=[]
+title="Break"
 description=""
 
 [[timeslots]]
-startTime=""
-speakers=["Alan Shaw"]
-title="Elastic IPFS - The scales are off the charts."
+startTime="11:45"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="12:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="13:00"
+speakers=[]
+title="Lunch Break"
+description=""
+
+[[timeslots]]
+startTime="14:00"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="14:45"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=[]
+title="Open Slot"
+description=""
+
+[[timeslots]]
+startTime="16:15"
+speakers=[]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="16:30"
+speakers=[]
+title="Open Slot"
 description=""
