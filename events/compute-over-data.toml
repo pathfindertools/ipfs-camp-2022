@@ -53,21 +53,21 @@ description=""
 
 [[timeslots]]
 startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
+speakers=["David Aronchik, Wes Floyd"]
+title="Keynote & Overview Survey"
 description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
+speakers=["Eric Evenchick"]
+title="Warpforge — Hashes go in, hashes come out, exec in the middle!"
 description=""
 
 [[timeslots]]
 startTime="10:45"
-speakers=[]
+speakers=["David Aronchik, Wes Floyd"]
 title="Open Slot"
-description=""
+description="Bacalhau — Bringing the Compute to the Data!"
 
 [[timeslots]]
 startTime="11:30"
@@ -77,14 +77,14 @@ description=""
 
 [[timeslots]]
 startTime="11:45"
-speakers=[]
-title="Open Slot"
+speakers=["@warpfork"]
+title="Zapps — A new standard for go-anywhere linux executables"
 description=""
 
 [[timeslots]]
 startTime="12:30"
 speakers=[]
-title="Open Slot"
+title="Break"
 description=""
 
 [[timeslots]]
@@ -96,7 +96,7 @@ description=""
 [[timeslots]]
 startTime="14:00"
 speakers=[]
-title="Open Slot"
+title="Roundcircle Hour 1 — Bring your topics!"
 description=""
 
 [[timeslots]]
@@ -107,8 +107,8 @@ description=""
 
 [[timeslots]]
 startTime="15:30"
-speakers=[]
-title="Open Slot"
+speakers=["@warpfork"]
+title="Solving the One Hard Problem — Naming Things — With Catalogs"
 description=""
 
 [[timeslots]]
@@ -120,5 +120,5 @@ description=""
 [[timeslots]]
 startTime="16:30"
 speakers=[]
-title="Open Slot"
+title="Roundcircle Hour 2 — Bring your topics!"
 description=""
