@@ -153,10 +153,12 @@ image = "speakers/ruben-amenyogbo.jpg"
 [[speakers]]
 name = "Dietrich Ayala"
 company = "Protocol Labs"
+twitterProfile="dietrich"
 image = "speakers/dietrich-ayala.jpg"
 [[speakers]]
 name = "Juan Benet"
 company = "Protocol Labs"
+twitterProfile="juanbenet"
 image = "speakers/juan-benet.jpg"
 [[speakers]]
 name = "Tanguy Cizain"
@@ -165,59 +167,113 @@ image = "speakers/tanguy-cizain.jpg"
 [[speakers]]
 name = "Carson Farmer"
 company = "Textile"
+twitterProfile="carsonfarmer"
 image = "speakers/carson-farmer.jpg"
 [[speakers]]
 name = "Sara Feenan"
 company = "Infura"
+twitterProfile="saronimo"
 image = "speakers/sara-feenan.jpg"
 [[speakers]]
 name = "Wes Floyd"
 company = "Protocol Labs"
+twitterProfile="weswfloyd"
 image = "speakers/wes-floyd.jpg"
 [[speakers]]
 name = "Hannah Howard"
 company = "Protocol Labs"
+twitterProfile="techgirlwonder"
 image = "speakers/hannah-howard.jpg"
 [[speakers]]
 name = "Michelle Lee"
 company = "Protocol Labs"
+twitterProfile="mishmosh"
 image = "speakers/michelle_lee.jpg"
 [[speakers]]
 name = "Molly Mackinlay"
 company = "Protocol Labs"
+twitterProfile="momack28"
 image = "speakers/molly-mackinlay.jpg"
 [[speakers]]
 name = "Boris Mann"
 company = "FISSION"
+twitterProfile="bmann"
 image = "speakers/boris-mann.jpg"
 [[speakers]]
 name = "Ranger Mauve"
 company = "Agregore Browser"
+twitterProfile="RangerMauve"
 image = "speakers/mauve-signweaver.jpg"
 [[speakers]]
 name = "Cayman Nava"
 company = "ChainSafe Systems"
+twitterProfile="caymannan"
 image = "speakers/cayman-nava.jpg"
 [[speakers]]
 name = "Brendan O'Brien"
 company = "Number Zero"
+twitterProfile="b_fiive"
 image = "speakers/brendan-obrien.jpg"
 [[speakers]]
 name = "Camila Ramos"
 company = "PlanetScale, Women Build Web 3"
+twitterProfile="camiinthisthang"
 image = "speakers/camila-ramos.jpg"
 [[speakers]]
 name = "Marcin Rataj"
 company = "Protocol Labs"
+twitterProfile="lidelOrg"
 image = "speakers/marcin-rataj.jpg"
 [[speakers]]
 name = "Niklas Rindtorff"
 company = "LabDAO"
+twitterProfile="Niklas_TR"
 image = "speakers/niklas-rindtorff.jpg"
 [[speakers]]
 name = "Brooklyn Zelenka"
 company = "FISSION"
+twitterProfile="expede"
 image = "speakers/brooklyn-zelenka.jpg"
+[[speakers]]
+name = "Alex Potsides"
+company = "Protocol Labs"
+twitterProfile="achingbrain"
+image = "speakers/alex-potsides.jpg"
+[[speakers]]
+name = "Gorka Ludlow"
+twitterProfile="AquiGorka"
+company = "Gather"
+image = "speakers/gorka-ludlow.png"
+[[speakers]]
+name = "Horacio Herrera"
+company = "Mintter"
+twitterProfile="hhg2288"
+image = "speakers/horacio-herrera.jpg"
+[[speakers]]
+name = "Chris Anderson"
+company = "DAG House"
+twitterProfile="jchris"
+image = "speakers/chris-anderson.jpg"
+[[speakers]]
+name = "Hector Sanjuan"
+company = "Protocol Labs"
+twitterProfile="hecturchi"
+image = "speakers/hector-sanjuan.png"
+[[speakers]]
+name = "Manfred Touron"
+company = "Berty Technologies"
+twitterProfile="moul"
+image = "speakers/manfred-touron.png"
+[[speakers]]
+name = "Rüdiger Klaehn"
+company = "Independent Software Engineer"
+image = "speakers/rudiger-klaehn.jpg"
+[[speakers]]
+name = "Daniel Norman"
+twitterProfile="daniel2color"
+company = "Protocol Labs"
+image = "speakers/daniel-norman.jpg"
+
 
 # Ticket Items
 #
