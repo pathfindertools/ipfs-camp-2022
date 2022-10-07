@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Browsers"
+name = "Browsers & Platforms"
 
 # the name handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -33,7 +33,8 @@ tags = ["Talks"]
 # will show up when the user clicks the event card.
 description = """
   Learn the current status, ongoing challenges, and upcoming work 
-  to integrate IPFS and related technologies into browsers and the web itself.
+  to integrate IPFS and related technologies into browsers and the web itself,
+  operating systems and other libraries, toolkits, environments and more.
 """
 
 # schedule is an array of timeslots objects
@@ -51,78 +52,79 @@ description = """
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
+speakers=["@autonome"]
+title="Welcome and Introductions"
 description=""
 
 [[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
+startTime="TBD"
+speakers=["@lidel"]
+title="Gateways of the Future (and Now Too)"
+description="New features of the IPFS HTTP gateway, and where it's going: Not only fully trustless, verifiable retrieval (including IPNS!), but also data ingestion, authoring, and support beyond files and directories."
+
+[[timeslots]]
+startTime="TBD"
+speakers=["@javifernandez"]
+title="Chrome pre-defined Custom Handlers for IPFS"
+description="""
+High-level overview of the refactoring Implemented in Chrome's source code to define a dedicated component for the Custom Handlers logic. 
+
+Thanks to this refactoring, we have improved the support for Chrome embedders to implement their own pre-defined Custom Handlers for the schemes they consider strategic. 
+
+Patching Chrome to add a pre-defined Custom Handler to manage IPFS schemes is now trivial, reducing considerably the efforts of embedders to deal with rebases in order to sync with Chrome upstream.
+"""
+
+[[timeslots]]
+startTime="TBD"
+speakers=["@ikreymer"]
+title="Webrecorder"
 description=""
 
 [[timeslots]]
-startTime="10:00"
-speakers=[]
-title="Open Slot"
+startTime="TBD"
+speakers=["@rangermauve"]
+title="Agregore"
 description=""
 
 [[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
+startTime="TBD"
+speakers=["@markg85"]
+title="IPFS in All the Things"
 description=""
 
 [[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
+startTime="TBD"
+speakers=["@meandavidjustice"]
+title="IPFS Browser Extensions"
 description=""
 
 [[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
+startTime="TBD"
+speakers=["@onyb"]
+title="Brave browser (tbd)"
 description=""
 
 [[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
+startTime="TBD"
+speakers=["@fabricedesre"]
+title="Capyloon"
 description=""
 
 [[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
+startTime="TBD"
+speakers=["@autonome"]
+title="Turning the Biggest Ship: IPFS Browser Integrations and the Web Platform"
 description=""
 
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
+#[[timeslots]]
+#startTime="11:30"
+#speakers=[]
+#title="Break"
+#description=""
+#
+#[[timeslots]]
+#startTime="13:00"
+#speakers=[]
+#title="Lunch Break"
+#description=""
 
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
-description=""
