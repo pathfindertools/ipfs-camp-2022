@@ -5,16 +5,7 @@ on:
       - 'website/public/speakers/*.jpg'
       - 'website/public/speakers/*.jpeg'
       - 'website/public/speakers/*.png'
-  push:
-    branches:
-      - main
-    paths:
-      - 'website/public/speakers/*.jpg'
-      - 'website/public/speakers/*.jpeg'
-      - 'website/public/speakers/*.png'
   workflow_dispatch:
-  schedule:
-    - cron: '00 23 * * 0'
 jobs:
   build:
     name: calibreapp/image-actions
@@ -27,21 +18,13 @@ jobs:
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v2
+      - name: Resize images
+        uses: xprilion/img-resizer-inplace@v1
+        with:
+          target: "website/public/speakers"
+          dimensions: "300x"
       - name: Compress Images
         id: calibre
         uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
-          # For non-Pull Requests, run in compressOnly mode and we'll PR after.
-          compressOnly: ${{ github.event_name != 'pull_request' }}
-      - name: Create Pull Request
-        # If it's not a Pull Request then commit any changes as a new PR.
-        if: |
-          github.event_name != 'pull_request' &&
-          steps.calibre.outputs.markdown != ''
-        uses: peter-evans/create-pull-request@v3
-        with:
-          title: Auto Compress Images
-          branch-suffix: timestamp
-          commit-message: Compress Images
-          body: ${{ steps.calibre.outputs.markdown }}
