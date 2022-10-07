@@ -1,4 +1,4 @@
-const Speaker = ({ name, image, company }) => { 
+const Speaker = ({ name, image, company, twitterProfile }) => {
   return (
     <div className="mb-4 lg:mb-16">
       <div className="relative w-full mb-4" style={{ paddingTop: "120%"}} >
@@ -11,7 +11,9 @@ const Speaker = ({ name, image, company }) => {
         </div>
       </div>
       <div className="text-center">
-        <h3 className="text-body-lg text-white">{name}</h3>
+        <h3 className="text-body-lg text-white">
+          {twitterProfile ? (<a className="" href={`https://twitter.com/${twitterProfile}`}>{name}</a>) : name}
+          </h3>
         <p className="text-body1 text-navy">{company}</p>
       </div>
     </div>
@@ -50,7 +52,7 @@ export default function Speakers({ config }) {
         <div className="grid grid-cols-2 lg:grid-cols-6 gap-8 lg:gap-4 lg:p-16">
         {config.speakers.map((speaker, i) => {
             return (
-              <Speaker name={speaker.name} image={speaker.image} company={speaker.company} key={i} />
+              <Speaker name={speaker.name} image={speaker.image} company={speaker.company} twitterProfile={speaker.twitterProfile} key={i} />
             )
           })}
           <SpeakerButton link={config.devent.speakLink} />
