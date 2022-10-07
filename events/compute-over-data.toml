@@ -13,7 +13,7 @@ days = 1
 
 # the event times (shows up in the event card)
 #commenting out for now because this track isn't in the schedule
-#times = "13:00 - 17:00"
+times = "10:00 - 17:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -47,7 +47,7 @@ description = """
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
 startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
+speakers=[""]
 title="Welcome standup discussion"
 description=""
 
