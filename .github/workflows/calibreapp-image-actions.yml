@@ -1,4 +1,4 @@
-name: Compress images
+name: Resize and compress images
 on:
   pull_request:
     paths:
@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
 jobs:
   build:
-    name: calibreapp/image-actions
+    name: calibreapp-mogrify
     runs-on: ubuntu-latest
     # Only run on main repo on and PRs that match the main repo.
     if: |
