@@ -191,8 +191,7 @@ export function EventModal({ children, event }) {
             <ul className="list-disc ml-4">
               <li><b>Date</b>: {dateStr(event.date, event.days)}</li>
               <li><b>Times</b>: {event.times}</li>
-              <li><b>Organization</b>: {event.org}</li>
-              <li><b>Attendees</b>: {event.attendees} ({event.difficulty})</li>
+              <li><b>Attendees</b>: {event.attendees} {event.difficulty}</li>
             </ul>
             <div className="event-tags">
               {event.tags.map((tag, i) => (
