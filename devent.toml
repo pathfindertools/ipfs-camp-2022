@@ -273,6 +273,10 @@ name = "Daniel Norman"
 twitterProfile="daniel2color"
 company = "Protocol Labs"
 image = "speakers/daniel-norman.jpg"
+[[speakers]]
+name = "Matt Ober"
+company = "Pinata"
+image = "speakers/matt-ober.jpg"
 
 
 # Ticket Items
