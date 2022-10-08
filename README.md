@@ -28,6 +28,14 @@ A quick note: If you are submitting an event that is private, it may not show up
 
 If you've already created your event but want to add or change details in the .toml file, create a PR with your edit requests, along with any comments. The Spaceport team will review and merge your changes to the website.
 
+### Adding Speaker Photos
+
+To add speaker photos, create a PR with the following changes:
+1. Add headshot image(s) to the `website/public/speakers` folder.
+2. Update the [speakers section of devent.toml](https://github.com/pathfindertools/ipfs-camp-2022/blob/main/devent.toml#L149) with name, organization, and image filename.
+
+Image files will be automatically compressed once your PR is created.
+
 ### CSV dump of talks
 
 To get a dump of talks/speakers for custom analysis, you can:
