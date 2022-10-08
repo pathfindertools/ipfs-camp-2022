@@ -277,6 +277,10 @@ image = "speakers/daniel-norman.jpg"
 name = "Matt Ober"
 company = "Pinata"
 image = "speakers/matt-ober.jpg"
+[[speakers]]
+name = "Thibault Muenier"
+company = "Cloudflare"
+image = "speakers/thibault-muenier.png"
 
 
 # Ticket Items
