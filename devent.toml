@@ -281,6 +281,11 @@ image = "speakers/matt-ober.jpg"
 name = "Thibault Muenier"
 company = "Cloudflare"
 image = "speakers/thibault-muenier.png"
+[[speakers]]
+name = "Alan Shaw"
+company = "Protocol Labs"
+image = "speakers/alan-shaw.png"
+
 
 
 # Ticket Items
