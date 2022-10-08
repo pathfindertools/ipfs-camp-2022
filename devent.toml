@@ -273,6 +273,23 @@ name = "Daniel Norman"
 twitterProfile="daniel2color"
 company = "Protocol Labs"
 image = "speakers/daniel-norman.jpg"
+[[speakers]]
+name = "Matt Ober"
+company = "Pinata"
+image = "speakers/matt-ober.jpg"
+[[speakers]]
+name = "Thibault Muenier"
+company = "Cloudflare"
+image = "speakers/thibault-muenier.png"
+[[speakers]]
+name = "Alan Shaw"
+company = "Protocol Labs"
+image = "speakers/alan-shaw.png"
+[[speakers]]
+name = "Oleg Silkin"
+company = "Red Hat"
+image = "speakers/oleg-silkin.jpg"
+
 
 
 # Ticket Items
