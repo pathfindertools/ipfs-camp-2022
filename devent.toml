@@ -285,6 +285,10 @@ image = "speakers/thibault-muenier.png"
 name = "Alan Shaw"
 company = "Protocol Labs"
 image = "speakers/alan-shaw.png"
+[[speakers]]
+name = "Oleg Silkin"
+company = "Red Hat"
+image = "speakers/oleg-silkin.jpg"
 
 
 
