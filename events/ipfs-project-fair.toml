@@ -1,9 +1,9 @@
 # the name of your track or event
-name = "IPFS Science Fair"
+name = "IPFS Project Fair"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "Yuni Graham"
+dri = "Daryl Lim, Joey Sim"
 
 # the start date of the event
 date = "2022-10-28"
@@ -20,12 +20,12 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Science Fair"]
+tags = ["Demos"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = "Come browse an evening Science Fair of fun and fascinating IPFS projects!"
+description = "Come browse an evening Project Fair of fun and fascinating IPFS projects!"
 
