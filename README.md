@@ -6,7 +6,7 @@ https://2022.ipfs.camp/
 
 ## IPFS Camp 2022 Location and Dates
 
-IPFS Camp 2022 is happening October 28th to October 30th, in Lisbon.
+IPFS Camp 2022 is happening October 28th to October 30th, at Convento do Beato in Lisbon, Portugal.
 
 ## Submitting subevents
 
@@ -20,13 +20,13 @@ There are 2 templates you can choose from to submit a subevent:
 2. Create a new file and name it your-event-name.toml
 3. Fill in the template with details for your event.
 4. Create a PR to this repo to add this new file.
-5. The Spaceport team will review and merge your event into the website. 
+5. The IPFS Camp team will review and merge your event into the website. 
 
-A quick note: If you are submitting an event that is private, it may not show up on the website since most attendees will not be able to attend. If you'd like it to appear in the schedule for some reason, please leave a comment in your PR for the Spaceport team to review.
+A quick note: If you are submitting an event that is private, it may not show up on the website since most attendees will not be able to attend. If you'd like it to appear in the schedule for some reason, please leave a comment in your PR for the IPFS Camp team to review.
 
 ### Editing an Event
 
-If you've already created your event but want to add or change details in the .toml file, create a PR with your edit requests, along with any comments. The Spaceport team will review and merge your changes to the website.
+If you've already created your event but want to add or change details in the .toml file, create a PR with your edit requests, along with any comments. The IPFS Camp team will review and merge your changes to the website.
 
 ### CSV dump of talks
 
@@ -78,3 +78,8 @@ ipfs add -r out
 
 Publish to fleek:
 - https://blog.fleek.co/posts/fleek-nextJS
+
+Additional notes:
+- This repo is configured with build previews, which you can use to double-check your changes. After creating your PR, you should see "Show checks" > "fleek/build — Preview ready".
+- Image files, such as speaker headshots, are automatically compressed upon merge.
+- Merged PRs will automatically update the live website.
