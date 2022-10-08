@@ -73,9 +73,14 @@ want to help in whatever way we can.
 
 [[timeslots]]
 startTime="10:45"
-speakers=["Jay Graber (BlueSky)"]
-title=""
-description=""
+speakers=["Matt Ober"]
+title="Protecting IPFS gateways at scale"
+description="""
+IPFS gateways are an important portal into the IPFS network, but running publicly
+accessible IPFS gateways comes with great risk and responsibility. In this talk Matt
+will discuss common challenges that IPFS gateway operators will encounter and how
+Pinata has solved for them.
+"""
 
 [[timeslots]]
 startTime="11:30"
