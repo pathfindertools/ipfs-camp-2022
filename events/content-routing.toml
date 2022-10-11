@@ -83,8 +83,8 @@ description="Explore Kubo delegated routing to publish and query indexers"
 [[timeslots]]
 startTime="11:45"
 speakers=["@thibmeu"]
-title="TBA"
-description=""
+title="Where's bafy: gateway perspective on content routing"
+description="Content routing from a Gateway's perspective"
 
 
 [[timeslots]]
@@ -102,7 +102,7 @@ description="How Estuary keeps content available today and in the future"
 
 [[timeslots]]
 startTime="12:30"
-speakers=["@guseggert", "@willscott", "TBD"]
+speakers=["@guseggert", "@willscott", "@alanshaw"]
 title="Panel: the future of content routing"
 description="How could inter-planetary content routing continue to evolve going forward?"
 
