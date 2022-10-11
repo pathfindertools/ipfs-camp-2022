@@ -20,7 +20,7 @@ difficulty = "Intermediate"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Talks"]
+tags = ["Talks", "Workshops", "Panels"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
@@ -82,27 +82,29 @@ description="Explore Kubo delegated routing to publish and query indexers"
 
 [[timeslots]]
 startTime="11:45"
-speakers=["@guseggert", "@willscott", "TBD"]
-title="Panel: the future of content routing"
-description="How could inter-planetary content routing continue to evolve going forward?"
+speakers=["@thibmeu"]
+title="Where's bafy: gateway perspective on content routing"
+description="Content routing from a Gateway's perspective"
+
 
 [[timeslots]]
-startTime="12:15"
+startTime="12:00"
 speakers=[]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="12:30"
-speakers=[]
-title="TBA"
-description=""
-
-[[timeslots]]
-startTime="12:45"
+startTime="12:15"
 speakers=["@elijaharita"]
 title="Keeping Estuary Content Available"
 description="How Estuary keeps content available today and in the future"
+
+
+[[timeslots]]
+startTime="12:30"
+speakers=["@guseggert", "@willscott", "@alanshaw"]
+title="Panel: the future of content routing"
+description="How could inter-planetary content routing continue to evolve going forward?"
 
 [[timeslots]]
 startTime="13:00"
