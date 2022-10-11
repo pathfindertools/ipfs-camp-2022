@@ -1,4 +1,5 @@
-import Button from "./button";
+import Button from './button'
+import Markdown from './markdown'
 
 const Track = ({name, date, description, days}) => {
   const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
@@ -9,11 +10,16 @@ const Track = ({name, date, description, days}) => {
   return (
     <div className="flex gap-4 lg:gap-8 flex-col lg:flex-row">
       <div className="lg:w-1/3">
-        <p className="text-body1 mb-2">{day} {months[month]}</p>
-        <h4 className="text-h5 text-teal-400" >{name}</h4>
+        <p className="text-body1 mb-2">
+          {day} {months[month]}
+        </p>
+        <h4 className="text-h5 text-teal-400">{name}</h4>
       </div>
       <div className="lg:w-2/3 text-body1">
-        <p>{description} <a className="text-yellow-400" href="./#schedule">Details&nbsp;→</a> </p>
+        <Markdown>{description}</Markdown>
+        <a className="text-yellow-400" href="./#schedule">
+          Details&nbsp;→
+        </a>
       </div>
     </div>
   )
