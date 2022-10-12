@@ -56,6 +56,7 @@ speakers=["Eric Evenchick"]
 title="Warpforge — Hashes go in, hashes come out, exec in the middle!"
 description=""
 
+[[timeslots]]
 startTime="11:00"
 speakers=["David Aronchik", "Wes Floyd"]
 title="Bacalhau — Bringing the Compute to the Data!"
