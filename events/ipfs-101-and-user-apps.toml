@@ -57,7 +57,7 @@ description = """
 startTime="13:00"
 speakers=["Ryan Baumann"]
 title="Breaking Free of the Client-Server Model with IPFS"
-description="An Introduction to IPFS, it's key features and benefits"
+description="An Introduction to IPFS, its key features and benefits"
 
 [[timeslots]]
 startTime="13:30"
