@@ -288,7 +288,10 @@ image = "speakers/alan-shaw.png"
 name = "Oleg Silkin"
 company = "Red Hat"
 image = "speakers/oleg-silkin.jpg"
-
+[[speakers]]
+name = "Pasquale Sorrentino"
+company = "Gummys.io"
+image = "speakers/pasquale-sorrentino.png"
 
 
 # Ticket Items
