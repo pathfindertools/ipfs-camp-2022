@@ -5,16 +5,23 @@ on:
       - 'website/public/speakers/*.jpg'
       - 'website/public/speakers/*.jpeg'
       - 'website/public/speakers/*.png'
+  push:
+    branches:
+      - main
+    paths:
+      - 'website/public/speakers/*.jpg'
+      - 'website/public/speakers/*.jpeg'
+      - 'website/public/speakers/*.png'
   workflow_dispatch:
 jobs:
   build:
     name: calibreapp-mogrify
     runs-on: ubuntu-latest
     # Only run on main repo on and PRs that match the main repo.
-    # if: |
-    #   github.repository == 'pathfindertools/ipfs-camp-2022' &&
-    #   (github.event_name != 'pull_request' ||
-    #    github.event.pull_request.head.repo.full_name == github.repository)
+    if: |
+      github.repository == 'pathfindertools/ipfs-camp-2022' &&
+      (github.event_name != 'pull_request' ||
+       github.event.pull_request.head.repo.full_name == github.repository)
     steps:
       - name: Checkout Branch
         uses: actions/checkout@v2
@@ -28,3 +35,14 @@ jobs:
         uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+      - name: Create Pull Request
+        # If it's not a Pull Request then commit any changes as a new PR.
+        if: |
+          github.event_name != 'pull_request' &&
+          steps.calibre.outputs.markdown != ''
+        uses: peter-evans/create-pull-request@v3
+        with:
+          title: Auto Compress Images
+          branch-suffix: timestamp
+          commit-message: Compress Images
+          body: ${{ steps.calibre.outputs.markdown }}
