@@ -6,18 +6,17 @@ name = "Compute Over Data"
 dri = "Eric Myhre, David Aronchik"
 
 # the start date of the event
-date = "2022-10-28"
+date = "2022-10-29"
 
 # how many days the event lasts (1 - N)
 days = 1
 
 # the event times (shows up in the event card)
-#commenting out for now because this track isn't in the schedule
-times = "10:00 - 17:00"
+times = "10:00 - 13:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
-difficulty = "Intermediate"
+difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
@@ -46,45 +45,38 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=[""]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
+startTime="10:00"
 speakers=["David Aronchik, Wes Floyd"]
 title="Keynote & Overview Survey"
 description=""
 
 [[timeslots]]
-startTime="10:00"
+startTime="10:30"
 speakers=["Eric Evenchick"]
 title="Warpforge — Hashes go in, hashes come out, exec in the middle!"
 description=""
 
-[[timeslots]]
-startTime="10:45"
-speakers=["David Aronchik, Wes Floyd"]
-title="Open Slot"
-description="Bacalhau — Bringing the Compute to the Data!"
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
+startTime="11:00"
+speakers=["David Aronchik", "Wes Floyd"]
+title="Bacalhau — Bringing the Compute to the Data!"
 description=""
 
 [[timeslots]]
-startTime="11:45"
+startTime="11:30"
 speakers=["@warpfork"]
 title="Zapps — A new standard for go-anywhere linux executables"
 description=""
 
 [[timeslots]]
+startTime="12:00"
+speakers=["Zak Ayesh"]
+title="FVM -- The (EVM-Compatible!) Filecoin Virtual Machine"
+description=""
+
+[[timeslots]]
 startTime="12:30"
-speakers=[]
-title="Break"
+speakers=["@warpfork"]
+title="Solving the One Hard Problem — Naming Things — With Catalogs"
 description=""
 
 [[timeslots]]
@@ -93,32 +85,3 @@ speakers=[]
 title="Lunch Break"
 description=""
 
-[[timeslots]]
-startTime="14:00"
-speakers=[]
-title="Roundcircle Hour 1 — Bring your topics!"
-description=""
-
-[[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=["@warpfork"]
-title="Solving the One Hard Problem — Naming Things — With Catalogs"
-description=""
-
-[[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Roundcircle Hour 2 — Bring your topics!"
-description=""
