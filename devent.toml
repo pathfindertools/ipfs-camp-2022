@@ -13,13 +13,13 @@ dateEnd = "2022-10-30"
 
 # a pithy tag line you want to show in the "hero/splash" part of the landing page
 tagline="""
-IPFS Camp 2022  is a gathering for the entire  IPFS community: devs, operators, implementers,  researchers – and you!
+IPFS Camp 2022  is a gathering for the entire IPFS community: devs, operators, implementers,  researchers – and you!
 """
 
 description="""
-Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS. October 28-30, Lisbon, Portugal
+Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
 
-Please reach out to camp@ipfs.io if you would like to sponsor IPFS Camp 2022.
+October 28-30, Convento do Beato, Lisbon, Portugal
 """
 
 
