@@ -27,7 +27,11 @@ tags = ["Unconf"]
 
 # a description of the track.
 # will show up when the user clicks the event card.
-description = ""
+description = "A data-driven approach to the design and operation of IPFS and libp2p through rigorous network measurements, performance evaluation and recommendations for builders and operators.
+
+In this part of the track we will have breakout sessions on a number of different topics of interest to the wider community. We will look into our roadmap for 2023 and do live design work on the measurement experiments we plan to set up and run.
+
+If you have items that will help your project and which you want us to try and fit into our roadmap, this is the session to bring them up!"
 
 # schedule is an array of timeslots objects
 # schema:
@@ -43,79 +47,55 @@ description = ""
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
-
-[[timeslots]]
-startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=[]
-title="Break"
-description=""
-
-[[timeslots]]
-startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="13:00"
-speakers=[]
-title="Lunch Break"
-description=""
-
-[[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Open Slot"
+speakers=["Yiannis Psaras"]
+title="ProbeLab 2023 Roadmap"
 description=""
 
 [[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
+startTime="14:30"
+speakers=["Guillaume Michel"]
+title="Breakout 1.1: Bitswap Discovery Success Rate"
+description=""
+
+[[timeslots]]
+startTime="14:30"
+speakers=["Dennis Trautwein"]
+title="Breakout 1.2: Provider Records from the Hydra's PoV"
 description=""
 
 [[timeslots]]
 startTime="15:30"
-speakers=[]
-title="Open Slot"
+speakers=["Luca Nizzardo"]
+title="Breakout 2.1: Metrics DAO"
 description=""
 
 [[timeslots]]
-startTime="16:15"
-speakers=[]
-title="Break"
+startTime="15:30"
+speakers=["Joao Leitao"]
+title="Breakout 2.2: Understanding IPFS through Telemetry"
+description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=["Dennis Trautwein"]
+title="Breakout 3.1: All the Measurement Tools"
+description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=["Yiannis Psaras"]
+title="Breakout 3.2: IPNS and DHT Magic Numbers"
 description=""
 
 [[timeslots]]
 startTime="16:30"
+speakers=["All"]
+title="Report Backs and Open Slot for Discussion"
+description=""
+
+[[timeslots]]
+startTime="17:30"
 speakers=[]
-title="Open Slot"
+title="End"
 description=""
