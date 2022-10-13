@@ -44,29 +44,24 @@ description = """
 # - recommended end:   16:00 (On 30 Oct, 1h Camp wrapup begins at 16:00)
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
-[[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
-
-[[timeslots]]
-startTime="09:30"
-speakers=["@yourname"]
-title="Track Intro"
-description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["@jnthnvctr"]
+title="Track Intro"
+description="Opening talk to introduce the track and ideas."
+
+[[timeslots]]
+startTime="10:15"
+speakers=["Adam G"]
+title="Bringing web3 primitives to Unreal Engine"
+description="Studio 3S will share their insights around how they're supercharging Unreal Engine with web3 primitives."
 
 [[timeslots]]
 startTime="10:45"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["NFTPort"]
+title="Hands-on: Integrating web3 with Unity"
+description="The NFTPort team will give a hands on workshop demoing how you can use web3 tech natively with Unity."
 
 [[timeslots]]
 startTime="11:30"
@@ -76,48 +71,36 @@ description=""
 
 [[timeslots]]
 startTime="11:45"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["Crystal Mills", "Get Set Play", "Itsuki (Lync)", "DoubleJump"]
+title="Building community in gaming with web3"
+description="Crystal Mills will moderate a discussion across three teams building for different communities in web3."
 
 [[timeslots]]
 startTime="12:30"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["J Chris Anderson", "David Choi"]
+title="Onboarding dapps and game storage to web3"
+description="An open discussion with the leads of web3.storage on the challenges and opportunities they've observed building scalable infrastructure for web3."
 
 [[timeslots]]
 startTime="13:00"
 speakers=[]
-title="Lunch Break"
+title="Lunch"
 description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Open Slot"
-description=""
+speakers=["Tobias Petrasch"]
+title="Hammerspace: The Metaverse backpack"
+description="Tobias will give an overview of Hammerspace- along with the motivations, challenges, and solutions they've encountered building tools to enable cross platform assets."
 
 [[timeslots]]
-startTime="14:45"
-speakers=[]
-title="Open Slot"
-description=""
+startTime="14:30"
+speakers=["Shannon Wells"]
+title="Video and Metadata Standards with Livepeer"
+description="Shannon will share the learnings and observations from Livepeer, as they work across ecosystems to help steward shared open standards."
 
 [[timeslots]]
-startTime="15:30"
-speakers=[]
-title="Open Slot"
-description=""
-
-[[timeslots]]
-startTime="16:15"
+startTime="15:00"
 speakers=[]
 title="Break"
-description=""
-
-[[timeslots]]
-startTime="16:30"
-speakers=[]
-title="Open Slot"
 description=""
