@@ -53,40 +53,46 @@ title="Track introduction"
 description="Dapps are all the rave, but there's no consensus about how they should be built. \n\n There's a cambrian explosion of developer tools and many emerging design patterns using IPFS. This introduction will set the stage for some of the fantastic speakers we have during the day who'll be sharing the state of the art in app design patterns and developer tools."
 
 [[timeslots]]
-startTime="10:20"
+startTime="10:10"
 speakers=["Boris Mann"]
 title="Fission & The WebNative SDK"
 description=""
 
 [[timeslots]]
-startTime="10:50"
+startTime="10:35"
 speakers=["Carson Farmer"]
 title="Introduction to Tableland"
 description=""
 
 [[timeslots]]
-startTime="11:20"
-speakers=[]
-title="☕️ Break"
-description=""
-
-[[timeslots]]
-startTime="11:30"
+startTime="11:00"
 speakers=["Alex Potsides"]
 title="Debugging js-ipfs and js-libp2p Like a Pro"
 description="The lead maintainer of js-ipfs and js-libp2p will share tips and tricks for debugging js-ipfs"
 
 [[timeslots]]
-startTime="12:05"
+startTime="11:35"
+speakers=[]
+title="☕️ Break"
+description=""
+
+[[timeslots]]
+startTime="12:45"
 speakers=["Brendan O'Brien (b5)", "Brooklyn Zelenka", "Carson Farmer", "Sara Feenan"]
 title="Panel: State of the IPFS DevTools ecosystem"
 description=""
 
 [[timeslots]]
-startTime="12:45"
+startTime="12:25"
 speakers=["Mauve Signweaver"]
 title="What is IPLD Anyway?"
 description="This talk will go over what IPLD is, how lenses like Schemas and Advanced Data Layouts work, and why they could be useful for your application."
+
+[[timeslots]]
+startTime="12:40"
+speakers=["Jay Graber"]
+title="Bluesky and IPLD"
+description="[Bluesky](https://blueskyweb.org/), a decentralized social networking protocol, spun out of Twitter earlier this year. Come learn what we're up to and how we're using IPLD."
 
 [[timeslots]]
 startTime="13:00"
