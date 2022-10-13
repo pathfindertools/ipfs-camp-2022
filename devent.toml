@@ -241,6 +241,11 @@ company = "Protocol Labs"
 twitterProfile="achingbrain"
 image = "speakers/alex-potsides.jpg"
 [[speakers]]
+name = "Jay Graber"
+company = "Bluesky"
+twitterProfile="arcalinea"
+image = "speakers/jay-graber.jpog"
+[[speakers]]
 name = "Gorka Ludlow"
 twitterProfile="AquiGorka"
 company = "Gather"
@@ -276,6 +281,7 @@ company = "Protocol Labs"
 image = "speakers/daniel-norman.jpg"
 [[speakers]]
 name = "Matt Ober"
+twitterProfile="MattOber1"
 company = "Pinata"
 image = "speakers/matt-ober.jpg"
 [[speakers]]
@@ -284,6 +290,7 @@ company = "Cloudflare"
 image = "speakers/thibault-muenier.png"
 [[speakers]]
 name = "Alan Shaw"
+twitterProfile="_alanshaw"
 company = "Protocol Labs"
 image = "speakers/alan-shaw.png"
 [[speakers]]
@@ -292,8 +299,9 @@ company = "Red Hat"
 image = "speakers/oleg-silkin.jpg"
 [[speakers]]
 name = "Pasquale Sorrentino"
+twitterProfile="BNBGem"
 company = "Gummys.io"
-image = "speakers/pasquale-sorrentino.png"
+image = "speakers/pasquale-sorrentino.jpg"
 
 
 # Ticket Items
