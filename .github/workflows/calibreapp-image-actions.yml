@@ -12,6 +12,8 @@ on:
       - 'website/public/speakers/*.jpg'
       - 'website/public/speakers/*.jpeg'
       - 'website/public/speakers/*.png'
+  schedule:
+    - cron: '00 23 * * 0'
   workflow_dispatch:
 jobs:
   build:
@@ -35,6 +37,7 @@ jobs:
         uses: calibreapp/image-actions@main
         with:
           githubToken: ${{ secrets.GITHUB_TOKEN }}
+          compressOnly: ${{ github.event_name != 'pull_request' }}
       - name: Create Pull Request
         # If it's not a Pull Request then commit any changes as a new PR.
         if: |
