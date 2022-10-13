@@ -78,7 +78,7 @@ description="1. We’ll write a skeleton with dummy modules for IPFS Storage Plu
 
 [[timeslots]]
 startTime="15:00"
-speakers=["akshit Gupta"]
+speakers=["Akshit Gupta"]
 title="Leveraging Crypto Storage Primitives for building Huddle01’s DRTC"
 description="While utilizing IPFS/Filecoin for storing recordings of huddle01 meetings, we came across the need for a solution to be able to upload, share and monetize videos in a piracy-resistant way and how huddle01 is building this easy-to-use video Infrastructure to revolutionize video storage and decentralized tools for private video hosting using huddle01’s powerful SDK."
 
