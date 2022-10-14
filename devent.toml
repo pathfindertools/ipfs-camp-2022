@@ -256,6 +256,11 @@ company = "Mintter"
 twitterProfile="hhg2288"
 image = "speakers/horacio-herrera.jpg"
 [[speakers]]
+name = "Alexander Burdiyan"
+company = "Mintter"
+twitterProfile="burdiyan"
+image = "speakers/alexander-burdiyan.jpg"
+[[speakers]]
 name = "Chris Anderson"
 company = "DAG House"
 twitterProfile="jchris"
