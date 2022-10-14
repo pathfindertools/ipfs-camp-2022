@@ -108,7 +108,7 @@ description="An overview of how the [ipfs-geoip](https://github.com/ipfs-shipyar
 
 [[timeslots]]
 startTime="14:15"
-speakers=["Horacio Herrera"]
+speakers=["Horacio Herrera", "Alexander Burdiyan"]
 title="Local-First, Multi-Device Applications With IPFS"
 description="In this talk, we'd like to share the ideas and technical approaches we came up with while building [Mintter](https://mintter.com/) on top of IPFS for the past 2.5 years. Some of the challenges we faced didn’t have easy, or plug-and-play solutions at the time, such as multi-device, decentralized identity, version control, etc. Mintter is a hypertext system for knowledge management in open discussion groups. While working on the product, we were greatly inspired by the work of the founding fathers of hypertext: Doug Engelbart, Ted Nelson and others."
 
