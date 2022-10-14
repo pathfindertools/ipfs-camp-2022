@@ -116,6 +116,13 @@ speakers=["@autonome"]
 title="Turning the Biggest Ship: IPFS Browser Integrations and the Web Platform"
 description=""
 
+[[timeslots]]
+# 15 minutes
+startTime="TBD"
+speakers=["@Jorropo"]
+title="UnixFS and IPFS Light Clients"
+description=""
+
 #[[timeslots]]
 #startTime="11:30"
 #speakers=[]
