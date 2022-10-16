@@ -72,7 +72,7 @@ want to help in whatever way we can.
 """
 
 [[timeslots]]
-startTime="10:45"
+startTime="10:40"
 speakers=["Matt Ober"]
 title="Protecting IPFS gateways at scale"
 description="""
@@ -83,18 +83,7 @@ Pinata has solved for them.
 """
 
 [[timeslots]]
-startTime="11:30"
-speakers=["Alan Shaw (Protocol Labs)"]
-title="Elastic IPFS -- The scales are off the charts!"
-description="""
-What even is Elastic IPFS and how much stretch does it have? THIS is the story of the
-brand new multi tenant IPFS implementation that runs in the cloud, separates read and
-write pipelines to really, truly achieve web scale beyond anything this world has even
-seen before.
-"""
-
-[[timeslots]]
-startTime="12:15"
+startTime="11:20"
 speakers=["Thibault Meunier (Cloudflare)"]
 title="Secure your IPFS website"
 description="""
@@ -107,6 +96,14 @@ not enough. This talk will present the setup of a browser based IPFS app.
 """
 
 [[timeslots]]
+startTime="14:00"
+speakers=["Mario Camou (Protocol Labs)"]
+title="IPFS gateway"
+description="""
+Words of the wise. On growing and building one of the busiest IPFS gateways in the world.
+"""
+## 20 minute gap
+[[timeslots]]
 startTime="13:00"
 speakers=[]
 title="Lunch"
@@ -115,6 +112,14 @@ description=""
 
 [[timeslots]]
 startTime="14:00"
+speakers=["Ansgar Grunseid"]
+title="Introducing Saturn, web3 CDN"
+description="""
+Saturn is a Web3 CDN in Filecoin's retrieval market built with IPFS-addressable data.
+"""
+
+[[timeslots]]
+startTime="14:40"
 speakers=["Héctor Sanjuán (Protocol Labs)"]
 title="Pinset orchestration with IPFS Cluster"
 description="""
@@ -124,7 +129,7 @@ production deployments.
 """
 
 [[timeslots]]
-startTime="15:45"
+startTime="15:20"
 speakers=["Oleg Silkin"]
 title="What Kubernetes Operators Do That Regular Deployments Do Not"
 description="""
@@ -135,7 +140,18 @@ horizontal scaling of Web3 storage.
 """
 
 [[timeslots]]
-startTime="16:30"
+startTime="16:00"
+speakers=["Alan Shaw (Protocol Labs)"]
+title="Elastic IPFS -- The scales are off the charts!"
+description="""
+What even is Elastic IPFS and how much stretch does it have? THIS is the story of the
+brand new multi tenant IPFS implementation that runs in the cloud, separates read and
+write pipelines to really, truly achieve web scale beyond anything this world has even
+seen before.
+"""
+
+[[timeslots]]
+startTime="16:40"
 speakers=[]
 title="IPFS Service Panel"
 description="""
