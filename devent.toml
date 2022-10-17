@@ -307,6 +307,11 @@ name = "Pasquale Sorrentino"
 twitterProfile="BNBGem"
 company = "Gummys.io"
 image = "speakers/pasquale-sorrentino.jpg"
+[[speakers]]
+name = "Dennis Trautwein"
+twitterProfile="dtrautwein_eu"
+company = "Protocol Labs"
+image = "speakers/dennis-trautwein.jpeg"
 
 
 # Ticket Items
