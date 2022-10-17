@@ -312,6 +312,10 @@ name = "Dennis Trautwein"
 twitterProfile="dtrautwein_eu"
 company = "Protocol Labs"
 image = "speakers/dennis-trautwein.jpeg"
+[[speakers]]
+name = "Matt Wisniewski"
+company = "Satellite"
+image = "speakers/matt-wisniewski.png"
 
 
 # Ticket Items
