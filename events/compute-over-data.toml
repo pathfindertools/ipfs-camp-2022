@@ -70,7 +70,7 @@ description=""
 
 [[timeslots]]
 startTime="12:00"
-speakers=["Zak Ayesh"]
+speakers=["Matt Hamilton"]
 title="FVM -- The (EVM-Compatible!) Filecoin Virtual Machine"
 description=""
 
