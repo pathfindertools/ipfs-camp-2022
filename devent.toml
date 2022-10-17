@@ -311,6 +311,10 @@ image = "speakers/pasquale-sorrentino.jpg"
 name = "Yiannis Psaras"
 company = "Protocol Labs"
 image = "speakers/yiannis.jpeg"
+[[speakers]]
+name = "Leohard Balduf"
+company = "Technical University of Darmstadt"
+image = "speakers/leo-balduf.jpeg"
 
 # Ticket Items
 #
