@@ -307,7 +307,10 @@ name = "Pasquale Sorrentino"
 twitterProfile="BNBGem"
 company = "Gummys.io"
 image = "speakers/pasquale-sorrentino.jpg"
-
+[[speakers]]
+name = "Yiannis Psaras"
+company = "Protocol Labs"
+image = "speakers/yiannis.jpeg"
 
 # Ticket Items
 #
