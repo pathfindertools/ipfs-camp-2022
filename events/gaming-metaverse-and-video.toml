@@ -107,12 +107,12 @@ description=""
 
 [[timeslots]]
 startTime="15:30"
-speakers=["Joey Sim"]
-title="Lightning talk: Bringing Virtual Pets to Life"
-description=""
+speakers=["Daryl Lim"]
+title="Lightning talk: Importance of usability in Web3"
+description="Metapals COO Daryl Lim will share useful insights the team gathered since embarking on their journey early this year, especially on converting and helping non-crypto users transition into the web3 space."
 
 [[timeslots]]
 startTime="15:45"
-speakers=["Matt Horel"]
-title="Roundtable on creating Metaverses"
-description="Creators on Mona will share their perspective on building metaverses"
+speakers=["Justin Melillo", "Nathalie Nunez", "Matthew Bradley", "Metageist", "Matt Marshall"]
+title="World Builders"
+description="A roundtable discussion with creators building ownable metaverses"
