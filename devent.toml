@@ -317,10 +317,10 @@ name = "Adam Grodzki"
 company = "3S Studio"
 image = "speakers/adam_grodzki.jpg"
 [[speakers]]
-name = "Johannes Tammekänd"
-twitterProfile="johannestknd"
+name = "Taivo Pungas"
+twitterProfile="taivopungas"
 company = "NFTPort"
-image = "speakers/johannes-tammekand.jpeg"
+image = "speakers/taivo-pungas.png"
 [[speakers]]
 name = "Crystal Mills"
 twitterProfile="ckmwrites"
