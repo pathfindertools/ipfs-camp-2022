@@ -349,7 +349,26 @@ image = "speakers/dennis-trautwein.jpeg"
 name = "Matt Wisniewski"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
-
+[[speakers]]
+name = "Daryl Lim"
+company = "Metapals"
+image = "speakers/daryl-lim.png"
+[[speakers]]
+name = "Justin Melillo"
+company = "Mona"
+image = "speakers/justin-melillo.jpeg"
+[[speakers]]
+name = "Matthew Bradley"
+company = ""
+image = "speakers/matt-bradley.jpg"
+[[speakers]]
+name = "Metageist"
+company = ""
+image = "speakers/metageist.jpg"
+[[speakers]]
+name = "Nathalie Nunez"
+company = ""
+image = "speakers/nathalie-nunez.png"
 
 
 # Ticket Items
