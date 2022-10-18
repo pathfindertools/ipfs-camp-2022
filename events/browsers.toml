@@ -68,7 +68,7 @@ description="HTTP gateways are a key onramp for IPFS usage not only by browsers,
 startTime="10:30"
 speakers=["@Mauve Signweaver (@rangermauve)"]
 title="IPFS in Web Protocol Handlers with Agregore Browser"
-description="We'll be showcasing how IPFS can have deep integration with web protocol handlers, and will be answering the question "What does it mean to POST to `ipfs://`?""
+description="We'll be showcasing how IPFS can have deep integration with web protocol handlers, and will be answering the question \"What does it mean to POST to `ipfs://`?\""
 
 
 [[timeslots]]
