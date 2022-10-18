@@ -369,6 +369,10 @@ image = "speakers/metageist.jpg"
 name = "Nathalie Nunez"
 company = ""
 image = "speakers/nathalie-nunez.png"
+[[speakers]]
+name = "Matt Marshall"
+company = ""
+image = "speakers/matt-marshall.jpg"
 
 
 # Ticket Items
