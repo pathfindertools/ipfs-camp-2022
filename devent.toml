@@ -315,7 +315,7 @@ image = "speakers/jonathan-victor.jpeg"
 [[speakers]]
 name = "Adam Grodzki"
 company = "3S Studio"
-image = "speakers/adam-grodzki.jpg"
+image = "speakers/adam_grodzki.jpg"
 [[speakers]]
 name = "Johannes Tammekänd"
 twitterProfile="johannestknd"
