@@ -308,6 +308,39 @@ twitterProfile="BNBGem"
 company = "Gummys.io"
 image = "speakers/pasquale-sorrentino.jpg"
 [[speakers]]
+name = "Jonathan Victor"
+twitterProfile="jnthnvctr"
+company = "Protocol Labs"
+image = "speakers/jonathan-victor.jpeg"
+[[speakers]]
+name = "Adam Grodzki"
+company = "3S Studio"
+image = "speakers/adam_grodzki.jpg"
+[[speakers]]
+name = "Johannes Tammekänd"
+twitterProfile="johannestknd"
+company = "NFTPort"
+image = "speakers/johannes-tammekand.jpeg"
+[[speakers]]
+name = "Crystal Mills"
+twitterProfile="ckmwrites"
+company = "Protocol Labs"
+image = "speakers/crystal-mills.jpeg"
+[[speakers]]
+name = "David Choi"
+company = "Dag House"
+image = "speakers/david-choi.jpeg"
+[[speakers]]
+name = "Tobias Petrasch"
+twitterProfile="tpetrasch"
+company = "Hammerspace"
+image = "speakers/tobias-petarsch.jpeg"
+[[speakers]]
+name = "Shannon Wells"
+twitterProfile="shanvasion"
+company = "Livepeer"
+image = "speakers/shannon-wells.jpeg"
+[[speakers]]
 name = "Dennis Trautwein"
 twitterProfile="dtrautwein_eu"
 company = "Protocol Labs"
@@ -316,6 +349,7 @@ image = "speakers/dennis-trautwein.jpeg"
 name = "Matt Wisniewski"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
+
 
 
 # Ticket Items
