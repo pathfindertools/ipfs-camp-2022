@@ -72,8 +72,13 @@ want to help in whatever way we can.
 """
 
 [[timeslots]]
+startTime="10:35"
+speakers=[]
+title="break"
+
+[[timeslots]]
 startTime="10:40"
-speakers=["Matt Ober"]
+speakers=["Matt Ober (Pinata)"]
 title="Protecting IPFS gateways at scale"
 description="""
 IPFS gateways are an important portal into the IPFS network, but running publicly
@@ -81,6 +86,12 @@ accessible IPFS gateways comes with great risk and responsibility. In this talk 
 will discuss common challenges that IPFS gateway operators will encounter and how
 Pinata has solved for them.
 """
+
+[[timeslots]]
+startTime="11:15"
+speakers=[]
+title="break"
+description=""
 
 [[timeslots]]
 startTime="11:20"
@@ -96,13 +107,25 @@ not enough. This talk will present the setup of a browser based IPFS app.
 """
 
 [[timeslots]]
-startTime="14:00"
+startTime="11:55"
+speakers=[]
+title="break"
+description=""
+
+[[timeslots]]
+startTime="12:00"
 speakers=["Mario Camou (Protocol Labs)"]
 title="IPFS gateway"
 description="""
 Words of the wise. On growing and building one of the busiest IPFS gateways in the world.
 """
-## 20 minute gap
+
+[[timeslots]]
+startTime="12:40"
+speakers=["Mahmoud Shehata (fleek)"]
+title="Fleek Network - Decentralized Content and Application Delivery Network"
+description=""
+
 [[timeslots]]
 startTime="13:00"
 speakers=[]
@@ -112,11 +135,17 @@ description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=["Ansgar Grunseid"]
+speakers=["Ansgar Grunseid (saturn)"]
 title="Introducing Saturn, web3 CDN"
 description="""
 Saturn is a Web3 CDN in Filecoin's retrieval market built with IPFS-addressable data.
 """
+
+[[timeslots]]
+startTime="14:35"
+speakers=[]
+title="break"
+description=""
 
 [[timeslots]]
 startTime="14:40"
@@ -129,8 +158,14 @@ production deployments.
 """
 
 [[timeslots]]
+startTime="15:15"
+speakers=[]
+title="break"
+description=""
+
+[[timeslots]]
 startTime="15:20"
-speakers=["Oleg Silkin"]
+speakers=["Oleg Silkin (Red Hat)"]
 title="What Kubernetes Operators Do That Regular Deployments Do Not"
 description="""
 By the end of this talk  users will know how Kubernetes Operators can improve their
@@ -138,6 +173,12 @@ experience with deploying large-scale applications in their clusters. Attendees 
 also learn how IPFS Cluster leverages the Operator SDK in order to easily perform
 horizontal scaling of Web3 storage. 
 """
+
+[[timeslots]]
+startTime="15:55"
+speakers=[]
+title="break"
+description=""
 
 [[timeslots]]
 startTime="16:00"
@@ -149,6 +190,12 @@ brand new multi tenant IPFS implementation that runs in the cloud, separates rea
 write pipelines to really, truly achieve web scale beyond anything this world has even
 seen before.
 """
+
+[[timeslots]]
+startTime="16:35"
+speakers=[]
+title="break"
+description=""
 
 [[timeslots]]
 startTime="16:40"
