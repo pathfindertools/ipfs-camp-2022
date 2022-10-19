@@ -349,6 +349,10 @@ image = "speakers/dennis-trautwein.jpeg"
 name = "Matt Wisniewski"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
+[[speakers]]
+name = "Mario Camou"
+company = "Protocol Labs"
+image = "speakers/mario-camou.jpg"
 
 
 
