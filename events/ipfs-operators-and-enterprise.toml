@@ -165,7 +165,7 @@ description=""
 
 [[timeslots]]
 startTime="15:20"
-speakers=["Oleg Silkin"]
+speakers=["Oleg Silkin (Red Hat)"]
 title="What Kubernetes Operators Do That Regular Deployments Do Not"
 description="""
 By the end of this talk  users will know how Kubernetes Operators can improve their
