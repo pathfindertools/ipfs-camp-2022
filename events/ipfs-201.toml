@@ -61,8 +61,8 @@ description=""
 [[timeslots]]
 startTime="10:35"
 speakers=["Carson Farmer"]
-title="Introduction to Tableland"
-description=""
+title="Introducing Tableland: The read, write, and own database"
+description="[Tableland](https://tableland.xyz/) is a decentralized network for relational, composable data — powered by smart contracts + SQL. Mutable data with immutable rules, on EVM chains like Ethereum, supported by tools and protocols like IPFS, Filecoin, and more"
 
 [[timeslots]]
 startTime="11:00"

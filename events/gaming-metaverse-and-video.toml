@@ -53,13 +53,13 @@ description="Opening talk to introduce the track and ideas."
 
 [[timeslots]]
 startTime="10:15"
-speakers=["Adam G"]
+speakers=["Adam Grodzki"]
 title="Bringing web3 primitives to Unreal Engine"
 description="Studio 3S will share their insights around how they're supercharging Unreal Engine with web3 primitives."
 
 [[timeslots]]
 startTime="10:45"
-speakers=["NFTPort"]
+speakers=["Johannes Tammekänd"]
 title="Hands-on: Integrating web3 with Unity"
 description="The NFTPort team will give a hands on workshop demoing how you can use web3 tech natively with Unity."
 
@@ -100,7 +100,19 @@ title="Video and Metadata Standards with Livepeer"
 description="Shannon will share the learnings and observations from Livepeer, as they work across ecosystems to help steward shared open standards."
 
 [[timeslots]]
-startTime="15:00"
-speakers=[]
-title="Break"
+startTime="15:15"
+speakers=["Alec Wantoch"]
+title="Lightning talk: Bringing Web3 to Game Devs"
 description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=["Joey Sim"]
+title="Lightning talk: Bringing Virtual Pets to Life"
+description=""
+
+[[timeslots]]
+startTime="15:45"
+speakers=["Matt Horel"]
+title="Roundtable on creating Metaverses"
+description="Creators on Mona will share their perspective on building metaverses"
