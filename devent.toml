@@ -360,6 +360,10 @@ twitterProfile="retropronghorn"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
 [[speakers]]
+name = "Mario Camou"
+company = "Protocol Labs"
+image = "speakers/mario-camou.jpg"
+[[speakers]]
 name = "Mahmoud Shehata"
 company = "Fleek"
 image = "speakers/mahmoud-shehata.jpg"
