@@ -446,8 +446,11 @@ link = "https://airtable.com/shrd4kSljHYHxmU1b"
 #
 [tracksSection]
 title="Tracks"
-proposeLink="https://airtable.com/shrBQqf7YJRPdrgUo"
-proposeLabel="Propose a Track"
+description="""
+Speaker applications and track applications are now closed. If you have a project you'd like to share with the IPFS Community, apply for a spot at Project Expo!
+"""
+proposeLink="https://docs.google.com/forms/d/e/1FAIpQLSf7To5b0qJPNKNLNZDCiGL6E_0Q4uBLJ-K7jw2VCNXguUWlUA/viewform"
+proposeLabel="Apply to Project Expo"
 
 # schedule section
 [schedule]
