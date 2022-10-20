@@ -73,13 +73,13 @@ description=""
 startTime="15:15"
 speakers=["@hannahhoward","@willscott"]
 title="Data Transfer Tutorial"
-description=""
+description="Let's dig into fetching data from IPFS together!"
 
 [[timeslots]]
 startTime="15:45"
 speakers=["@b5"]
 title="How Bitswap Works"
-description=""
+description="Everything The Iroh Team Learned Porting Bitswap To Rust"
 
 [[timeslots]]
 startTime="16:15"
@@ -91,16 +91,17 @@ description=""
 startTime="16:30"
 speakers=["@Jorropo"]
 title="RAPIDE"
-description=""
+description="A Design For A Much Faster Bitswap Client"
 
 [[timeslots]]
-startTime="17:00"
-speakers=["@hannahhoward"]
-title="The Future Of Content Addressed Data Transfer"
-description="Some ideas for massively improving data transfer speed"
+startTime="16:45"
+speakers=["@rvagg"]
+title="HAMTs & Other IPLD Data Structures"
+description="How does IPLD represent complex data? How does this affect data transfer and what kinds of data you can request?"
+
 
 [[timeslots]]
 startTime="17:15"
-speakers=[]
-title="Open discussion and wrap-up"
-description=""
+speakers=["@hannahhoward"]
+title="The Future Of Content Addressed Data Transfer"
+description="Some ideas for massively improving data transfer speed"

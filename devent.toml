@@ -308,6 +308,14 @@ twitterProfile="BNBGem"
 company = "Gummys.io"
 image = "speakers/pasquale-sorrentino.jpg"
 [[speakers]]
+name = "Yiannis Psaras"
+company = "Protocol Labs"
+image = "speakers/yiannis.jpeg"
+[[speakers]]
+name = "Leohard Balduf"
+company = "Technical University of Darmstadt"
+image = "speakers/leo-balduf.jpeg"
+[[speakers]]
 name = "Jonathan Victor"
 twitterProfile="jnthnvctr"
 company = "Protocol Labs"
@@ -347,8 +355,13 @@ company = "Protocol Labs"
 image = "speakers/dennis-trautwein.jpeg"
 [[speakers]]
 name = "Matt Wisniewski"
+twitterProfile="retropronghorn"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
+[[speakers]]
+name = "Mahmoud Shehata"
+company = "Fleek"
+image = "speakers/mahmoud-shehata.jpg"
 [[speakers]]
 name = "Daryl Lim"
 company = "Metapals"
