@@ -360,6 +360,14 @@ twitterProfile="retropronghorn"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
 [[speakers]]
+name = "Changwé Mutakasha"
+company = "NEAR"
+image = "speakers/changwé-mutakasha.png"
+[[speakers]]
+name = "Anshuman Prasad"
+company = "Protocol Labs"
+image = "speakers/anshuman-prasad.png"
+[[speakers]]
 name = "Mario Camou"
 company = "Protocol Labs"
 image = "speakers/mario-camou.jpg"
