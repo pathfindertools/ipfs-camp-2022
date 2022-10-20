@@ -47,7 +47,7 @@ description = """
 
 [[timeslots]]
 startTime="10:00"
-speakers=["@jnthnvctr"]
+speakers=["Jonathan Victor"]
 title="Track Intro"
 description="Opening talk to introduce the track and ideas."
 
@@ -71,9 +71,9 @@ description=""
 
 [[timeslots]]
 startTime="11:45"
-speakers=["Crystal Mills", "Get Set Play", "Itsuki (Lync)", "DoubleJump"]
-title="Building community in gaming with web3"
-description="Crystal Mills will moderate a discussion across three teams building for different communities in web3."
+speakers=["Crystal Mills", "Matt Wisniewski", "Gummys.io"]
+title="Live streaming infra - video and real time challenges in web3"
+description="Crystal Mills will moderate a discussion across teams building on streaming technology in web3."
 
 [[timeslots]]
 startTime="12:30"
@@ -102,7 +102,7 @@ description="Shannon will share the learnings and observations from Livepeer, as
 [[timeslots]]
 startTime="15:15"
 speakers=["Daryl Lim"]
-title="Lightning talk: Importance of usability in Web3"
+title="Metapals: Importance of usability in Web3"
 description="Metapals COO Daryl Lim will share useful insights the team gathered since embarking on their journey early this year, especially on converting and helping non-crypto users transition into the web3 space."
 
 [[timeslots]]
