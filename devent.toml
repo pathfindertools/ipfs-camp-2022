@@ -33,7 +33,8 @@ ticketLink="#tickets"
 # rsvpLink="#tickets"
 
 # a link to apply to speak for the event
-speakLink="https://airtable.com/shrOxmXUqwojf0Bjj"
+# Commenting this 👇 line will hide the submissions link
+# speakLink="https://airtable.com/shrOxmXUqwojf0Bjj"
 
 # a link to the recap and videos
 # recapLink="https://blog.ipfs.io/ipfs-ping-2022-recap/"

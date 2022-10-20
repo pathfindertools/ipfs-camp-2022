@@ -55,7 +55,7 @@ export default function Speakers({ config }) {
               <Speaker name={speaker.name} image={speaker.image} company={speaker.company} twitterProfile={speaker.twitterProfile} key={i} />
             )
           })}
-          <SpeakerButton link={config.devent.speakLink} />
+          { config.devent.speakLink && <SpeakerButton link={config.devent.speakLink} /> }
         </div>
       </div>
     </div>
