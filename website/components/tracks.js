@@ -50,6 +50,12 @@ export default function Tracks({ config, events }) {
         {config.tracksSection.proposeLink &&
           <div className="text-center">
             <p className="max-w-2xl mx-auto mt-20 mb-8 text-body1">{config.tracksSection.description}</p>
+            <a href={config.tracksSection.proposeLink} target="_blank" className="inline-flex text-h5 leading-10 rounded-lg px-6 lg:px-12 outline-none focus:outline-none text-white bg-gradient-to-tr from-blue-900 to-cyan-400 py-2 cursor-pointer">{config.tracksSection.proposeLabel || "Propose a Track"}</a>
+          </div>
+        }
+        {!config.tracksSection.proposeLink &&
+          <div className="text-center">
+            <p className="max-w-2xl mx-auto mt-20 mb-8 text-body1">{config.tracksSection.description}</p>
             <a onClick={() => window && window.showAddEventModal()} className="inline-flex text-h5 leading-10 rounded-lg px-6 lg:px-12 outline-none focus:outline-none text-white bg-gradient-to-tr from-blue-900 to-cyan-400 py-2 cursor-pointer">{config.tracksSection.proposeLabel || "Propose a Track"}</a>
           </div>
         }
