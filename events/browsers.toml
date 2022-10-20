@@ -6,13 +6,13 @@ name = "Browsers & Platforms"
 dri = "Dietrich Ayala"
 
 # the start date of the event
-date = "2022-10-30"
+date = "2022-10-29"
 
 # how many days the event lasts (1 - N)
 days = 1
 
 # the event times (shows up in the event card)
-times = "10:00 - 16:00"
+times = "10:00 - 13:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -32,9 +32,7 @@ tags = ["Talks"]
 # a description of the track.
 # will show up when the user clicks the event card.
 description = """
-  Learn the current status, ongoing challenges, and upcoming work 
-  to integrate IPFS and related technologies into browsers and the web itself,
-  operating systems and other libraries, toolkits, environments and more.
+Learn the current status, ongoing challenges, and upcoming work to integrate IPFS and related technologies into browsers and the web itself, operating systems and other libraries, toolkits, environments and more.
 """
 
 # schedule is an array of timeslots objects
@@ -50,81 +48,90 @@ description = """
 # - recommended end:   16:00 (On 30 Oct, 1h Camp wrapup begins at 16:00)
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
-[[timeslots]]
-startTime="09:00"
-speakers=["@autonome"]
-title="Welcome and Introductions"
-description=""
+
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@lidel"]
+startTime="10:00"
+speakers=["@Dietrich Ayala (@autonome)"]
+title="Intro"
+description="Welcome, overview"
+
+
+[[timeslots]]
+startTime="10:10"
+speakers=["@Lidel (@lidel)"]
 title="Gateways of the Future (and Now Too)"
-description="New features of the IPFS HTTP gateway, and where it's going: Not only fully trustless, verifiable retrieval (including IPNS!), but also data ingestion, authoring, and support beyond files and directories."
+description="HTTP gateways are a key onramp for IPFS usage not only by browsers, but tools, APIs and more. Learn about the state of the IPFS HTTP gateway implementation in Kubo today, and new features and changes coming soon."
+
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@javifernandez"]
+startTime="10:30"
+speakers=["@Mauve Signweaver (@rangermauve)"]
+title="IPFS in Web Protocol Handlers with Agregore Browser"
+description="We'll be showcasing how IPFS can have deep integration with web protocol handlers, and will be answering the question \"What does it mean to POST to `ipfs://`?\""
+
+
+[[timeslots]]
+startTime="10:50"
+speakers=["@Anirudha Bose (@onyb)"]
+title="Making Brave an InterPlanetary browser"
+description="Brave is building a privacy-first internet stack with a private browser, search, web3 wallet, and more. In this session, we'll look at the state of IPFS and Filecoin integrations in Brave, and learn about some of the lesser known features in Brave that makes it an interplanetary browser."
+
+
+[[timeslots]]
+startTime="11:10"
+speakers=["@Javier Ferndandez (@javifernandez)"]
 title="Chrome pre-defined Custom Handlers for IPFS"
-description="""
-High-level overview of the refactoring Implemented in Chrome's source code to define a dedicated component for the Custom Handlers logic. 
+description="High-level overview of the refactoring Implemented in Chrome's source code to define a dedicated component for the Custom Handlers logic. Thanks to this refactoring, we have improved the support for Chrome embedders to implement their own pre-defined Custom Handlers for the schemes they consider strategic. Patching Chrome to add a pre-defined Custom Handler to manage IPFS schemes is now trivial, reducing considerably the efforts of embedders to deal with rebases in order to sync with Chrome upstream."
 
-Thanks to this refactoring, we have improved the support for Chrome embedders to implement their own pre-defined Custom Handlers for the schemes they consider strategic. 
-
-Patching Chrome to add a pre-defined Custom Handler to manage IPFS schemes is now trivial, reducing considerably the efforts of embedders to deal with rebases in order to sync with Chrome upstream.
-"""
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@ikreymer"]
-title="Webrecorder"
-description=""
+startTime="11:30"
+speakers=["@BREAK"]
+title="BREAK"
+description="BREAK"
+
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@rangermauve"]
-title="Agregore"
-description=""
+startTime="11:40"
+speakers=["@Ilya Kreymer (@ikreymer)"]
+title="Decentralized Web Archiving: Create your own web archive using a browser, IPFS and Webrecorder tools"
+description="This will be a hands-on workshop, where participants will be able to use various Webrecorder tools to create their own decentralized web archives, using their browser and our interactive browser extension (ArchiveWeb.page) or command-line crawling tools (Browsertrix Crawler) for larger-scale archiving. We will start with an introduction to Webrecorder tools and web archiving and allow participants to create their own archives. Participants will then be able to place their archives on IPFS and share with others."
+
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@markg85"]
-title="IPFS in All the Things"
-description=""
+startTime="12:00"
+speakers=["@Fabrice Desré (@fabricedesre)"]
+title="IPFS Goes Mobile"
+description="Capyloon is an experimental web based mobile OS. It aims at giving users more control over their digital life, with decentralized technologies as a cornerstone of the solution. We'll talk about the early steps, current status and what to expect next."
+
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@meandavidjustice"]
-title="IPFS Browser Extensions"
-description=""
+startTime="12:20"
+speakers=["@Mark Gaiser (@markg85)"]
+title="Challenges in IPFS Integrations with Open Source Projects"
+description="Going over some of the challenges we faced with implementing IPFS in open source projects. The lessons we've learned and what is still planned ahead."
+
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@onyb"]
-title="Brave browser (tbd)"
-description=""
+startTime="12:30"
+speakers=["@David Justice (@meandavejustice)"]
+title="BLE connectivity and IPFS: Durin's next steps"
+description="Exploring the next steps for Durin (ipfs on mobile)"
+
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@fabricedesre"]
-title="Capyloon"
-description=""
+startTime="12:40"
+speakers=["@David Justice (@meandavejustice)"]
+title="Introducing pin-tweet-to-ipfs: Webrecorder + web3.storage"
+description="Brief introduction to pin-tweet-to-ipfs. The first IPFS-Enabled extension. Marrying webrecorder and web3.storage to display the power of IPFS to non technical users."
+
 
 [[timeslots]]
-startTime="TBD"
-speakers=["@autonome"]
-title="Turning the Biggest Ship: IPFS Browser Integrations and the Web Platform"
-description=""
+startTime="12:50"
+speakers=["@Gabriel Herrero-Beaumont"]
+title="IPFS, Tauri and Mintter Hypertext Documents"
+description="How we have integrated IPFS, Tauri and Mintter Hypertext Documents to enable open collaboration. We will explain our requirements for an Open and local-first Hypertext System and how IPFS and Tauri have help us to build the system."
 
-#[[timeslots]]
-#startTime="11:30"
-#speakers=[]
-#title="Break"
-#description=""
-#
-#[[timeslots]]
-#startTime="13:00"
-#speakers=[]
-#title="Lunch Break"
-#description=""
+
 
