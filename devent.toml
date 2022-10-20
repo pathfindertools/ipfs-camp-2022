@@ -325,10 +325,10 @@ name = "Adam Grodzki"
 company = "3S Studio"
 image = "speakers/adam_grodzki.jpg"
 [[speakers]]
-name = "Johannes Tammekänd"
-twitterProfile="johannestknd"
+name = "Taivo Pungas"
+twitterProfile="taivopungas"
 company = "NFTPort"
-image = "speakers/johannes-tammekand.jpeg"
+image = "speakers/taivo-pungas.png"
 [[speakers]]
 name = "Crystal Mills"
 twitterProfile="ckmwrites"
@@ -355,12 +355,37 @@ company = "Protocol Labs"
 image = "speakers/dennis-trautwein.jpeg"
 [[speakers]]
 name = "Matt Wisniewski"
+twitterProfile="retropronghorn"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
 [[speakers]]
 name = "Mahmoud Shehata"
 company = "Fleek"
 image = "speakers/mahmoud-shehata.jpg"
+[[speakers]]
+name = "Daryl Lim"
+company = "Metapals"
+image = "speakers/daryl-lim.png"
+[[speakers]]
+name = "Justin Melillo"
+company = "Mona"
+image = "speakers/justin-melillo.jpeg"
+[[speakers]]
+name = "Matthew Bradley"
+company = ""
+image = "speakers/matt-bradley.jpg"
+[[speakers]]
+name = "Metageist"
+company = ""
+image = "speakers/metageist.jpg"
+[[speakers]]
+name = "Nathalie Nunez"
+company = ""
+image = "speakers/nathalie-nunez.png"
+[[speakers]]
+name = "Matt Marshall"
+company = ""
+image = "speakers/matt-marshall.jpg"
 
 
 # Ticket Items
