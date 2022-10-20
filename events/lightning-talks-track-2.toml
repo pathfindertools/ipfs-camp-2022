@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Lightning Talks Track 1"
+name = "Lightning Talks Track 2"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -27,7 +27,9 @@ tags = ["Talks"]
 
 # a description of the track.
 # will show up when the user clicks the event card.
-description = 
+description = """
+  Come hear a fantastic lineup of 15-minute talks covering all kinds of juicy IPFS related topics!
+"""
 
 # schedule is an array of timeslots objects
 # schema:

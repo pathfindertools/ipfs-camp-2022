@@ -27,7 +27,9 @@ tags = ["Talks"]
 
 # a description of the track.
 # will show up when the user clicks the event card.
-description = 
+description = """
+  Come hear a fantastic lineup of 15-minute talks covering all kinds of juicy IPFS related topics! 
+"""
 
 # schedule is an array of timeslots objects
 # schema:
