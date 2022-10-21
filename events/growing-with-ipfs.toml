@@ -44,34 +44,29 @@ description = """
 # - recommended end:   17:00
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
-[[timeslots]]
-startTime="09:00"
-speakers=["@speaker_name", "@other_speaker_name"]
-title="Welcome standup discussion"
-description=""
 
 [[timeslots]]
 startTime="10:00"
-speakers=["James Tunningley"]
-title="Welcome Remarks"
+speakers=["James Tunningley, Protocol Labs"]
+title="Welcome to Growing with IPFS"
 description=""
 
 [[timeslots]]
 startTime="10:10"
-speakers=["Daniel Norman"]
+speakers=["Daniel Norman, Protocol Labs"]
 title="Turning your IPFS ideas into reality as a builder"
 description=""
 
 [[timeslots]]
 startTime="10:30"
-speakers=["Niki Gokani, Erin OConnor, Dawn Kelly"]
+speakers=["Erin O'Connor, Protocol Labs"]
 title="Getting started: Hackathons & Grants"
 description=""
 
 [[timeslots]]
 startTime="10:50"
-speakers=["Nandit Mehra"]
-title="Succeeding with IPFS with the Founder of Lighthouse"
+speakers=["Nandit Mehra, Lighhouse"]
+title="Succeeding with IPFS: Founder of Lighthouse"
 description=""
 
 [[timeslots]]
@@ -82,24 +77,24 @@ description=""
 
 [[timeslots]]
 startTime="11:30"
-speakers=["Ruben"]
-title="Beyond Hackathons: Making your startup a reality (Accelerators & Investment)"
+speakers=["Ruben Amenyogbo, Protocol Labs"]
+title="Beyond Hackathons: Making your startup a reality (Accelerators)"
 description=""
 
 [[timeslots]]
 startTime="11:55"
-speakers=["Lacey (moderator), Shaun Johnson (Tachyon), Carlos Silva (Faber)"]
-title="[Panel] Investing, Web3 Business Models & Failcon"
+speakers=["Lacey Wisdom (Protocol Labs), Gabriel Anderson (Tachyon, ConsenSys), Carlos Silva (Faber)"]
+title="[Panel] Investing in IPFS Startups & Web3 Business Models"
 description=""
 
 [[timeslots]]
 startTime="12:30"
-speakers=[]
-title="How to get hired in the ecosystem"
+speakers=["Katie Wawro"]
+title="How to get hired in the IPFSecosystem"
 description=""
 
 [[timeslots]]
 startTime="12:45"
-speakers=["James Tunningley + key PL speakers, i.e. Daniel, Sonia, Erin, Ruben, Lacey, tbc talent POC"]
-title="Open Q&A (Growing with IPFS Track)"
+speakers=["Molly Mackinlay, Protocol Labs"]
+title="Open Q&A with Molly Mackinlay"
 description=""
