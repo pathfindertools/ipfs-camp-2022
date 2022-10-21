@@ -59,13 +59,13 @@ description=""
 
 [[timeslots]]
 startTime="10:30"
-speakers=["Erin O'Connor, Protocol Labs"]
+speakers=["Erin O'Connor, Filecoin Foundation"]
 title="Getting started: Hackathons & Grants"
 description=""
 
 [[timeslots]]
 startTime="10:50"
-speakers=["Nandit Mehra, Lighhouse"]
+speakers=["Nandit Mehra, Lighthouse"]
 title="Succeeding with IPFS: Founder of Lighthouse"
 description=""
 
@@ -90,7 +90,7 @@ description=""
 [[timeslots]]
 startTime="12:30"
 speakers=["Katie Wawro"]
-title="How to get hired in the IPFSecosystem"
+title="How to get hired in the IPFS ecosystem"
 description=""
 
 [[timeslots]]
