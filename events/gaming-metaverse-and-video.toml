@@ -77,7 +77,7 @@ description="Crystal Mills will moderate a discussion across teams building on s
 
 [[timeslots]]
 startTime="12:30"
-speakers=["J Chris Anderson", "David Choi"]
+speakers=["J Chris Anderson", "David Choi", "Changwé Mutakasha"]
 title="Onboarding dapps and game storage to web3"
 description="An open discussion with the leads of web3.storage on the challenges and opportunities they've observed building scalable infrastructure for web3."
 
@@ -92,6 +92,13 @@ startTime="14:00"
 speakers=["Tobias Petrasch"]
 title="Hammerspace: The Metaverse backpack"
 description="Tobias will give an overview of Hammerspace- along with the motivations, challenges, and solutions they've encountered building tools to enable cross platform assets."
+
+[[timeslots]]
+startTime="14:15"
+speakers=["Eugène Désiré Nzengou"]
+title="European Space Agency - Bringing Space data to the Metaverse"
+description="A discussion of how Space agencies and web3 companies can work together on building realistic metaverses"
+
 
 [[timeslots]]
 startTime="14:30"
