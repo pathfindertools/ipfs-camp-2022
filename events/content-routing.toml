@@ -104,7 +104,7 @@ description="How Estuary keeps content available today and in the future"
 startTime="12:45"
 speakers=["@thibmeu"]
 title="Experience Content Routing from a Gateway Perspective"
-description="Content routing from a Gateway's perspective"
+description="Discover the challenges that an IPFS Gateway faces to route content."
 
 [[timeslots]]
 startTime="13:00"
