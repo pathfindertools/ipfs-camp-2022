@@ -115,9 +115,9 @@ description=""
 [[timeslots]]
 startTime="12:00"
 speakers=["Mario Camou (Protocol Labs)"]
-title="IPFS gateway"
+title="Bridging the worlds - the care and feeding of IPFS Gateways"
 description="""
-Words of the wise. On growing and building one of the busiest IPFS gateways in the world.
+For several years, Protocol Labs has operated one of the busiest public IPFS gateways in the world, ipfs.io. During that time we have learned a few things about their care and feeding. In this presentation, Mario will share some of the practices that we have implemented to ensure that our gateways are healthy and useful.
 """
 
 [[timeslots]]
