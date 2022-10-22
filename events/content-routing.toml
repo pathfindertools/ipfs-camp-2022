@@ -80,31 +80,31 @@ speakers=["@ischasny"]
 title="Workshop: Indexed content routing"
 description="Explore Kubo delegated routing to publish and query indexers"
 
+
 [[timeslots]]
 startTime="11:45"
-speakers=["@thibmeu"]
-title="Where's bafy: gateway perspective on content routing"
-description="Content routing from a Gateway's perspective"
-
+speakers=["@guseggert", "@willscott", "@alanshaw"]
+title="Panel: the future of content routing"
+description="How could inter-planetary content routing continue to evolve going forward?"
 
 [[timeslots]]
-startTime="12:00"
+startTime="12:15"
 speakers=[]
 title="Break"
 description=""
 
 [[timeslots]]
-startTime="12:15"
+startTime="12:30"
 speakers=["@elijaharita"]
 title="Keeping Estuary Content Available"
 description="How Estuary keeps content available today and in the future"
 
 
 [[timeslots]]
-startTime="12:30"
-speakers=["@guseggert", "@willscott", "@alanshaw"]
-title="Panel: the future of content routing"
-description="How could inter-planetary content routing continue to evolve going forward?"
+startTime="12:45"
+speakers=["@thibmeu"]
+title="Experience Content Routing from a Gateway Perspective"
+description="Discover the challenges that an IPFS Gateway faces to route content."
 
 [[timeslots]]
 startTime="13:00"
