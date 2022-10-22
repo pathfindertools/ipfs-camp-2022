@@ -114,13 +114,16 @@ If you don’t have a ticket yet, head to the Tickets section to purchase a tick
 This is a decentralized event, with over 15 tracks across 3 days. Explore the track descriptions and schedules, and choose your own adventures depending on your interests! 
 
 We’re keen to showcase builders, users, and ideas from across the community. If you’re interested in giving a talk, sharing your work, or leading a new track, please Apply to Speak.
-"""    
+"""
+
 "What does the ticket include?" = """
 All tickets include entry to the full 3-day event and coffee, pastries, lunch, and dinner at the IPFS Camp venue. 
 """
+
 "Can I organize a side event?" = """    
 Yes! Please reach out to camp@ipfs.io if you’d like to discuss listing it on this website.
-"""    
+"""
+
 "What's the COVID policy?" = """    
 It has been almost three years since our last in-person IPFS Camp! We’re excited to see everyone’s faces soon! While COVID-19’s most acute days are past, we are taking precautions to help limit spread and protect the health of our IPFS and global communities.
 As of September 2022, Portugal has lifted entry requirements related to COVID-19.
@@ -136,6 +139,7 @@ ILLNESS: If you feel sick or have tested positive, stay at home. If at any point
 
 If you must cut short your visit to IPFS Camp due to illness, you may email camp@ipfs.io for a ticket refund. We will be sorry to see you go but thankful for your part in keeping the community healthy.
 """
+
 "How do I reach the organizers?" = """    
 Please reach out to camp@ipfs.io with any questions or suggestions.
 """
@@ -147,258 +151,313 @@ Please reach out to camp@ipfs.io with any questions or suggestions.
 # name = "Speaker Name"
 # company = "Company"
 # image = "image.jpg"
+#
+# Please keep these alphabetically ordered by last name.
 
 [[speakers]]
 name = "Ruben Amenyogbo"
 company = "Protocol Labs"
 image = "speakers/ruben-amenyogbo.jpg"
-[[speakers]]
-name = "Dietrich Ayala"
-company = "Protocol Labs"
-twitterProfile="dietrich"
-image = "speakers/dietrich-ayala.jpg"
-[[speakers]]
-name = "Juan Benet"
-company = "Protocol Labs"
-twitterProfile="juanbenet"
-image = "speakers/juan-benet.jpg"
-[[speakers]]
-name = "Tanguy Cizain"
-company = "Status.im"
-image = "speakers/tanguy-cizain.jpg"
-[[speakers]]
-name = "Carson Farmer"
-company = "Textile"
-twitterProfile="carsonfarmer"
-image = "speakers/carson-farmer.jpg"
-[[speakers]]
-name = "Sara Feenan"
-company = "Infura"
-twitterProfile="saronimo"
-image = "speakers/sara-feenan.jpg"
-[[speakers]]
-name = "Wes Floyd"
-company = "Protocol Labs"
-twitterProfile="weswfloyd"
-image = "speakers/wes-floyd.jpg"
-[[speakers]]
-name = "Hannah Howard"
-company = "Protocol Labs"
-twitterProfile="techgirlwonder"
-image = "speakers/hannah-howard.jpg"
-[[speakers]]
-name = "Michelle Lee"
-company = "Protocol Labs"
-twitterProfile="mishmosh"
-image = "speakers/michelle_lee.jpg"
-[[speakers]]
-name = "Molly Mackinlay"
-company = "Protocol Labs"
-twitterProfile="momack28"
-image = "speakers/molly-mackinlay.jpg"
-[[speakers]]
-name = "Boris Mann"
-company = "FISSION"
-twitterProfile="bmann"
-image = "speakers/boris-mann.jpg"
-[[speakers]]
-name = "Mauve Signweaver"
-company = "Agregore Browser"
-twitterProfile="RangerMauve"
-image = "speakers/mauve-signweaver.jpg"
-[[speakers]]
-name = "Cayman Nava"
-company = "ChainSafe Systems"
-twitterProfile="caymannan"
-image = "speakers/cayman-nava.jpg"
-[[speakers]]
-name = "Brendan O'Brien"
-company = "Number Zero"
-twitterProfile="b_fiive"
-image = "speakers/brendan-obrien.jpg"
-[[speakers]]
-name = "Camila Ramos"
-company = "Fuel Labs, Women Build Web 3"
-twitterProfile="camiinthisthang"
-image = "speakers/camila-ramos.jpg"
-[[speakers]]
-name = "Marcin Rataj"
-company = "Protocol Labs"
-twitterProfile="lidelOrg"
-image = "speakers/marcin-rataj.jpg"
-[[speakers]]
-name = "Niklas Rindtorff"
-company = "LabDAO"
-twitterProfile="Niklas_TR"
-image = "speakers/niklas-rindtorff.jpg"
-[[speakers]]
-name = "Brooklyn Zelenka"
-company = "FISSION"
-twitterProfile="expede"
-image = "speakers/brooklyn-zelenka.jpg"
-[[speakers]]
-name = "Alex Potsides"
-company = "Protocol Labs"
-twitterProfile="achingbrain"
-image = "speakers/alex-potsides.jpg"
-[[speakers]]
-name = "Jay Graber"
-company = "Bluesky"
-twitterProfile="arcalinea"
-image = "speakers/jay-graber.jpg"
-[[speakers]]
-name = "Gorka Ludlow"
-twitterProfile="AquiGorka"
-company = "Gather"
-image = "speakers/gorka-ludlow.jpg"
-[[speakers]]
-name = "Horacio Herrera"
-company = "Mintter"
-twitterProfile="hhg2288"
-image = "speakers/horacio-herrera.jpg"
-[[speakers]]
-name = "Alexander Burdiyan"
-company = "Mintter"
-twitterProfile="burdiyan"
-image = "speakers/alexander-burdiyan.jpg"
+
 [[speakers]]
 name = "Chris Anderson"
 company = "DAG House"
-twitterProfile="jchris"
+twitterProfile = "jchris"
 image = "speakers/chris-anderson.jpg"
+
 [[speakers]]
-name = "Hector Sanjuan"
+name = "Dietrich Ayala"
 company = "Protocol Labs"
-twitterProfile="hecturchi"
-image = "speakers/hector-sanjuan.jpg"
-[[speakers]]
-name = "Manfred Touron"
-company = "Berty Technologies"
-twitterProfile="moul"
-image = "speakers/manfred-touron.jpg"
-[[speakers]]
-name = "Rüdiger Klaehn"
-company = "Independent Software Engineer"
-image = "speakers/rudiger-klaehn.jpg"
-[[speakers]]
-name = "Daniel Norman"
-twitterProfile="daniel2color"
-company = "Protocol Labs"
-image = "speakers/daniel-norman.jpg"
-[[speakers]]
-name = "Matt Ober"
-twitterProfile="MattOber1"
-company = "Pinata"
-image = "speakers/matt-ober.jpg"
-[[speakers]]
-name = "Thibault Muenier"
-company = "Cloudflare"
-image = "speakers/thibault-muenier.png"
-[[speakers]]
-name = "Alan Shaw"
-twitterProfile="_alanshaw"
-company = "Protocol Labs"
-image = "speakers/alan-shaw.png"
-[[speakers]]
-name = "Oleg Silkin"
-company = "Red Hat"
-image = "speakers/oleg-silkin.jpg"
-[[speakers]]
-name = "Pasquale Sorrentino"
-twitterProfile="BNBGem"
-company = "Gummys.io"
-image = "speakers/pasquale-sorrentino.jpg"
-[[speakers]]
-name = "Yiannis Psaras"
-company = "Protocol Labs"
-image = "speakers/yiannis.jpeg"
+twitterProfile = "dietrich"
+image = "speakers/dietrich-ayala.jpg"
+
 [[speakers]]
 name = "Leohard Balduf"
 company = "Technical University of Darmstadt"
 image = "speakers/leo-balduf.jpeg"
+
 [[speakers]]
-name = "Jonathan Victor"
-twitterProfile="jnthnvctr"
+name = "Juan Benet"
 company = "Protocol Labs"
-image = "speakers/jonathan-victor.jpeg"
-[[speakers]]
-name = "Adam Grodzki"
-company = "3S Studio"
-image = "speakers/adam_grodzki.jpg"
-[[speakers]]
-name = "Taivo Pungas"
-twitterProfile="taivopungas"
-company = "NFTPort"
-image = "speakers/taivo-pungas.png"
-[[speakers]]
-name = "Crystal Mills"
-twitterProfile="ckmwrites"
-company = "Protocol Labs"
-image = "speakers/crystal-mills.jpeg"
-[[speakers]]
-name = "David Choi"
-company = "Dag House"
-image = "speakers/david-choi.jpeg"
-[[speakers]]
-name = "Tobias Petrasch"
-twitterProfile="tpetrasch"
-company = "Hammerspace"
-image = "speakers/tobias-petarsch.jpeg"
-[[speakers]]
-name = "Shannon Wells"
-twitterProfile="shanvasion"
-company = "Livepeer"
-image = "speakers/shannon-wells.jpeg"
-[[speakers]]
-name = "Dennis Trautwein"
-twitterProfile="dtrautwein_eu"
-company = "Protocol Labs"
-image = "speakers/dennis-trautwein.jpeg"
-[[speakers]]
-name = "Matt Wisniewski"
-twitterProfile="retropronghorn"
-company = "Satellite"
-image = "speakers/matt-wisniewski.png"
-[[speakers]]
-name = "Changwé Mutakasha"
-company = "NEAR"
-image = "speakers/changwé-mutakasha.png"
-[[speakers]]
-name = "Anshuman Prasad"
-company = "Protocol Labs"
-image = "speakers/anshuman-prasad.png"
-[[speakers]]
-name = "Mario Camou"
-company = "Protocol Labs"
-image = "speakers/mario-camou.jpg"
-[[speakers]]
-name = "Mahmoud Shehata"
-company = "Fleek"
-image = "speakers/mahmoud-shehata.jpg"
-[[speakers]]
-name = "Daryl Lim"
-company = "Metapals"
-image = "speakers/daryl-lim.png"
-[[speakers]]
-name = "Justin Melillo"
-company = "Mona"
-image = "speakers/justin-melillo.jpeg"
+twitterProfile = "juanbenet"
+image = "speakers/juan-benet.jpg"
+
 [[speakers]]
 name = "Matthew Bradley"
 company = ""
 image = "speakers/matt-bradley.jpg"
+
 [[speakers]]
-name = "Metageist"
-company = ""
-image = "speakers/metageist.jpg"
+name = "Alexander Burdiyan"
+company = "Mintter"
+twitterProfile = "burdiyan"
+image = "speakers/alexander-burdiyan.jpg"
+
 [[speakers]]
-name = "Nathalie Nunez"
-company = ""
-image = "speakers/nathalie-nunez.png"
+name = "Mario Camou"
+company = "Protocol Labs"
+image = "speakers/mario-camou.jpg"
+
+[[speakers]]
+name = "David Choi"
+company = "Dag House"
+image = "speakers/david-choi.jpeg"
+
+[[speakers]]
+name = "Tanguy Cizain"
+company = "Status.im"
+image = "speakers/tanguy-cizain.jpg"
+
+[[speakers]]
+name = "Carson Farmer"
+company = "Textile"
+twitterProfile = "carsonfarmer"
+image = "speakers/carson-farmer.jpg"
+
+[[speakers]]
+name = "Sara Feenan"
+company = "Infura"
+twitterProfile = "saronimo"
+image = "speakers/sara-feenan.jpg"
+
+[[speakers]]
+name = "Wes Floyd"
+company = "Protocol Labs"
+twitterProfile = "weswfloyd"
+image = "speakers/wes-floyd.jpg"
+
+[[speakers]]
+name = "Jay Graber"
+company = "Bluesky"
+twitterProfile = "arcalinea"
+image = "speakers/jay-graber.jpg"
+
+[[speakers]]
+name = "Adam Grodzki"
+company = "3S Studio"
+image = "speakers/adam_grodzki.jpg"
+
+[[speakers]]
+name = "Horacio Herrera"
+company = "Mintter"
+twitterProfile = "hhg2288"
+image = "speakers/horacio-herrera.jpg"
+
+[[speakers]]
+name = "Hannah Howard"
+company = "Protocol Labs"
+twitterProfile = "techgirlwonder"
+image = "speakers/hannah-howard.jpg"
+
+[[speakers]]
+name = "Rüdiger Klaehn"
+company = "Independent Software Engineer"
+image = "speakers/rudiger-klaehn.jpg"
+
+[[speakers]]
+name = "Michelle Lee"
+company = "Protocol Labs"
+twitterProfile = "mishmosh"
+image = "speakers/michelle_lee.jpg"
+
+[[speakers]]
+name = "Daryl Lim"
+company = "Metapals"
+image = "speakers/daryl-lim.png"
+
+[[speakers]]
+name = "Gorka Ludlow"
+twitterProfile = "AquiGorka"
+company = "Gather"
+image = "speakers/gorka-ludlow.jpg"
+
+[[speakers]]
+name = "Molly Mackinlay"
+company = "Protocol Labs"
+twitterProfile = "momack28"
+image = "speakers/molly-mackinlay.jpg"
+
+[[speakers]]
+name = "Boris Mann"
+company = "FISSION"
+twitterProfile = "bmann"
+image = "speakers/boris-mann.jpg"
+
 [[speakers]]
 name = "Matt Marshall"
 company = ""
 image = "speakers/matt-marshall.jpg"
+
+[[speakers]]
+name = "Justin Melillo"
+company = "Mona"
+image = "speakers/justin-melillo.jpeg"
+
+[[speakers]]
+name = "Metageist"
+company = ""
+image = "speakers/metageist.jpg"
+
+[[speakers]]
+name = "Crystal Mills"
+twitterProfile = "ckmwrites"
+company = "Protocol Labs"
+image = "speakers/crystal-mills.jpeg"
+
+[[speakers]]
+name = "Thibault Muenier"
+company = "Cloudflare"
+image = "speakers/thibault-muenier.png"
+
+[[speakers]]
+name = "Changwé Mutakasha"
+company = "NEAR"
+image = "speakers/changwé-mutakasha.png"
+
+[[speakers]]
+name = "Cayman Nava"
+company = "ChainSafe Systems"
+twitterProfile = "caymannan"
+image = "speakers/cayman-nava.jpg"
+
+[[speakers]]
+name = "Daniel Norman"
+twitterProfile = "daniel2color"
+company = "Protocol Labs"
+image = "speakers/daniel-norman.jpg"
+
+[[speakers]]
+name = "Nathalie Nunez"
+company = ""
+image = "speakers/nathalie-nunez.png"
+
+[[speakers]]
+name = "Brendan O'Brien"
+company = "Number Zero"
+twitterProfile = "b_fiive"
+image = "speakers/brendan-obrien.jpg"
+
+[[speakers]]
+name = "Matt Ober"
+twitterProfile = "MattOber1"
+company = "Pinata"
+image = "speakers/matt-ober.jpg"
+
+[[speakers]]
+name = "Tobias Petrasch"
+twitterProfile = "tpetrasch"
+company = "Hammerspace"
+image = "speakers/tobias-petarsch.jpeg"
+
+[[speakers]]
+name = "Alex Potsides"
+company = "Protocol Labs"
+twitterProfile = "achingbrain"
+image = "speakers/alex-potsides.jpg"
+
+[[speakers]]
+name = "Anshuman Prasad"
+company = "Protocol Labs"
+image = "speakers/anshuman-prasad.png"
+
+[[speakers]]
+name = "Yiannis Psaras"
+company = "Protocol Labs"
+image = "speakers/yiannis.jpeg"
+
+[[speakers]]
+name = "Taivo Pungas"
+twitterProfile = "taivopungas"
+company = "NFTPort"
+image = "speakers/taivo-pungas.png"
+
+[[speakers]]
+name = "Camila Ramos"
+company = "Fuel Labs, Women Build Web 3"
+twitterProfile = "camiinthisthang"
+image = "speakers/camila-ramos.jpg"
+
+[[speakers]]
+name = "Marcin Rataj"
+company = "Protocol Labs"
+twitterProfile = "lidelOrg"
+image = "speakers/marcin-rataj.jpg"
+
+[[speakers]]
+name = "Niklas Rindtorff"
+company = "LabDAO"
+twitterProfile = "Niklas_TR"
+image = "speakers/niklas-rindtorff.jpg"
+
+[[speakers]]
+name = "Hector Sanjuan"
+company = "Protocol Labs"
+twitterProfile = "hecturchi"
+image = "speakers/hector-sanjuan.jpg"
+
+[[speakers]]
+name = "Alan Shaw"
+twitterProfile = "_alanshaw"
+company = "Protocol Labs"
+image = "speakers/alan-shaw.png"
+
+[[speakers]]
+name = "Mahmoud Shehata"
+company = "Fleek"
+image = "speakers/mahmoud-shehata.jpg"
+
+[[speakers]]
+name = "Mauve Signweaver"
+company = "Agregore Browser"
+twitterProfile = "RangerMauve"
+image = "speakers/mauve-signweaver.jpg"
+
+[[speakers]]
+name = "Oleg Silkin"
+company = "Red Hat"
+image = "speakers/oleg-silkin.jpg"
+
+[[speakers]]
+name = "Pasquale Sorrentino"
+twitterProfile = "BNBGem"
+company = "Gummys.io"
+image = "speakers/pasquale-sorrentino.jpg"
+
+[[speakers]]
+name = "Manfred Touron"
+company = "Berty Technologies"
+twitterProfile = "moul"
+image = "speakers/manfred-touron.jpg"
+
+[[speakers]]
+name = "Dennis Trautwein"
+twitterProfile = "dtrautwein_eu"
+company = "Protocol Labs"
+image = "speakers/dennis-trautwein.jpeg"
+
+[[speakers]]
+name = "Jonathan Victor"
+twitterProfile = "jnthnvctr"
+company = "Protocol Labs"
+image = "speakers/jonathan-victor.jpeg"
+
+[[speakers]]
+name = "Shannon Wells"
+twitterProfile = "shanvasion"
+company = "Livepeer"
+image = "speakers/shannon-wells.jpeg"
+
+[[speakers]]
+name = "Matt Wisniewski"
+twitterProfile = "retropronghorn"
+company = "Satellite"
+image = "speakers/matt-wisniewski.png"
+
+[[speakers]]
+name = "Brooklyn Zelenka"
+company = "FISSION"
+twitterProfile = "expede"
+image = "speakers/brooklyn-zelenka.jpg"
 
 
 # Ticket Items
