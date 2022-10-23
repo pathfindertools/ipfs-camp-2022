@@ -62,7 +62,7 @@ description=""
 [[timeslots]]
 startTime="14:00"
 speakers=["@lidel"]
-title="IPFS: State of Specifications"
+title="Improving IPFS specifications"
 description="Significant progress is being made around spec coverage and improvement proposal (IPIP) process. Where we go from here?"
 
 [[timeslots]]
