@@ -90,43 +90,51 @@ description="BREAK"
 [[timeslots]]
 startTime="11:20"
 speakers=["@Ilya Kreymer (@ikreymer)"]
-title="Decentralized Web Archiving: Create your own web archive using a browser, IPFS and Webrecorder tools"
-description="This will be a hands-on workshop, where participants will be able to use various Webrecorder tools to create their own decentralized web archives, using their browser and our interactive browser extension (ArchiveWeb.page) or command-line crawling tools (Browsertrix Crawler) for larger-scale archiving. We will start with an introduction to Webrecorder tools and web archiving and allow participants to create their own archives. Participants will then be able to place their archives on IPFS and share with others."
+title="Intro to Decentralized Web Archiving using Webrecorder and IPFS"
+description="The Webrecorder project open source tools to 'record' web pages as they load, creating high-fidelity interactive web archives which can then be stored on IPFS in a standard format. These interactive archives can then be loaded directly in the browser, much like video or PDFs, using custom viewer tools. This session will provide a brief intro to high fidelity web archiving workflows and tools."
+
+
+[[timeslots]]
+startTime="11:30"
+speakers=["@David Justice (@meandavejustice)"]
+title="Introducing pin-tweet-to-ipfs: Webrecorder + web3.storage"
+description="Brief introduction to pin-tweet-to-ipfs. The first IPFS-Enabled extension. Marrying one of Webrecorder's browser-based archiving tools (express.archiveweb.page) and web3.storage to display the power of IPFS to non technical users."
 
 
 [[timeslots]]
 startTime="11:40"
+speakers=["@Ilya Kreymer (@ikreymer)"]
+title="Make your own web archives with Webrecorder tools (Hands-On Demo)"
+description="Want to archive a web page and put it on IPFS? Or, run a larger crawl automatically and upload several web archives (as WACZ) files to IPFS? In this lightning talk, we'll demo several additional tools, including our ArchiveWeb.page extension, Browsertrix Crawler crawling system, and our new IPFS WACZ Uploader for easily uploading web archives to IPFS in bulk. Attendees who bring their laptop will be able to follow along or try the tools on their own later"
+
+
+[[timeslots]]
+startTime="11:50"
 speakers=["@Fabrice Desré (@fabricedesre)"]
 title="IPFS Goes Mobile"
 description="Capyloon is an experimental web based mobile OS. It aims at giving users more control over their digital life, with decentralized technologies as a cornerstone of the solution. We'll talk about the early steps, current status and what to expect next."
 
 
 [[timeslots]]
-startTime="12:00"
+startTime="12:10"
 speakers=["@Lidel (@lidel)"]
 title="Gateways of the Future (and Now Too)"
 description="HTTP gateways are a key onramp for IPFS usage not only by browsers, but tools, APIs and more. Learn about the state of the IPFS HTTP gateway implementation in Kubo today, and new features and changes coming soon."
 
 
 [[timeslots]]
-startTime="12:10"
+startTime="12:20"
 speakers=["@Mark Gaiser (@markg85)"]
 title="Challenges in IPFS Integrations with Open Source Projects"
 description="Going over some of the challenges we faced with implementing IPFS in open source projects. The lessons we've learned and what is still planned ahead."
 
 
 [[timeslots]]
-startTime="12:20"
+startTime="12:30"
 speakers=["@David Justice (@meandavejustice)"]
 title="BLE connectivity and IPFS: Durin's next steps"
 description="Exploring the next steps for Durin (ipfs on mobile)"
 
-
-[[timeslots]]
-startTime="12:30"
-speakers=["@David Justice (@meandavejustice)"]
-title="Introducing pin-tweet-to-ipfs: Webrecorder + web3.storage"
-description="Brief introduction to pin-tweet-to-ipfs. The first IPFS-Enabled extension. Marrying webrecorder and web3.storage to display the power of IPFS to non technical users."
 
 
 [[timeslots]]
