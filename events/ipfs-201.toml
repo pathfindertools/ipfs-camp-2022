@@ -103,8 +103,8 @@ description=""
 [[timeslots]]
 startTime="14:00"
 speakers=["Lidel"]
-title="Using the DAG API to efficiently fetch geoip data with IPFS"
-description="An overview of how the [ipfs-geoip](https://github.com/ipfs-shipyard/ipfs-geoip) library works and the recent refactor to use the DAG API."
+title="Using DAG-CBOR to store and lookup geoip data with IPFS"
+description="Short look at how [ipfs-geoip](https://github.com/ipfs-shipyard/ipfs-geoip) library works and how it evolved to benefit from the recent IPFS improvements."
 
 [[timeslots]]
 startTime="14:15"
