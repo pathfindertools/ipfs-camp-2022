@@ -459,6 +459,11 @@ company = "FISSION"
 twitterProfile = "expede"
 image = "speakers/brooklyn-zelenka.jpg"
 
+[[speakers]]
+name = "Fabrice Desré"
+company = "Capyloon"
+twitterProfile = "fabricedesre"
+image = "speakers/fabrice-desre.jpg"
 
 # Ticket Items
 #
