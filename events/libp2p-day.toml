@@ -69,24 +69,24 @@ description=""
 
 [[timeslots]]
 startTime="11:15"
-speakers=["Max Inden"]
+speakers=["Ryan Plauche & Max Inden"]
 title="Why WebRTC"
 description=""
 
 [[timeslots]]
-startTime="11:40"
+startTime="11:35"
 speakers=["Dennis Trautwein"]
-title="Hole Punching"
+title="libp2p NAT Hole Punching"
 description=""
 
 [[timeslots]]
-startTime="12:05"
-speakers=["Tanguy Menduist"]
-title="nim-libp2p"
+startTime="12:10"
+speakers=["Tanguy Cizain"]
+title="libp2p in Nim"
 description=""
 
 [[timeslots]]
-startTime="12:30"
+startTime="12:35"
 speakers=["Laurent Senta"]
 title="Testground + libp2p"
 description=""
@@ -99,7 +99,55 @@ description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=[]
-title="Unconference"
-description="A libp2p Unconference!"
+speakers=["Cayman Nava"]
+title="Intro to Lodestar"
+description=""
+
+[[timeslots]]
+startTime="14:20"
+speakers=["Gorka Ludlow"]
+title="WebRTC signalling data over QR codes"
+description=""
+
+[[timeslots]]
+startTime="14:40"
+speakers=["Ankit Kumar"]
+title="Formal Analysis of GossipSub"
+description=""
+
+[[timeslots]]
+startTime="15:00"
+speakers=["Elliott Frisch"]
+title="How Pyrsia is using libp2p to take over the world"
+description=""
+
+[[timeslots]]
+startTime="15:20"
+speakers=["Max Inden"]
+title="DOS defense - do’s and dont’s"
+description=""
+
+[[timeslots]]
+startTime="15:40"
+speakers=[""]
+title="Open Unconf Slot"
+description=""
+
+[[timeslots]]
+startTime="16:00"
+speakers=["Petar Maymounkov"]
+title="The power of two choices – Why the Kademlia binary tree isn’t balanced and what we can do about it"
+description=""
+
+[[timeslots]]
+startTime="16:20"
+speakers=[""]
+title="Open Unconf Slot"
+description=""
+
+[[timeslots]]
+startTime="16:40"
+speakers=[""]
+title="Open Unconf Slot"
+description=""
 
