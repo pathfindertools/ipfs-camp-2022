@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Decentralized Science (DeSci) and Big Data Management"
+name = "Decentralized Science (DeSci)"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -47,55 +47,71 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-startTime="12:00"
+startTime="13:00"
 speakers=["Niklas Rindtorff"]
 title="LabDAO (DeSci, LabDAO Overview, Partnership, etc.)"
 description=""
 
 [[timeslots]]
-startTime="12:30"
+startTime="13:30"
 speakers=["Wes Floyd"]
 title="Bacalhau (Overview and DeSci Use Cases)"
 description=""
 
 [[timeslots]]
-startTime="13:00"
-speakers=["Martin Karlsen"]
-title="Lateral (Discourse Graphs w/Ceramic)"
+startTime="13:50"
+speakers=["Carla Ostmann"]
+title="Transforming big scientific data into interoperable research objects stored Open State"
 description=""
 
 [[timeslots]]
-startTime="13:20"
-speakers=["Shady el Damaty"]
-title="Holonym or OpSci?"
-description=""
-
-[[timeslots]]
-startTime="13:40"
-speakers=["Gordon Gould"]
-title="New Atlantis"
-description=""
-
-[[timeslots]]
-startTime="14:00"
-speakers=["Nate Jacobs"]
-title="Publications Group"
-description=""
-
-[[timeslots]]
-startTime="14:20"
-speakers=["Carla .."]
-title="DeSci Labs"
-description=""
-
-[[timeslots]]
-startTime="14:40"
+startTime="14:10"
 speakers=[]
 title="Break"
 description=""
 
 [[timeslots]]
+startTime="14:20"
+speakers=["Kelsie Nabben"]
+title="DAO Science: organizational design as an emerging interdisciplinary science"
+description=""
+
+
+[[timeslots]]
+startTime="14:40"
+speakers=["Gordon Gould"]
+title="DeSci Meets ReFi: Quantifying Marine Biodiversity with Open Meta-omics to Power Sustainable and Scalable Ocean Regeneration"
+description=""
+
+
+[[timeslots]]
 startTime="15:00"
+speakers=["Alexandra McCarroll"]
+title="The Future of Privacy-Preserving Compute & DeSci"
+description=""
+
+[[timeslots]]
+startTime="15:20"
+speakers=["Martin Karlsson"]
+title="Visual graph tools for weaving together historical, in progress and future data to coordinate decentralized research"
+description=""
+
+
+[[timeslots]]
+startTime="15:40"
+speakers=[]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="15:50"
+speakers=["Silvia Bessa"]
+title="Research Roadmapping - Mapping the Unknowns"
+description=""
+
+
+[[timeslots]]
+startTime="16:00"
 speakers=["LabDAO + Bacalhau"]
-title="Workshop (details tbd, 60-90m)"
+title="DeSci Pinning and Compute Workshop (IPFS and Bacalhau)"
 description=""
