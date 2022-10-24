@@ -209,6 +209,11 @@ company = "Status.im"
 image = "speakers/tanguy-cizain.jpg"
 
 [[speakers]]
+name = "Pedro Akos Costa"
+company = "NOVA University of Lisbon"
+image = "speakers/pedro-akos-costa.jpg"
+
+[[speakers]]
 name = "Carson Farmer"
 company = "Textile"
 twitterProfile = "carsonfarmer"
