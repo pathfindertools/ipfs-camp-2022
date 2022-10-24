@@ -50,7 +50,7 @@ startTime="13:00"
 speakers=["@b5"]
 title="Interplanetary Cambrian Explosion"
 description="""
-A wave of new IPFS implementations has grown in the past year. This track introduction will give an overview of recent developments in IPFS implementaions, and how existing ones are adapting to meet new demands. 
+A wave of new IPFS implementations has grown in the past year. This track introduction will give an overview of recent developments in IPFS implementations, and how existing ones are adapting to meet new demands. 
 """
 
 [[timeslots]]
