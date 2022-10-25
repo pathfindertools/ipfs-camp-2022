@@ -53,22 +53,12 @@ description="Welcome!"
 
 [[timeslots]]
 startTime="10:00"
-speakers=["Sara Freenan (Consensys)"]
+speakers=["Sara Feenan (Infura)"]
 title="Build the web we want"
 description="""
-Recently, we deprecated our public gateway and it came to light that creators
-had been using our public gateway url, along with the CID, in their NFT
-metadata, instead of using the CID. 
+Recently, we deprecated our public gateway and it came to light that creators had been using our public gateway url, along with the CID, in their NFT metadata, instead of using the CID.
 
-I would like to take this opportunity to remind people that IPFS is about building
-a decentralised web that is not beholden to one company or organisation. CIDs are
-content identifiers, not resource locators. The beauty of the protocol is that the
-content can be found on the network using the CID via the cooperation of the node
-providers, and the built in redundancy of the protocol. 
-
-The decentralised and resilient web we want will rely on people embedding these new
-patterns into whatever they create and build on top of the protocol and we at Infura
-want to help in whatever way we can.
+The decentralised and resilient web we want will rely on people embedding these new patterns into whatever they create and build on top of the protocol and we at Infura want to help in whatever way we can.
 """
 
 [[timeslots]]
