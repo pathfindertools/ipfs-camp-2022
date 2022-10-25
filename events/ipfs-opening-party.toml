@@ -1,0 +1,27 @@
+# the name of your track or event
+name = "Dinner & Opening Party"
+
+# the start date of the event
+date = "2022-10-28"
+
+# how many days the event lasts (1 - N)
+days = 1
+
+# the event times (shows up in the event card)
+times = "19:00 - 22:00"
+
+# the "difficulty" of the event -- one of:
+# ["Beginner", "Intermediate", "Advanced", "All Welcome"]
+difficulty = "All Welcome"
+
+# tags for the event, will show up as labels.
+# pick 1-4
+tags = ["Party 🎉"]
+
+# a color, to group key events visually. use sparingly
+# color="purple"
+
+# a description of the event.
+# will show up when the user clicks the event card.
+description = """
+"""
