@@ -56,7 +56,7 @@ A wave of new IPFS implementations has grown in the past year. This track introd
 [[timeslots]]
 startTime="13:15"
 speakers=["Alan Shaw"]
-title="IPFS at scale"
+title="5 Billion Blocks"
 description="Alan's talk will give a high level overview of infrastructure the DAG House team has built for serving massive amounts of IPFS content to thousands of users around the world."
 
 [[timeslots]]
