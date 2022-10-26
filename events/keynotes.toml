@@ -3,7 +3,7 @@ name = "Keynotes"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-# dri = "mosh"
+# dri = "Mosh Lee"
 
 # the start date of the event
 date = "2022-10-28"
@@ -42,32 +42,33 @@ description = "A warm and wonderful kickoff to IPFS Camp with keynote speakers, 
 # - recommended end:   17:00
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
+
 startTime="10:00"
-speakers="Mosh and Dietrich"
+speakers="Mosh Lee and Dietrich Ayala"
 title="Welcome"
 
 startTime="10:05"
-speakers="Molly Mackinlay (@momack2)"
+speakers="Molly Mackinlay"
 title="State of IPFS Ecosystem"
 description="Short overview of the state of the IPFS world by the numbers, highlighting the major events or phases since IPFS Camp 2019."
 
 startTime="10:15"
-speakers="Jay Graber, Manos Nikiforakis, Francis Tyers"
+speakers="Jay Graber (Bluesky), Manos Nikiforakis (WeatherXM), Francis Tyers (Omnilingo)"
 title="IPFS Applications Showcase"
 description="Three IPFS applications show off what they've built and share the critical needs the protocol and implementations must deliver on in order to succeed."
 
 startTime="10:30"
-speakers="Host: Mosh, J Dotan (Starling), Phoebe (Likecoin), Xavi (Catalunia)"
+speakers="Jonathan Dotan (Starling), Phoebe Poon (Liker Land), Xavi Vives (Vocdoni)"
 title="Decentralization and Human Rights Showcase"
 description="Three projects that use IPFS to improve information access & preservation to benefit human knowledge and human rights."
 
 startTime="10:50"
-speakers="Juan Benet, Gus Eggert, B5, Alan Shaw, Alex Potsides"
+speakers="Juan Benet, Gus Eggert, Brendan O'Brien, Alan Shaw, Alex Potsides"
 title="IPFS Implementations"
 description="Lightning talks from the creator of IPFS and the lead maintainers of key IPFS implementations on the current state and future of each, followed by a short panel discussion on what's needed most and the challenges of implementation and maintainership."
 
 startTime="11:25"
-speakers="Juan, Mosh & Dietrich"
+speakers="Juan Benet, Mosh Lee, Dietrich Ayala"
 title="IPFS Fund Announcement"
 description="Learn about a new funding effort to expand IPFS implementations into new and different areas and support broad ecosystem initiatives such as education, developer tooling and more."
 
