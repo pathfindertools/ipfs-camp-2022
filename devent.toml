@@ -598,42 +598,42 @@ name = "Logan Lentz"
 company = "GalaxyX" 
 twitterProfile = "ZaphodB17" 
 image = "speakers/logan-lentz.jpeg" 
- 
- [[speakers]] 
- name = "Max Boystov" 
- company = "Fleek" 
- twitterProfile = "max_boytsov" 
- image = "speakers/max-boystov.jpeg" 
- 
- [[speakers]] 
- name = "Ryan Baumann" 
- company = "IPFS: Protocol Labs" 
- twitterProfile = "TRDiscordian" 
- image = "speakers/ryan-baumann.png" 
- 
- [[speakers]] 
- name = "Ryan Shahine" 
- company = "Portrait.gg" 
- twitterProfile = "ryanshahine" 
- image = "speakers/ryan-shahine.jpeg" 
- 
- [[speakers]] 
- name = "Sergey Ilinn" 
- company = "Peeranha" 
- twitterProfile = "SergeyIlinn" 
- image = "speakers/sergey-llin.png" 
- 
- [[speakers]] 
- name = "Shannon Wells" 
- company = "Livepeer" 
- twitterProfile = "shanvasion" 
- image = "speakers/shannon-wells.jpeg" 
- 
- [[speakers]] 
- name = "Steph Orpilla" 
- company = "Polygon" 
- twitterProfile = "Oceans404" 
- image = "speakers/steph-orpilla.png" 
+
+[[speakers]] 
+name = "Max Boystov" 
+company = "Fleek" 
+twitterProfile = "max_boytsov" 
+image = "speakers/max-boystov.jpeg" 
+
+[[speakers]] 
+name = "Ryan Baumann" 
+company = "IPFS: Protocol Labs" 
+twitterProfile = "TRDiscordian" 
+image = "speakers/ryan-baumann.png" 
+
+[[speakers]] 
+name = "Ryan Shahine" 
+company = "Portrait.gg" 
+twitterProfile = "ryanshahine" 
+image = "speakers/ryan-shahine.jpeg" 
+
+[[speakers]] 
+name = "Sergey Ilinn" 
+company = "Peeranha" 
+twitterProfile = "SergeyIlinn" 
+image = "speakers/sergey-llin.png" 
+
+[[speakers]] 
+name = "Shannon Wells" 
+company = "Livepeer" 
+twitterProfile = "shanvasion" 
+image = "speakers/shannon-wells.jpeg" 
+
+[[speakers]] 
+name = "Steph Orpilla" 
+company = "Polygon" 
+twitterProfile = "Oceans404" 
+image = "speakers/steph-orpilla.png" 
 
 # Ticket Items
 #
