@@ -256,6 +256,7 @@ image = "speakers/hannah-howard.jpg"
 
 [[speakers]]
 name = "Rüdiger Klaehn"
+twitterProfile = "klaehnr"
 company = "Independent Software Engineer"
 image = "speakers/rudiger-klaehn.jpg"
 
