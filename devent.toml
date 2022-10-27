@@ -232,6 +232,16 @@ twitterProfile = "weswfloyd"
 image = "speakers/wes-floyd.jpg"
 
 [[speakers]]
+name = "Sid Gandhi"
+company = "Polybase"
+image = "speakers/sid-gandhi.png"
+
+[[speakers]]
+name = "Max Giammario"
+company = "MetaPals"
+image = "speakers/max-giammario.png"
+
+[[speakers]]
 name = "Jay Graber"
 company = "Bluesky"
 twitterProfile = "arcalinea"
@@ -255,10 +265,20 @@ twitterProfile = "techgirlwonder"
 image = "speakers/hannah-howard.jpg"
 
 [[speakers]]
+name = "Sergey Ilin"
+company = "Peeranha"
+image = "speakers/sergey-ilin.jpg"
+
+[[speakers]]
 name = "Rüdiger Klaehn"
 twitterProfile = "klaehnr"
 company = "Independent Software Engineer"
 image = "speakers/rudiger-klaehn.jpg"
+
+[[speakers]]
+name = "Dmitry Kurinskiy"
+company = "Fluence Labs"
+image = "speakers/dmitry-kurinskiy.jpg"
 
 [[speakers]]
 name = "Michelle Lee"
@@ -356,6 +376,11 @@ company = "Hammerspace"
 image = "speakers/tobias-petarsch.jpeg"
 
 [[speakers]]
+name = "Evgeny Ponomarev"
+company = "Fluence Labs"
+image = "speakers/evgeny-ponomarev.jpg"
+
+[[speakers]]
 name = "Alex Potsides"
 company = "Protocol Labs"
 twitterProfile = "achingbrain"
@@ -396,10 +421,20 @@ twitterProfile = "Niklas_TR"
 image = "speakers/niklas-rindtorff.jpg"
 
 [[speakers]]
+name = "Seren Sandikci"
+company = "Indexas"
+image = "speakers/seren-sandikci.jpeg"
+
+[[speakers]]
 name = "Hector Sanjuan"
 company = "Protocol Labs"
 twitterProfile = "hecturchi"
 image = "speakers/hector-sanjuan.jpg"
+
+[[speakers]]
+name = "Ryan Shahine"
+company = "Portrait Technology Inc."
+image = "speakers/ryan-shahine.png"
 
 [[speakers]]
 name = "Alan Shaw"
@@ -448,10 +483,25 @@ company = "Protocol Labs"
 image = "speakers/dennis-trautwein.jpeg"
 
 [[speakers]]
+name = "Giliam Verheide"
+company = "Portrait Technology Inc."
+image = "speakers/giliam-verheide.png"
+
+[[speakers]]
 name = "Jonathan Victor"
 twitterProfile = "jnthnvctr"
 company = "Protocol Labs"
 image = "speakers/jonathan-victor.jpeg"
+
+[[speakers]]
+name = "Xavi Vives"
+company = "Interplanetary mind-map"
+image = "speakers/xavi-vives.jpg"
+
+[[speakers]]
+name = "Andreas Vogel"
+company = "Legacy"
+image = "speakers/andreas-vogel.jpg"
 
 [[speakers]]
 name = "Shannon Wells"
@@ -460,10 +510,25 @@ company = "Livepeer"
 image = "speakers/shannon-wells.jpeg"
 
 [[speakers]]
+name = "Holmes Wilson"
+company = "Quiet"
+image = "speakers/holmes-wilson.jpg"
+
+[[speakers]]
 name = "Matt Wisniewski"
 twitterProfile = "retropronghorn"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
+
+[[speakers]]
+name = "Serafettin Yarar"
+company = "Indexas"
+image = "speakers/serafettin-yarar.jpg"
+
+[[speakers]]
+name = "Nur Yildirim"
+company = "Indexas"
+image = "speakers/nur-yildirim.jpg"
 
 [[speakers]]
 name = "Brooklyn Zelenka"
