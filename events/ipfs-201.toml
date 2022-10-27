@@ -164,7 +164,7 @@ Banyan is currently implemented in rust, with Apache and MIT license.
 
 [[timeslots]]
 startTime="17:00"
-speakers=["Daniel (@tabcat)"]
+speakers=["Daniel Thompson (@tabcat)"]
 title="Opalescence: App Design without Global State"
 description="Local-first software design is almost opposite to traditional models. Software built this way has some clear advantages for a large application set but isn't without its challenges.
 

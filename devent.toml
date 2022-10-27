@@ -271,6 +271,7 @@ image = "speakers/sergey-ilin.jpg"
 
 [[speakers]]
 name = "Rüdiger Klaehn"
+twitterProfile = "klaehnr"
 company = "Independent Software Engineer"
 image = "speakers/rudiger-klaehn.jpg"
 
@@ -288,7 +289,7 @@ image = "speakers/michelle_lee.jpg"
 [[speakers]]
 name = "Daryl Lim"
 company = "Metapals"
-image = "speakers/daryl-lim.png"
+image = "speakers/daryl-lim.jpg"
 
 [[speakers]]
 name = "Gorka Ludlow"
@@ -462,6 +463,12 @@ name = "Pasquale Sorrentino"
 twitterProfile = "BNBGem"
 company = "Gummys.io"
 image = "speakers/pasquale-sorrentino.jpg"
+
+[[speakers]]
+name = "Daniel Thompson"
+company = ""
+twitterProfile = "tabcat00"
+image = "speakers/daniel-thompson.jpg"
 
 [[speakers]]
 name = "Manfred Touron"
