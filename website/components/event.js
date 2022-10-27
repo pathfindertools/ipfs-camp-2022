@@ -54,7 +54,10 @@ function BlockCard({ event }) {
   return (
     <Card color={event.color}>
       <h5 className="text-h5 mb-4">{event.name}</h5>
-      <div className="text-body1 mb-4">{event.times}</div>
+      <div className="track-card text-body1 mb-4">
+        {event.times}
+        {event.venueName && <Markdown>{`${event.venueName}`}</Markdown>}
+      </div>
       <div className="text-body1 mb-4">
         👤 {event.attendees} - {event.difficulty}
       </div>
