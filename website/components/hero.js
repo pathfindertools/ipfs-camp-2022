@@ -36,6 +36,9 @@ export default function Hero({ config }) {
                 {config.devent.ticketLink &&
                   <Button href={config.devent.ticketLink} target="_blank">Get Tickets</Button>
                 }
+                {config.devent.venueMapLink &&
+                  <Button href={config.devent.venueMapLink} target="_blank">Venue map & shuttle info</Button>
+                }
                 {config.devent.speakLink &&
                   <Button href={config.devent.speakLink} target="_blank" variation="outline">Apply to Speak</Button>
                 }
