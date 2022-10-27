@@ -25,6 +25,8 @@ tags = ["Talks", "Panels"]
 # a color, to group key events visually. use sparingly
 # color="purple"
 
+priority=1
+
 # a description of the track.
 # will show up when the user clicks the event card.
 description = "A warm and wonderful kickoff to IPFS Camp with keynote speakers, fireside chats, and a sampling of community talks and community perspectives on the present and future of IPFS."
@@ -45,47 +47,47 @@ description = "A warm and wonderful kickoff to IPFS Camp with keynote speakers, 
 
 [[timeslots]]
 startTime="10:00"
-speakers="Mosh Lee and Dietrich Ayala"
+speakers=["Mosh Lee", "Dietrich Ayala"]
 title="Welcome"
 
 [[timeslots]]
 startTime="10:05"
-speakers="Molly Mackinlay"
+speakers=["Molly Mackinlay"]
 title="State of IPFS Ecosystem"
 description="Short overview of the state of the IPFS world by the numbers, highlighting the major events or phases since IPFS Camp 2019."
 
 [[timeslots]]
 startTime="10:15"
-speakers="Jay Graber (Bluesky), Manos Nikiforakis (WeatherXM), Francis Tyers (Omnilingo)"
+speakers=["Jay Graber (Bluesky)", "Manos Nikiforakis (WeatherXM)", "Francis Tyers (Omnilingo)"]
 title="IPFS Applications Showcase"
 description="Three IPFS applications show off what they've built and share the critical needs the protocol and implementations must deliver on in order to succeed."
 
 [[timeslots]]
 startTime="10:30"
-speakers="Jonathan Dotan (Starling), Phoebe Poon (Liker Land), Xavi Vives (Vocdoni)"
+speakers=["Jonathan Dotan (Starling)", "Phoebe Poon (Liker Land)", "Xavi Vives (Vocdoni)"]
 title="Decentralization and Human Rights Showcase"
 description="Three projects that use IPFS to improve information access & preservation to benefit human knowledge and human rights."
 
 [[timeslots]]
 startTime="10:50"
-speakers="Juan Benet, Gus Eggert, Brendan O'Brien, Alan Shaw, Alex Potsides"
+speakers=["Juan Benet", "Gus Eggert", "Brendan O'Brien", "Alan Shaw", "Alex Potsides"]
 title="IPFS Implementations"
 description="Lightning talks from the creator of IPFS and the lead maintainers of key IPFS implementations on the current state and future of each, followed by a short panel discussion on what's needed most and the challenges of implementation and maintainership."
 
 [[timeslots]]
 startTime="11:25"
-speakers="Juan Benet, Mosh Lee, Dietrich Ayala"
+speakers=["Juan Benet", "Mosh Lee", "Dietrich Ayala"]
 title="IPFS Fund Announcement"
 description="Learn about a new funding effort to expand IPFS implementations into new and different areas and support broad ecosystem initiatives such as education, developer tooling and more."
 
 [[timeslots]]
 startTime="11:35"
-speakers="All track leads"
+speakers=["All track leads"]
 title="Track-o-Rama"
 description="With over 15 tracks and a choose-your-own adventure format, how will you choose? In this session, track leads will give a 60-second pitch for why EVERYONE should come to their track."
 
 [[timeslots]]
 startTime="11:55"
-speakers="Harry Yeff"
+speakers=["Harry Yeff"]
 title="Voice Gems: A 1000 Year Archive"
 description="In 2020 Harry Yeff and Trung Bao set out to preserve a set of human voices for 1000 years, a feat that evokes many challenges and questions. In this talk & performance, artist and technologist Harry Yeff (Reeps100) showcases his portfolio of speed-of-light radio transmission, AI synthetic voices and how emerging technologies provide an artistically explosive and vital discussion on new methods of preservation."
