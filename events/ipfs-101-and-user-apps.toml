@@ -64,7 +64,8 @@ description="An Introduction to IPFS, its key features and benefits"
 [[timeslots]]
 startTime="13:30"
 speakers=["Lindsay Walker"]
-title="Hands On with IPFS - Installing, using the CLI and implementing kubo in a boilerplate app"
+title="Bring your laptops! Lindsay Walker will lead a hands-on workshop using tutorials from curriculum.pl-launchpad.io where you breakout your laptop and choose your starting point; either installing and using IPFS Desktop, installing the IPFS CLI, exploring the CLI features, or implementing kubo in a boilerplate golang application.
+Choose your starting point while learning from and teaching others to get fast-tracked with the practical use and application of IPFS, exploring, learning, and enabling those around you in the world of IPFS.Hands On with IPFS - Installing, using the CLI and implementing kubo in a boilerplate app"
 description="Lindsay Walker will lead a hands-on workshop to help you get up and running with IPFS"
 
 [[timeslots]]
