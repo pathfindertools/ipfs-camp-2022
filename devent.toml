@@ -177,6 +177,11 @@ company = "Technical University of Darmstadt"
 image = "speakers/leo-balduf.jpeg"
 
 [[speakers]]
+name = "Marta Belcher"
+company = "Filecoin Foundation"
+image = "speakers/marta-belcher.png"
+
+[[speakers]]
 name = "Juan Benet"
 company = "Protocol Labs"
 twitterProfile = "juanbenet"
@@ -186,6 +191,11 @@ image = "speakers/juan-benet.jpg"
 name = "Matthew Bradley"
 company = ""
 image = "speakers/matt-bradley.jpg"
+
+[[speakers]]
+name = "Jaya Brekke"
+company = "Nym"
+image = "speakers/jaya-brekke.jpeg"
 
 [[speakers]]
 name = "Alexander Burdiyan"
@@ -480,6 +490,11 @@ name = "Daniel Thompson"
 company = "Cypsela"
 twitterProfile = "tabcat00"
 image = "speakers/daniel-thompson.jpg"
+
+[[speakers]]
+name = "Chris Tomeo"
+company = "Electric Coin Co (Zcash)"
+image = "speakers/chris-tomeo.png"
 
 [[speakers]]
 name = "Manfred Touron"
