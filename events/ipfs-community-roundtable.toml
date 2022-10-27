@@ -1,11 +1,13 @@
 # the name of your track or event
-name = "IPFS Community Roundtable (Hypatia Room)"
+name = "IPFS Community Roundtable"
 
 # the start date of the event
 date = "2022-10-30"
 
 # how many days the event lasts (1 - N)
 days = 1
+
+venueName = "Hypatia"
 
 # the event times (shows up in the event card)
 times = "14:00 - 17:00"

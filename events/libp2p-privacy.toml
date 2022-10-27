@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Libp2p Privacy (Iolaus Room)"
+name = "Libp2p Privacy"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -10,6 +10,8 @@ date = "2022-10-30"
 
 # how many days the event lasts (1 - N)
 days = 0.5
+
+venueName = "Iolaus"
 
 # the event times (shows up in the event card)
 times = "14:00 - 17:00"

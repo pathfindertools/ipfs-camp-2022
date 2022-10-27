@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "IPFS 101 / User Apps on IPFS (decentralise all the things!) (Arion Room)"
+name = "IPFS 101 / User Apps on IPFS (decentralise all the things!)"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -10,6 +10,8 @@ date = "2022-10-28"
 
 # how many days the event lasts (1 - N)
 days = 1
+
+venueName = "Arion"
 
 # the event times (shows up in the event card)
 times = "13:00 - 17:00"

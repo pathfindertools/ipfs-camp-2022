@@ -1,5 +1,5 @@
 # the name of your track or event
-name = "Content Routing (Arion Room)"
+name = "Content Routing"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
@@ -10,6 +10,8 @@ date = "2022-10-29"
 
 # how many days the event lasts (1 - N)
 days = 1
+
+venueName = "Arion"
 
 # the event times (shows up in the event card)
 times = "10:00 - 13:00"

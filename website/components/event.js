@@ -211,7 +211,7 @@ export function EventModal({ children, event }) {
               </li>
               {event.venueName && (
                 <li>
-                  <b>Venue</b>:{' '}
+                  <b>Room</b>:{' '}
                   <span className="venue-name inline-block">
                     <Markdown>{event.venueName}</Markdown>
                   </span>
