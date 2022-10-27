@@ -569,29 +569,35 @@ company = "FISSION"
 twitterProfile = "expede"
 image = "speakers/brooklyn-zelenka.jpg"
 
- [[speakers]] 
- name = "Dave Montali" 
- company = "Nimi.eth" 
- twitterProfile = "davebit_" 
- image = "speakers/dave-montali.jpeg" 
+[[speakers]] 
+name = "Ally Haire" 
+company = "Filecoin" 
+twitterProfile = "DeveloperAlly" 
+image = "speakers/ally-haire.png" 
+
+[[speakers]] 
+name = "Dave Montali" 
+company = "Nimi.eth" 
+twitterProfile = "davebit_" 
+image = "speakers/dave-montali.jpeg" 
  
- [[speakers]] 
- name = "Konrad Urban" 
- company = "Endless Jewellery" 
- twitterProfile = "KonradUrban" 
- image = "speakers/konrad-urban.jpeg" 
+[[speakers]] 
+name = "Konrad Urban" 
+company = "Endless Jewellery" 
+twitterProfile = "KonradUrban" 
+image = "speakers/konrad-urban.jpeg" 
+
+[[speakers]] 
+name = "Lindsay Walker" 
+company = "Protocol Labs" 
+twitterProfile = "Lindsayjowalk" 
+image = "speakers/lindsay-walker.jpg" 
  
- [[speakers]] 
- name = "Lindsay Walker" 
- company = "Protocol Labs" 
- twitterProfile = "Lindsayjowalk" 
- image = "speakers/lindsay-walker.jpg" 
- 
- [[speakers]] 
- name = "Logan Lentz" 
- company = "GalaxyX" 
- twitterProfile = "ZaphodB17" 
- image = "speakers/logan-lentz.jpeg" 
+[[speakers]] 
+name = "Logan Lentz" 
+company = "GalaxyX" 
+twitterProfile = "ZaphodB17" 
+image = "speakers/logan-lentz.jpeg" 
  
  [[speakers]] 
  name = "Max Boystov" 
