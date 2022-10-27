@@ -11,6 +11,8 @@ date = "2022-10-30"
 # how many days the event lasts (1 - N)
 days = 0.5
 
+venueName = "Iolaus"
+
 # the event times (shows up in the event card)
 times = "14:00 - 17:00"
 
@@ -89,9 +91,9 @@ description=""
 
 [[timeslots]]
 startTime="16:45"
-speakers=[]
-title="Open Discussion, or Panel (to be confirmed)"
-description=""
+speakers=["Marta Belcher", "Jaya Brekke", "Chris Tomeo", "Jennifer Morrison"]
+title="Privacy is our future "
+description="The Universal Privacy Alliance is in formation with the ambition to change the narratives and agenda around privacy - as the very basis of free and flourishing digital societies. Join to find out what is at stake, where we are headed and how everyone can get involved."
 
 [[timeslots]]
 startTime="17:15"

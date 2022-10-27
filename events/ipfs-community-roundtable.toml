@@ -7,8 +7,14 @@ date = "2022-10-30"
 # how many days the event lasts (1 - N)
 days = 1
 
+venueName = "Hypatia"
+
 # the event times (shows up in the event card)
 times = "14:00 - 17:00"
+
+# the name handle of the directly responsible individual for this event
+# (this person will coordinate with devent organizers)
+dri = "Reid Wilkes"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -26,4 +32,6 @@ tags = ["Roundtable"]
 description = """
 An opportunity for IPFS implementers, contributors, and others in our community to get together and discuss roadmap,
 challenges, and opportunities.
+
+[See the forum for more information](https://discuss.ipfs.tech/t/announcing-ipfs-community-roundtable/15380)
 """

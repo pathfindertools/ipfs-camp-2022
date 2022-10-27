@@ -29,6 +29,8 @@ link="https://2022.ipfs.camp/"
 # a link to get tickets
 ticketLink="#tickets"
 
+venueMapLink="/map-shuttle.pdf"
+
 # a link to RSVP for the event
 # rsvpLink="#tickets"
 
@@ -177,6 +179,11 @@ company = "Technical University of Darmstadt"
 image = "speakers/leo-balduf.jpeg"
 
 [[speakers]]
+name = "Marta Belcher"
+company = "Filecoin Foundation"
+image = "speakers/marta-belcher.png"
+
+[[speakers]]
 name = "Juan Benet"
 company = "Protocol Labs"
 twitterProfile = "juanbenet"
@@ -186,6 +193,11 @@ image = "speakers/juan-benet.jpg"
 name = "Matthew Bradley"
 company = ""
 image = "speakers/matt-bradley.jpg"
+
+[[speakers]]
+name = "Jaya Brekke"
+company = "Nym"
+image = "speakers/jaya-brekke.jpeg"
 
 [[speakers]]
 name = "Alexander Burdiyan"
@@ -214,6 +226,12 @@ company = "NOVA University of Lisbon"
 image = "speakers/pedro-akos-costa.jpg"
 
 [[speakers]]
+name = "Fabrice Desré"
+company = "Capyloon"
+twitterProfile = "fabricedesre"
+image = "speakers/fabrice-desre.jpg"
+
+[[speakers]]
 name = "Carson Farmer"
 company = "Textile"
 twitterProfile = "carsonfarmer"
@@ -230,6 +248,16 @@ name = "Wes Floyd"
 company = "Protocol Labs"
 twitterProfile = "weswfloyd"
 image = "speakers/wes-floyd.jpg"
+
+[[speakers]]
+name = "Sid Gandhi"
+company = "Polybase"
+image = "speakers/sid-gandhi.png"
+
+[[speakers]]
+name = "Max Giammario"
+company = "MetaPals"
+image = "speakers/max-giammario.png"
 
 [[speakers]]
 name = "Jay Graber"
@@ -255,9 +283,20 @@ twitterProfile = "techgirlwonder"
 image = "speakers/hannah-howard.jpg"
 
 [[speakers]]
+name = "Sergey Ilin"
+company = "Peeranha"
+image = "speakers/sergey-ilin.jpg"
+
+[[speakers]]
 name = "Rüdiger Klaehn"
+twitterProfile = "klaehnr"
 company = "Independent Software Engineer"
 image = "speakers/rudiger-klaehn.jpg"
+
+[[speakers]]
+name = "Dmitry Kurinskiy"
+company = "Fluence Labs"
+image = "speakers/dmitry-kurinskiy.jpg"
 
 [[speakers]]
 name = "Michelle Lee"
@@ -268,7 +307,7 @@ image = "speakers/michelle_lee.jpg"
 [[speakers]]
 name = "Daryl Lim"
 company = "Metapals"
-image = "speakers/daryl-lim.png"
+image = "speakers/daryl-lim.jpg"
 
 [[speakers]]
 name = "Gorka Ludlow"
@@ -310,6 +349,11 @@ company = "Protocol Labs"
 image = "speakers/crystal-mills.jpeg"
 
 [[speakers]]
+name = "Jennifer Morrison"
+company = "Manta Network"
+image = "speakers/jennifer-morrison.jpeg"
+
+[[speakers]]
 name = "Thibault Muenier"
 company = "Cloudflare"
 image = "speakers/thibault-muenier.png"
@@ -317,7 +361,7 @@ image = "speakers/thibault-muenier.png"
 [[speakers]]
 name = "Changwé Mutakasha"
 company = "NEAR"
-image = "speakers/changwé-mutakasha.png"
+image = "speakers/changwe-mutakasha.png"
 
 [[speakers]]
 name = "Cayman Nava"
@@ -337,6 +381,11 @@ company = ""
 image = "speakers/nathalie-nunez.png"
 
 [[speakers]]
+name = "Désiré Nzengou"
+company = "European Agency for the Space Programme"
+image = "speakers/desire-nzengou.png"
+
+[[speakers]]
 name = "Brendan O'Brien"
 company = "Number Zero"
 twitterProfile = "b_fiive"
@@ -353,6 +402,11 @@ name = "Tobias Petrasch"
 twitterProfile = "tpetrasch"
 company = "Hammerspace"
 image = "speakers/tobias-petarsch.jpeg"
+
+[[speakers]]
+name = "Evgeny Ponomarev"
+company = "Fluence Labs"
+image = "speakers/evgeny-ponomarev.jpg"
 
 [[speakers]]
 name = "Alex Potsides"
@@ -395,10 +449,20 @@ twitterProfile = "Niklas_TR"
 image = "speakers/niklas-rindtorff.jpg"
 
 [[speakers]]
+name = "Seren Sandikci"
+company = "Indexas"
+image = "speakers/seren-sandikci.jpeg"
+
+[[speakers]]
 name = "Hector Sanjuan"
 company = "Protocol Labs"
 twitterProfile = "hecturchi"
 image = "speakers/hector-sanjuan.jpg"
+
+[[speakers]]
+name = "Ryan Shahine"
+company = "Portrait Technology Inc."
+image = "speakers/ryan-shahine.png"
 
 [[speakers]]
 name = "Alan Shaw"
@@ -429,6 +493,17 @@ company = "Gummys.io"
 image = "speakers/pasquale-sorrentino.jpg"
 
 [[speakers]]
+name = "Daniel Thompson"
+company = "Cypsela"
+twitterProfile = "tabcat00"
+image = "speakers/daniel-thompson.jpg"
+
+[[speakers]]
+name = "Chris Tomeo"
+company = "Electric Coin Co (Zcash)"
+image = "speakers/chris-tomeo.png"
+
+[[speakers]]
 name = "Manfred Touron"
 company = "Berty Technologies"
 twitterProfile = "moul"
@@ -441,10 +516,25 @@ company = "Protocol Labs"
 image = "speakers/dennis-trautwein.jpeg"
 
 [[speakers]]
+name = "Giliam Verheide"
+company = "Portrait Technology Inc."
+image = "speakers/giliam-verheide.png"
+
+[[speakers]]
 name = "Jonathan Victor"
 twitterProfile = "jnthnvctr"
 company = "Protocol Labs"
 image = "speakers/jonathan-victor.jpeg"
+
+[[speakers]]
+name = "Xavi Vives"
+company = "Interplanetary mind-map"
+image = "speakers/xavi-vives.jpg"
+
+[[speakers]]
+name = "Andreas Vogel"
+company = "Legacy"
+image = "speakers/andreas-vogel.jpg"
 
 [[speakers]]
 name = "Shannon Wells"
@@ -453,23 +543,31 @@ company = "Livepeer"
 image = "speakers/shannon-wells.jpeg"
 
 [[speakers]]
+name = "Holmes Wilson"
+company = "Quiet"
+image = "speakers/holmes-wilson.jpg"
+
+[[speakers]]
 name = "Matt Wisniewski"
 twitterProfile = "retropronghorn"
 company = "Satellite"
 image = "speakers/matt-wisniewski.png"
 
 [[speakers]]
+name = "Serafettin Yarar"
+company = "Indexas"
+image = "speakers/serafettin-yarar.jpg"
+
+[[speakers]]
+name = "Nur Yildirim"
+company = "Indexas"
+image = "speakers/nur-yildirim.jpg"
+
+[[speakers]]
 name = "Brooklyn Zelenka"
 company = "FISSION"
 twitterProfile = "expede"
 image = "speakers/brooklyn-zelenka.jpg"
-
-[[speakers]]
-name = "Désiré Nzengou"
-company = "European Space Agency"
-image = "speakers/desire-nzengou.png"
-
-
 
 # Ticket Items
 #

@@ -11,6 +11,8 @@ date = "2022-10-28"
 # how many days the event lasts (1 - N)
 days = 1
 
+venueName = "Arion"
+
 # the event times (shows up in the event card)
 times = "13:00 - 17:00"
 
@@ -78,23 +80,23 @@ description="1. We’ll write a skeleton with dummy modules for IPFS Storage Plu
 
 [[timeslots]]
 startTime="15:00"
-speakers=["Akshit Gupta"]
-title="Leveraging Crypto Storage Primitives for building Huddle01’s DRTC"
-description="While utilizing IPFS/Filecoin for storing recordings of huddle01 meetings, we came across the need for a solution to be able to upload, share and monetize videos in a piracy-resistant way and how huddle01 is building this easy-to-use video Infrastructure to revolutionize video storage and decentralized tools for private video hosting using huddle01’s powerful SDK."
+speakers=["Shannon Wells"]
+title="Building the Future of Web3 Video Applications With Livepeer"
+description="Building the future of web3 video applications is a difficult feat. Livepeer makes it easy!"
 
 [[timeslots]]
-startTime="15:25"
-speakers=["Shannon"]
-title="Livepeer"
-description=""
-
-[[timeslots]]
-startTime="15:50"
-speakers=["Yuriy Lukashevich"]
+startTime="15:30"
+speakers=["Sergey Llin"]
 title="Peeranha: Organisation of knowledge in Web3"
 description="Information in Web3 is spread across fragmented communities in Discord, Slack and Telegram channels. That information is not exposed to Google search, hard to find, unstructured and not curated.
 And we have created a solution!
 Peeranha streamlines knowledge management & discovery in Web3, creates incentives for users to contribute, gives ownership of the knowledge back to the community and preserves it by storing on Polygon blockchain and Filecoin."
+
+[[timeslots]]
+startTime="15:55"
+speakers=["Steph Orpilla"]
+title="Building YourCycle, a period tracking dapp powered by IPFS"
+description="Over the next month, Steph is building YourCycle, a self-sovereign mobile period tracking dapp in public. Users encrypt their cycle data with public-key encryption, then store it in an Orbit DB feed on IPFS."
 
 [[timeslots]]
 startTime="16:15"

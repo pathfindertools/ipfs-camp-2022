@@ -11,6 +11,8 @@ date = "2022-10-29"
 # how many days the event lasts (1 - N)
 days = 1
 
+venueName = "Saffar"
+
 # the event times (shows up in the event card)
 times = "10:00 - 17:00"
 
@@ -160,4 +162,13 @@ I will explain the tree data structure of banyan, how to adapt it to your own ne
 Repo link: https://github.com/actyx/banyan
 
 Banyan is currently implemented in rust, with Apache and MIT license.
+"
+
+[[timeslots]]
+startTime="17:00"
+speakers=["Daniel Thompson (@tabcat)"]
+title="Opalescence: App Design without Global State"
+description="Local-first software design is almost opposite to traditional models. Software built this way has some clear advantages for a large application set but isn't without its challenges.
+
+We'll take a look at replication of Merkle-CRDT replicas using pinned IPNS/IPFS and conclude with a demo of [Opal](https://github.com/cypsela/opal) + [Zzzync](https://github.com/tabcat/zzzync).
 "

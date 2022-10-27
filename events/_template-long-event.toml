@@ -21,11 +21,8 @@ days = 1
 # the event times (shows up in the event card)
 times = "09:00 - 17:00"
 
-# the event venue name (will show up on the event card - TODO)
+# the event venue name Markdown supported
 venueName = ""
-
-# the event venue address (will show up on a map -- TODO)
-venueAddress = ""
 
 # the max number of attendees of the event
 attendees = "100"
