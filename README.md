@@ -41,7 +41,7 @@ Image files will be automatically compressed once your PR is created.
 To get a dump of talks/speakers for custom analysis, you can:
 1. Install the python version of yq: https://github.com/kislyuk/yq
   - ``brew install python-yq``
-2. Run a command like ``tomlq -r '.name as $track_name | .date as $track_date | .timeslots[] | [$track_name, $track_date, .startTime, .title, (.speakers | join(" "))] | @csv' *.toml``
+2. Run a command like ``tomlq -r '.name as $track_name | .date as $track_date | if has("timeslots") then .timeslots[] else empty end | if length > 0 then [$track_name, $track_date, .startTime, .title, (.speakers | join(" ")), .description] else empty end | @csv' *.toml``
 
 The above was gleaned from:
 1. https://stackoverflow.com/a/71290386/16318
