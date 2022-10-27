@@ -214,6 +214,12 @@ company = "NOVA University of Lisbon"
 image = "speakers/pedro-akos-costa.jpg"
 
 [[speakers]]
+name = "Fabrice Desré"
+company = "Capyloon"
+twitterProfile = "fabricedesre"
+image = "speakers/fabrice-desre.jpg"
+
+[[speakers]]
 name = "Carson Farmer"
 company = "Textile"
 twitterProfile = "carsonfarmer"
@@ -356,6 +362,11 @@ image = "speakers/daniel-norman.jpg"
 name = "Nathalie Nunez"
 company = ""
 image = "speakers/nathalie-nunez.png"
+
+[[speakers]]
+name = "Désiré Nzengou"
+company = "European Agency for the Space Programme"
+image = "speakers/desire-nzengou.png"
 
 [[speakers]]
 name = "Brendan O'Brien"
@@ -535,17 +546,6 @@ name = "Brooklyn Zelenka"
 company = "FISSION"
 twitterProfile = "expede"
 image = "speakers/brooklyn-zelenka.jpg"
-
-[[speakers]]
-name = "Fabrice Desré"
-company = "Capyloon"
-twitterProfile = "fabricedesre"
-image = "speakers/fabrice-desre.jpg"
-
-[[speakers]]
-name = "Désiré Nzengou"
-company = "European Space Agency"
-image = "speakers/desire-nzengou.png"
 
 # Ticket Items
 #
