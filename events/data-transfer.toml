@@ -101,7 +101,6 @@ speakers=["@rvagg"]
 title="HAMTs & Other IPLD Data Structures"
 description="How does IPLD represent complex data? How does this affect data transfer and what kinds of data you can request?"
 
-
 [[timeslots]]
 startTime="17:15"
 speakers=["@hannahhoward"]

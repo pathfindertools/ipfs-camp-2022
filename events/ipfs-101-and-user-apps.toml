@@ -71,12 +71,12 @@ description="Bring your laptops! Choose your starting point while learning from 
 startTime="14:30"
 speakers=["Max Boytsov"]
 title="Fleek XYZ + IPFS Storage plugin Workshop"
-description="1. We’ll write a skeleton with dummy modules for IPFS Storage Plugin
+description="""1. We’ll write a skeleton with dummy modules for IPFS Storage Plugin
 2. We’ll start to fulfil the plugin, starting from its metadata and ending all the different methods being written with an SDK
 3. Once the plugin file is finished, we’ll build the plugin library for it and import it into the fleek-xyz GraphQL module.
 4. We’ll go to the Fleek.xyz UI to show:
     1. How the newly created plugin is displayed in the list of storage plugins 
-    2. How we’re initializing that plugin."
+    2. How we’re initializing that plugin."""
 
 [[timeslots]]
 startTime="15:00"
@@ -88,9 +88,9 @@ description="Building the future of web3 video applications is a difficult feat.
 startTime="15:30"
 speakers=["Sergey Llin"]
 title="Peeranha: Organisation of knowledge in Web3"
-description="Information in Web3 is spread across fragmented communities in Discord, Slack and Telegram channels. That information is not exposed to Google search, hard to find, unstructured and not curated.
+description="""Information in Web3 is spread across fragmented communities in Discord, Slack and Telegram channels. That information is not exposed to Google search, hard to find, unstructured and not curated.
 And we have created a solution!
-Peeranha streamlines knowledge management & discovery in Web3, creates incentives for users to contribute, gives ownership of the knowledge back to the community and preserves it by storing on Polygon blockchain and Filecoin."
+Peeranha streamlines knowledge management & discovery in Web3, creates incentives for users to contribute, gives ownership of the knowledge back to the community and preserves it by storing on Polygon blockchain and Filecoin."""
 
 [[timeslots]]
 startTime="15:55"
