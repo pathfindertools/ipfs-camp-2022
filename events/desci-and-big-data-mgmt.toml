@@ -11,6 +11,8 @@ date = "2022-10-28"
 # how many days the event lasts (1 - N)
 days = 1
 
+venueName = "Saffar"
+
 # the event times (shows up in the event card)
 times = "13:00 - 17:00"
 

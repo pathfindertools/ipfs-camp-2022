@@ -11,6 +11,9 @@ date = "2022-10-29"
 # how many days the event lasts (1 - N)
 days = 1
 
+# the event venue name (will show up on the event card - TODO)
+venueName = "Hypatia"
+
 # the event times (shows up in the event card)
 times = "10:00 - 13:00"
 
