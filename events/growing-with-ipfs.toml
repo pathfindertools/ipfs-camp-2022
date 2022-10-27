@@ -49,7 +49,7 @@ description = """
 startTime="10:00"
 speakers=["James Tunningley, Protocol Labs"]
 title="Welcome to Growing with IPFS"
-description=""
+description="Overview of the sessions"
 
 [[timeslots]]
 startTime="10:10"
@@ -65,8 +65,8 @@ description=""
 
 [[timeslots]]
 startTime="10:50"
-speakers=["Nandit Mehra, Lighthouse"]
-title="Succeeding with IPFS: Founder of Lighthouse"
+speakers=["Nandit Mehra, Lighthouse & Swaroop Hegde, Powerloom"]
+title="Succeeding with IPFS: Founders of Lighthouse & Powerloom"
 description=""
 
 [[timeslots]]
@@ -89,7 +89,7 @@ description=""
 
 [[timeslots]]
 startTime="12:30"
-speakers=["Katie Wawro"]
+speakers=["Katie Wawro, Protocol Labs"]
 title="How to get hired in the IPFS ecosystem"
 description=""
 
