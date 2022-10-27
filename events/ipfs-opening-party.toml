@@ -1,9 +1,5 @@
 # the name of your track or event
-name = "IPFS Project Fair"
-
-# the github handle of the directly responsible individual for this event
-# (this person will coordinate with devent organizers)
-dri = "Daryl Lim, Joey Sim"
+name = "Dinner & Opening Party"
 
 # the start date of the event
 date = "2022-10-28"
@@ -12,7 +8,7 @@ date = "2022-10-28"
 days = 1
 
 # the event times (shows up in the event card)
-times = "17:00 - 19:00"
+times = "19:00 - 22:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -20,12 +16,12 @@ difficulty = "All Welcome"
 
 # tags for the event, will show up as labels.
 # pick 1-4
-tags = ["Demos"]
+tags = ["Party 🎉"]
 
 # a color, to group key events visually. use sparingly
 # color="purple"
 
 # a description of the event.
 # will show up when the user clicks the event card.
-description = "Come browse an evening Project Fair of fun and fascinating IPFS projects! [Sign up to present your project](https://forms.gle/wdJ1SfzAHgBrYcFd7)"
-
+description = """
+"""
