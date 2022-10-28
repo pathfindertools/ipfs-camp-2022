@@ -27,7 +27,7 @@ tags = ["Talks"]
 
 # a description of the track.
 # will show up when the user clicks the event card.
-description = 
+description = ""
 
 # schedule is an array of timeslots objects
 # schema:

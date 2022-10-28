@@ -232,6 +232,12 @@ twitterProfile = "fabricedesre"
 image = "speakers/fabrice-desre.jpg"
 
 [[speakers]]
+name = "Gus Eggert"
+company = "Protocol Labs"
+twitterProfile = "guseggert"
+image = "speakers/gus-eggert.png"
+
+[[speakers]]
 name = "Carson Farmer"
 company = "Textile"
 twitterProfile = "carsonfarmer"
@@ -281,6 +287,11 @@ name = "Hannah Howard"
 company = "Protocol Labs"
 twitterProfile = "techgirlwonder"
 image = "speakers/hannah-howard.jpg"
+
+[[speakers]]
+name = "Kasey Huizinga"
+company = "Number Zero"
+image = "speakers/kasey-huizinga.png"
 
 [[speakers]]
 name = "Sergey Ilin"

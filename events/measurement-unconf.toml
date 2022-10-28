@@ -30,11 +30,11 @@ tags = ["Unconf"]
 
 # a description of the track.
 # will show up when the user clicks the event card.
-description = "A data-driven approach to the design and operation of IPFS and libp2p through rigorous network measurements, performance evaluation and recommendations for builders and operators.
+description = """A data-driven approach to the design and operation of IPFS and libp2p through rigorous network measurements, performance evaluation and recommendations for builders and operators.
 
 In this part of the track we will have breakout sessions on a number of different topics of interest to the wider community. We will look into our roadmap for 2023 and do live design work on the measurement experiments we plan to set up and run.
 
-If you have items that will help your project and which you want us to try and fit into our roadmap, this is the session to bring them up!"
+If you have items that will help your project and which you want us to try and fit into our roadmap, this is the session to bring them up!"""
 
 # schedule is an array of timeslots objects
 # schema:
