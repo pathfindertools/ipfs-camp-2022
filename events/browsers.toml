@@ -78,7 +78,7 @@ description="Brave is building a privacy-first internet stack with a private bro
 
 [[timeslots]]
 startTime="10:50"
-speakers=["@Javier Ferndandez (@javifernandez)"]
+speakers=["@Javier Fernandez (@javifernandez)"]
 title="Chrome pre-defined Custom Handlers for IPFS"
 description="High-level overview of the refactoring Implemented in Chrome's source code to define a dedicated component for the Custom Handlers logic. Thanks to this refactoring, we have improved the support for Chrome embedders to implement their own pre-defined Custom Handlers for the schemes they consider strategic. Patching Chrome to add a pre-defined Custom Handler to manage IPFS schemes is now trivial, reducing considerably the efforts of embedders to deal with rebases in order to sync with Chrome upstream."
 
