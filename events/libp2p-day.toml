@@ -3,7 +3,7 @@ name = "Libp2p Day"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "Marco Munizaga, Prithvi Shahi"
+dri = "Max Inden, Marco Munizaga, Prithvi Shahi"
 
 # the website of the event
 # make sure to have all the relevant information: dates, venue, program, ticketing (if any), etc.
@@ -53,7 +53,7 @@ description = """
 
 [[timeslots]]
 startTime="10:00"
-speakers=["Marco Munizaga"]
+speakers=["Max Inden"]
 title="Intro to libp2p: helping with real world application problems"
 description=""
 
