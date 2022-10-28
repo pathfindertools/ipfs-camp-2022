@@ -14,10 +14,10 @@ export default function Index({ events, config }) {
   return (
     <Layout config={config}>
       <Hero config={config} />
+      <ScheduleSection config={config} events={annotatedEvents} />
       <About config={config} />
       <Tracks config={config} events={annotatedEvents} />
       <Tickets config={config} />
-      <ScheduleSection config={config} events={annotatedEvents} />
       <Speakers config={config} />
       <FAQ config={config} />
     </Layout>
