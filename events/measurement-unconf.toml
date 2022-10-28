@@ -56,39 +56,51 @@ title="ProbeLab 2023 Roadmap"
 description=""
 
 [[timeslots]]
-startTime="14:30"
+startTime="14:25"
+speakers=["Ian Davis"]
+title="Talk: Testing IPFS through Thunderdome"
+description=""
+
+[[timeslots]]
+startTime="14:45"
 speakers=["Luca Nizzardo"]
 title="Breakout 1.1: Metrics DAO"
 description=""
 
 [[timeslots]]
-startTime="14:30"
-speakers=["Dennis Trautwein"]
-title="Breakout 1.2: Provider Records from the Hydra's PoV"
-description=""
-
-[[timeslots]]
-startTime="15:30"
+startTime="14:45"
 speakers=["Guillaume Michel"]
-title="Breakout 2.1: Bitswap Discovery Success Rate"
-description=""
-
-[[timeslots]]
-startTime="15:30"
-speakers=["Joao Leitao"]
-title="Breakout 2.2: Understanding IPFS through Telemetry"
+title="Breakout 1.2: Bitswap Discovery Success Rate"
 description=""
 
 [[timeslots]]
 startTime="15:30"
 speakers=["Dennis Trautwein"]
-title="Breakout 3.1: All the Measurement Tools"
+title="Breakout 2.1: All the Measurement Tools"
 description=""
 
 [[timeslots]]
 startTime="15:30"
-speakers=["Yiannis Psaras"]
-title="Breakout 3.2: IPNS and DHT Magic Numbers"
+speakers=["Kelsie Nabben"]
+title="Breakout 2.2: Data Governance Patterns for Resilient Infrastructure"
+description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=[]
+title="Break"
+description=""
+
+[[timeslots]]
+startTime="15:45"
+speakers=["Joao Leitao"]
+title="Breakout 3.1: Understanding IPFS through Telemetry"
+description=""
+
+[[timeslots]]
+startTime="15:45"
+speakers=["Guillaume Michel"]
+title="Breakout 3.2: The DHT Routing Table Visualisation"
 description=""
 
 [[timeslots]]
