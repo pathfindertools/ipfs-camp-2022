@@ -232,6 +232,12 @@ twitterProfile = "fabricedesre"
 image = "speakers/fabrice-desre.jpg"
 
 [[speakers]]
+name = "Gus Eggert"
+company = "Protocol Labs"
+twitterProfile = "guseggert"
+image = "speakers/gus-eggert.png"
+
+[[speakers]]
 name = "Carson Farmer"
 company = "Textile"
 twitterProfile = "carsonfarmer"
