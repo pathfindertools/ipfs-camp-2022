@@ -473,7 +473,7 @@ image = "speakers/hector-sanjuan.jpg"
 [[speakers]]
 name = "Ryan Shahine"
 company = "Portrait Technology Inc."
-image = "speakers/ryan-shahine.png"
+image = "speakers/ryan-shahine.jpeg"
 
 [[speakers]]
 name = "Alan Shaw"
@@ -621,12 +621,6 @@ name = "Ryan Baumann"
 company = "IPFS: Protocol Labs" 
 twitterProfile = "TRDiscordian" 
 image = "speakers/ryan-baumann.png" 
-
-[[speakers]] 
-name = "Ryan Shahine" 
-company = "Portrait.gg" 
-twitterProfile = "ryanshahine" 
-image = "speakers/ryan-shahine.jpeg" 
 
 [[speakers]] 
 name = "Sergey Ilinn" 
