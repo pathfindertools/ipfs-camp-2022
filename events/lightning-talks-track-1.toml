@@ -85,5 +85,5 @@ description=""
 [[timeslots]]
 startTime="11:45"
 speakers=["Alex Wilhelm"]
-title="Compose DB - Composable Data on Ceramic"
-description=""
+title="ComposeDB - Composable Data on Ceramic"
+description="60-minute workshop on learning and using ComposeDB."
