@@ -47,7 +47,43 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-#startTime="09:00"
-#speakers=["@speaker_name", "@other_speaker_name"]
-#title="Welcome standup discussion"
-#description=""
+startTime="10:15"
+speakers=["Techie Teee"]
+title="Data for Degens"
+description=""
+
+[[timeslots]]
+startTime="10:30"
+speakers=["Xavi Vives"]
+title="Trancending natural language"
+description=""
+
+[[timeslots]]
+startTime="10:45"
+speakers=["Hugo Montenegro"]
+title="Unstoppable Frontends with IPFS - Cybersquirrel Case Study"
+description=""
+
+[[timeslots]]
+startTime="11:00"
+speakers=["Moritz Schubotz"]
+title="What if the European Open Science Cloud ran on libp2p?"
+description=""
+
+[[timeslots]]
+startTime="11:15"
+speakers=["Coffee Break"]
+title=""
+description=""
+
+[[timeslots]]
+startTime="11:30"
+speakers=["Edward Silverton"]
+title="NIIIFTY: Data Reliability for the Cultural Heritage Sector using IPFS"
+description=""
+
+[[timeslots]]
+startTime="11:45"
+speakers=["Alex Wilhelm"]
+title="Compose DB - Composable Data on Ceramic"
+description=""
