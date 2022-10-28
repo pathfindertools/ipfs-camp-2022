@@ -289,6 +289,11 @@ twitterProfile = "techgirlwonder"
 image = "speakers/hannah-howard.jpg"
 
 [[speakers]]
+name = "Kasey Huizinga"
+company = "Number Zero"
+image = "speakers/kasey-huizinga.png"
+
+[[speakers]]
 name = "Sergey Ilin"
 company = "Peeranha"
 image = "speakers/sergey-ilin.jpg"
