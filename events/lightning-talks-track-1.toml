@@ -11,6 +11,8 @@ date = "2022-10-30"
 # how many days the event lasts (1 - N)
 days = 1
 
+venueName = "Madriu"
+
 # the event times (shows up in the event card)
 times = "10:00 - 13:00"
 

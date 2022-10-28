@@ -41,6 +41,10 @@ html {
   margin-top: 20px;
 }
 
+.track-card .markdown p, .venue-name .markdown p {
+  margin-top: 0;
+}
+
 /* TODO: Move this into tailwind config */
 .text-h1 {
   font-family: RocGroteskMedium, sans-serif;

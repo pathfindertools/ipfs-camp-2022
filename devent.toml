@@ -29,6 +29,8 @@ link="https://2022.ipfs.camp/"
 # a link to get tickets
 ticketLink="#tickets"
 
+venueMapLink="/map-shuttle.pdf"
+
 # a link to RSVP for the event
 # rsvpLink="#tickets"
 
@@ -177,6 +179,11 @@ company = "Technical University of Darmstadt"
 image = "speakers/leo-balduf.jpeg"
 
 [[speakers]]
+name = "Marta Belcher"
+company = "Filecoin Foundation"
+image = "speakers/marta-belcher.png"
+
+[[speakers]]
 name = "Juan Benet"
 company = "Protocol Labs"
 twitterProfile = "juanbenet"
@@ -186,6 +193,11 @@ image = "speakers/juan-benet.jpg"
 name = "Matthew Bradley"
 company = ""
 image = "speakers/matt-bradley.jpg"
+
+[[speakers]]
+name = "Jaya Brekke"
+company = "Nym"
+image = "speakers/jaya-brekke.jpeg"
 
 [[speakers]]
 name = "Alexander Burdiyan"
@@ -212,6 +224,18 @@ image = "speakers/tanguy-cizain.jpg"
 name = "Pedro Akos Costa"
 company = "NOVA University of Lisbon"
 image = "speakers/pedro-akos-costa.jpg"
+
+[[speakers]]
+name = "Fabrice Desré"
+company = "Capyloon"
+twitterProfile = "fabricedesre"
+image = "speakers/fabrice-desre.jpg"
+
+[[speakers]]
+name = "Gus Eggert"
+company = "Protocol Labs"
+twitterProfile = "guseggert"
+image = "speakers/gus-eggert.png"
 
 [[speakers]]
 name = "Carson Farmer"
@@ -263,6 +287,11 @@ name = "Hannah Howard"
 company = "Protocol Labs"
 twitterProfile = "techgirlwonder"
 image = "speakers/hannah-howard.jpg"
+
+[[speakers]]
+name = "Kasey Huizinga"
+company = "Number Zero"
+image = "speakers/kasey-huizinga.png"
 
 [[speakers]]
 name = "Sergey Ilin"
@@ -331,6 +360,11 @@ company = "Protocol Labs"
 image = "speakers/crystal-mills.jpeg"
 
 [[speakers]]
+name = "Jennifer Morrison"
+company = "Manta Network"
+image = "speakers/jennifer-morrison.jpeg"
+
+[[speakers]]
 name = "Thibault Muenier"
 company = "Cloudflare"
 image = "speakers/thibault-muenier.png"
@@ -356,6 +390,11 @@ image = "speakers/daniel-norman.jpg"
 name = "Nathalie Nunez"
 company = ""
 image = "speakers/nathalie-nunez.png"
+
+[[speakers]]
+name = "Désiré Nzengou"
+company = "European Agency for the Space Programme"
+image = "speakers/desire-nzengou.png"
 
 [[speakers]]
 name = "Brendan O'Brien"
@@ -471,6 +510,11 @@ twitterProfile = "tabcat00"
 image = "speakers/daniel-thompson.jpg"
 
 [[speakers]]
+name = "Chris Tomeo"
+company = "Electric Coin Co (Zcash)"
+image = "speakers/chris-tomeo.png"
+
+[[speakers]]
 name = "Manfred Touron"
 company = "Berty Technologies"
 twitterProfile = "moul"
@@ -536,16 +580,65 @@ company = "FISSION"
 twitterProfile = "expede"
 image = "speakers/brooklyn-zelenka.jpg"
 
-[[speakers]]
-name = "Fabrice Desré"
-company = "Capyloon"
-twitterProfile = "fabricedesre"
-image = "speakers/fabrice-desre.jpg"
-
-[[speakers]]
-name = "Désiré Nzengou"
-company = "European Space Agency"
-image = "speakers/desire-nzengou.png"
+ [[speakers]] 
+ name = "Dave Montali" 
+ company = "Nimi.eth" 
+ twitterProfile = "davebit_" 
+ image = "speakers/dave-montali.jpeg" 
+ 
+ [[speakers]] 
+ name = "Konrad Urban" 
+ company = "Endless Jewellery" 
+ twitterProfile = "KonradUrban" 
+ image = "speakers/konrad-urban.jpeg" 
+ 
+ [[speakers]] 
+ name = "Lindsay Walker" 
+ company = "Protocol Labs" 
+ twitterProfile = "Lindsayjowalk" 
+ image = "speakers/lindsay-walker.jpg" 
+ 
+ [[speakers]] 
+ name = "Logan Lentz" 
+ company = "GalaxyX" 
+ twitterProfile = "ZaphodB17" 
+ image = "speakers/logan-lentz.jpeg" 
+ 
+ [[speakers]] 
+ name = "Max Boystov" 
+ company = "Fleek" 
+ twitterProfile = "max_boytsov" 
+ image = "speakers/max-boystov.jpeg" 
+ 
+ [[speakers]] 
+ name = "Ryan Baumann" 
+ company = "IPFS: Protocol Labs" 
+ twitterProfile = "TRDiscordian" 
+ image = "speakers/ryan-baumann.png" 
+ 
+ [[speakers]] 
+ name = "Ryan Shahine" 
+ company = "Portrait.gg" 
+ twitterProfile = "ryanshahine" 
+ image = "speakers/ryan-shahine.jpeg" 
+ 
+ [[speakers]] 
+ name = "Sergey Ilinn" 
+ company = "Peeranha" 
+ twitterProfile = "SergeyIlinn" 
+ image = "speakers/sergey-llin.png" 
+ 
+ [[speakers]] 
+ name = "Shannon Wells" 
+ company = "Livepeer" 
+ twitterProfile = "shanvasion" 
+ image = "speakers/shannon-wells.jpeg" 
+ 
+ [[speakers]] 
+ name = "Steph Orpilla" 
+ company = "Polygon" 
+ twitterProfile = "Oceans404" 
+ image = "speakers/steph-orpilla.png" 
 
 # Ticket Items
 #

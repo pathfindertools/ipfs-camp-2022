@@ -11,6 +11,9 @@ date = "2022-10-29"
 # how many days the event lasts (1 - N)
 days = 1
 
+# the event venue name (will show up on the event card - TODO)
+venueName = "Hypatia"
+
 # the event times (shows up in the event card)
 times = "10:00 - 13:00"
 
@@ -132,9 +135,8 @@ description="Going over some of the challenges we faced with implementing IPFS i
 [[timeslots]]
 startTime="12:30"
 speakers=["@David Justice (@meandavejustice)"]
-title="BLE connectivity and IPFS: Durin's next steps"
-description="Exploring the next steps for Durin (ipfs on mobile)"
-
+title="Announcing Durin"
+description="Announcing Durin (ipfs on mobile) and exploring our next steps"
 
 
 [[timeslots]]
