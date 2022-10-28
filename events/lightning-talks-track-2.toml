@@ -1,9 +1,9 @@
 # the name of your track or event
-name = "Lightning Talks Session 2 (Madriu Room)"
+name = "Lightning Talks Session 2"
 
 # the github handle of the directly responsible individual for this event
 # (this person will coordinate with devent organizers)
-dri = "Reid Wilkes"
+dri = "Emily Vaughn and Reid Wilkes"
 
 # the start date of the event
 date = "2022-10-30"
@@ -14,7 +14,7 @@ days = 1
 venueName = "Madriu"
 
 # the event times (shows up in the event card)
-times = "14:00 - 16:00"
+times = "14:00 - 17:00"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
@@ -47,7 +47,56 @@ description = """
 # - use 15m, 20m, 30m, 45m, or 60m session slots
 # - use 15m breaks, one in the morning, one or two in the afternoon
 [[timeslots]]
-#startTime="09:00"
-#speakers=["@speaker_name", "@other_speaker_name"]
-#title="Welcome standup discussion"
-#description=""
+startTime="14:15"
+speakers=["Phoebe Poon"]
+title="The Future of Decentralize Publishing"
+description=""
+
+[[timeslots]]
+startTime="14:30"
+speakers=["Al Morris"]
+title="To Smart Contracts and Beyond, A Brief History of Decentralization"
+description=""
+
+[[timeslots]]
+startTime="14:45"
+speakers=["Laisha Wadhwa"]
+title="Research challenges for decentralized data"
+description=""
+
+[[timeslots]]
+startTime="15:00"
+speakers=["Denny Portillo"]
+title="Consistent Distributed Systems"
+description=""
+
+[[timeslots]]
+startTime="15:15"
+speakers=["Coffee Break"]
+title=""
+description=""
+
+[[timeslots]]
+startTime="15:30"
+speakers=["Mathijs de Bruin & Frido Emans"]
+title="ipfs-search.com: Searching the Universe since 2016"
+description=""
+
+[[timeslots]]
+startTime="15:45"
+speakers=["Sneha Mishra"]
+title="Unlocking web3 social networks with IPFS"
+description=""
+
+[[timeslots]]
+startTime="16:00"
+speakers=["Marcus Pousette, Erik Allberg"]
+title="Building scaleable databases on IPFS with sharding and E2E-encryption"
+description=""
+
+
+[[timeslots]]
+startTime="16:15"
+speakers=["Sneha Vijayan"]
+title="Evidence Management with IPFS & Filecoin"
+description=""
