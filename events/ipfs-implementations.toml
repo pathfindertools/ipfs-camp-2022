@@ -87,7 +87,7 @@ description=""
 
 [[timeslots]]
 startTime="14:30"
-speakers=["Guss Eggart"]
+speakers=["Gus Eggert (@guseggert)"]
 title="State of Kubo"
 description="[Kubo](https://github.com/ipfs/kubo) (formerly go-ipfs) is the reference implementation for the protocol, and drives the vast majority of IPFS traffic. Hear where Kubo is headed next."
 
