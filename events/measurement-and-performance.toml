@@ -67,14 +67,14 @@ description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=["Mikel Cortes"]
-title="A Deep Dive into Provider Records"
+speakers=["Guillaume Michel"]
+title="DHT Routing Table Health"
 description=""
 
 [[timeslots]]
 startTime="14:30"
-speakers=["Guillaume Michel"]
-title="DHT Routing Table Health"
+speakers=["Mikel Cortes"]
+title="A Deep Dive into Provider Records"
 description=""
 
 [[timeslots]]
@@ -97,13 +97,13 @@ description=""
 
 [[timeslots]]
 startTime="16:20"
-speakers=["Ian Davis"]
-title="Thunderdome: A tool to instrument your real-world experiments"
+speakers=["Thibault Meunier"]
+title="Monitoring Cloudflare's IPFS Gateways"
 description=""
 
 [[timeslots]]
 startTime="16:40"
-speakers=["Srivatsan Sidhar"]
+speakers=["Michal Krol"]
 title="Identifying CID Eclipse Attacks through network measurements"
 description=""
 
