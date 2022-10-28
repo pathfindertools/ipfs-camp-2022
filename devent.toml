@@ -238,6 +238,11 @@ twitterProfile = "guseggert"
 image = "speakers/gus-eggert.png"
 
 [[speakers]]
+name = "Vero Estrada"
+company = "EPFL"
+image = "speakers/vero-estrada.jpg"
+
+[[speakers]]
 name = "Carson Farmer"
 company = "Textile"
 twitterProfile = "carsonfarmer"
@@ -418,6 +423,11 @@ image = "speakers/tobias-petarsch.jpeg"
 name = "Evgeny Ponomarev"
 company = "Fluence Labs"
 image = "speakers/evgeny-ponomarev.jpg"
+
+[[speakers]]
+name = "Phoebe Poon"
+company = "Likecoin"
+image = "speakers/phoebe-poon.jpg"
 
 [[speakers]]
 name = "Alex Potsides"
