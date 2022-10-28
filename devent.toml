@@ -179,6 +179,12 @@ company = "Technical University of Darmstadt"
 image = "speakers/leo-balduf.jpeg"
 
 [[speakers]]
+name = "Ryan Baumann"
+company = "IPFS: Protocol Labs"
+twitterProfile = "TRDiscordian"
+image = "speakers/ryan-baumann.png"
+
+[[speakers]]
 name = "Marta Belcher"
 company = "Filecoin Foundation"
 image = "speakers/marta-belcher.png"
@@ -188,6 +194,12 @@ name = "Juan Benet"
 company = "Protocol Labs"
 twitterProfile = "juanbenet"
 image = "speakers/juan-benet.jpg"
+
+[[speakers]]
+name = "Max Boystov"
+company = "Fleek"
+twitterProfile = "max_boytsov"
+image = "speakers/max-boystov.jpeg"
 
 [[speakers]]
 name = "Matthew Bradley"
@@ -304,6 +316,12 @@ company = "Peeranha"
 image = "speakers/sergey-ilin.jpg"
 
 [[speakers]]
+name = "Sergey Ilinn"
+company = "Peeranha"
+twitterProfile = "SergeyIlinn"
+image = "speakers/sergey-llin.png"
+
+[[speakers]]
 name = "Rüdiger Klaehn"
 twitterProfile = "klaehnr"
 company = "Independent Software Engineer"
@@ -319,6 +337,12 @@ name = "Michelle Lee"
 company = "Protocol Labs"
 twitterProfile = "mishmosh"
 image = "speakers/michelle_lee.jpg"
+
+[[speakers]]
+name = "Logan Lentz"
+company = "GalaxyX"
+twitterProfile = "ZaphodB17"
+image = "speakers/logan-lentz.jpeg"
 
 [[speakers]]
 name = "Daryl Lim"
@@ -363,6 +387,12 @@ name = "Crystal Mills"
 twitterProfile = "ckmwrites"
 company = "Protocol Labs"
 image = "speakers/crystal-mills.jpeg"
+
+[[speakers]]
+name = "Dave Montali"
+company = "Nimi.eth"
+twitterProfile = "davebit_"
+image = "speakers/dave-montali.jpeg"
 
 [[speakers]]
 name = "Jennifer Morrison"
@@ -412,6 +442,12 @@ name = "Matt Ober"
 twitterProfile = "MattOber1"
 company = "Pinata"
 image = "speakers/matt-ober.jpg"
+
+[[speakers]]
+name = "Steph Orpilla"
+company = "Polygon"
+twitterProfile = "Oceans404"
+image = "speakers/steph-orpilla.png"
 
 [[speakers]]
 name = "Tobias Petrasch"
@@ -486,6 +522,12 @@ company = "Portrait Technology Inc."
 image = "speakers/ryan-shahine.png"
 
 [[speakers]]
+name = "Ryan Shahine"
+company = "Portrait.gg"
+twitterProfile = "ryanshahine"
+image = "speakers/ryan-shahine.jpeg"
+
+[[speakers]]
 name = "Alan Shaw"
 twitterProfile = "_alanshaw"
 company = "Protocol Labs"
@@ -537,6 +579,12 @@ company = "Protocol Labs"
 image = "speakers/dennis-trautwein.jpeg"
 
 [[speakers]]
+name = "Konrad Urban"
+company = "Endless Jewellery"
+twitterProfile = "KonradUrban"
+image = "speakers/konrad-urban.jpeg"
+
+[[speakers]]
 name = "Giliam Verheide"
 company = "Portrait Technology Inc."
 image = "speakers/giliam-verheide.png"
@@ -558,9 +606,21 @@ company = "Legacy"
 image = "speakers/andreas-vogel.jpg"
 
 [[speakers]]
+name = "Lindsay Walker"
+company = "Protocol Labs"
+twitterProfile = "Lindsayjowalk"
+image = "speakers/lindsay-walker.jpg"
+
+[[speakers]]
 name = "Shannon Wells"
 twitterProfile = "shanvasion"
 company = "Livepeer"
+image = "speakers/shannon-wells.jpeg"
+
+[[speakers]]
+name = "Shannon Wells"
+company = "Livepeer"
+twitterProfile = "shanvasion"
 image = "speakers/shannon-wells.jpeg"
 
 [[speakers]]
@@ -589,67 +649,6 @@ name = "Brooklyn Zelenka"
 company = "FISSION"
 twitterProfile = "expede"
 image = "speakers/brooklyn-zelenka.jpg"
-
- [[speakers]] 
- name = "Dave Montali" 
- company = "Nimi.eth" 
- twitterProfile = "davebit_" 
- image = "speakers/dave-montali.jpeg" 
- 
- [[speakers]] 
- name = "Konrad Urban" 
- company = "Endless Jewellery" 
- twitterProfile = "KonradUrban" 
- image = "speakers/konrad-urban.jpeg" 
- 
- [[speakers]] 
- name = "Lindsay Walker" 
- company = "Protocol Labs" 
- twitterProfile = "Lindsayjowalk" 
- image = "speakers/lindsay-walker.jpg" 
- 
- [[speakers]] 
- name = "Logan Lentz" 
- company = "GalaxyX" 
- twitterProfile = "ZaphodB17" 
- image = "speakers/logan-lentz.jpeg" 
- 
- [[speakers]] 
- name = "Max Boystov" 
- company = "Fleek" 
- twitterProfile = "max_boytsov" 
- image = "speakers/max-boystov.jpeg" 
- 
- [[speakers]] 
- name = "Ryan Baumann" 
- company = "IPFS: Protocol Labs" 
- twitterProfile = "TRDiscordian" 
- image = "speakers/ryan-baumann.png" 
- 
- [[speakers]] 
- name = "Ryan Shahine" 
- company = "Portrait.gg" 
- twitterProfile = "ryanshahine" 
- image = "speakers/ryan-shahine.jpeg" 
- 
- [[speakers]] 
- name = "Sergey Ilinn" 
- company = "Peeranha" 
- twitterProfile = "SergeyIlinn" 
- image = "speakers/sergey-llin.png" 
- 
- [[speakers]] 
- name = "Shannon Wells" 
- company = "Livepeer" 
- twitterProfile = "shanvasion" 
- image = "speakers/shannon-wells.jpeg" 
- 
- [[speakers]] 
- name = "Steph Orpilla" 
- company = "Polygon" 
- twitterProfile = "Oceans404" 
- image = "speakers/steph-orpilla.png" 
-
 # Ticket Items
 #
 # [[tickets]]
