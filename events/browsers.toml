@@ -152,6 +152,10 @@ speakers=["@Jorropo"]
 title="Feather - A File-oriented IPFS Light Client"
 description="Explain how we store files on IPFS and how this can be used to make IPFS light clients."
 
-
+[[timeslots]]
+startTime="13:10"
+speakers=["Liam Zebedee"]
+title="Dappnet - decentralized frontends, for real"
+description="Dappnet launched 2wks ago and hit 14M eyeballs. It’s a beautiful client that upgrades Chrome/Firefox to access uniswap.eth natively and performantly, using a local IPFS node and ENS gateway. This talk covers the architecture and next steps (buying up internet backbones)."
 
 
