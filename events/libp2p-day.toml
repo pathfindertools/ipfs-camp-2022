@@ -78,7 +78,7 @@ description=""
 [[timeslots]]
 startTime="11:35"
 speakers=["Dennis Trautwein"]
-title="libp2p NAT Hole Punching"
+title="Decentralized NAT Hole-Punching"
 description=""
 
 [[timeslots]]
@@ -90,7 +90,7 @@ description=""
 [[timeslots]]
 startTime="12:35"
 speakers=["Laurent Senta"]
-title="Testground + libp2p"
+title="libp2p Interoperability Testing with Testground"
 description=""
 
 [[timeslots]]
@@ -101,26 +101,26 @@ description=""
 
 [[timeslots]]
 startTime="14:00"
-speakers=["Cayman Nava"]
-title="Intro to Lodestar"
-description=""
-
-[[timeslots]]
-startTime="14:20"
 speakers=["Gorka Ludlow"]
 title="WebRTC signalling data over QR codes"
 description=""
 
 [[timeslots]]
-startTime="14:40"
+startTime="14:20"
 speakers=["Ankit Kumar"]
 title="Formal Analysis of GossipSub"
 description=""
 
 [[timeslots]]
-startTime="15:00"
+startTime="14:40"
 speakers=["Elliott Frisch"]
 title="How Pyrsia is using libp2p to take over the world"
+description=""
+
+[[timeslots]]
+startTime="15:00"
+speakers=["Drew Ewing"]
+title="Satellite.im and what we're doing with IPFS and js-libp2p"
 description=""
 
 [[timeslots]]
@@ -131,8 +131,8 @@ description=""
 
 [[timeslots]]
 startTime="15:40"
-speakers=[""]
-title="Open Unconf Slot"
+speakers=["Cayman Nava"]
+title="Intro to Lodestar"
 description=""
 
 [[timeslots]]
