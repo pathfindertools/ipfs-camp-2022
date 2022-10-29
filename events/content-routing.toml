@@ -110,6 +110,12 @@ description="Discover the challenges that an IPFS Gateway faces to route content
 
 [[timeslots]]
 startTime="13:00"
+speakers=["David Mazières, Juan Benet"]
+title="Lunch + Fireside Chat with David Mazières and Juan Benet"
+description="David Mazières is a computer scientist, best known as creator of the Stellar Consensus Protocol and coauthor of Kademlia, the peer-to-peer distributed hash table used in IPFS. He will be joined by Juan Benet, inventor of IPFS and Filecoin, in a dynamics and wide-ranging conversation about challenges and opportunities in designing large-scale distributed systems."
+
+[[timeslots]]
+startTime="13:30"
 speakers=[]
-title="Lunch Break"
+title="End"
 description=""
