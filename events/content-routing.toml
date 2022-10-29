@@ -14,7 +14,7 @@ days = 1
 venueName = "Arion"
 
 # the event times (shows up in the event card)
-times = "10:00 - 13:00"
+times = "10:00 - 13:30"
 
 # the "difficulty" of the event -- one of:
 # ["Beginner", "Intermediate", "Advanced", "All Welcome"]
