@@ -59,15 +59,9 @@ title="Warpforge — Hashes go in, hashes come out, exec in the middle!"
 description=""
 
 [[timeslots]]
-startTime="11:00"
+startTime="11:30"
 speakers=["David Aronchik", "Wes Floyd"]
 title="Bacalhau — Bringing the Compute to the Data!"
-description=""
-
-[[timeslots]]
-startTime="11:30"
-speakers=["@warpfork"]
-title="Zapps — A new standard for go-anywhere linux executables"
 description=""
 
 [[timeslots]]
@@ -79,7 +73,7 @@ description=""
 [[timeslots]]
 startTime="12:30"
 speakers=["@warpfork"]
-title="Solving the One Hard Problem — Naming Things — With Catalogs"
+title="Zapps — A new standard for go-anywhere linux executables"
 description=""
 
 [[timeslots]]
@@ -88,3 +82,8 @@ speakers=[]
 title="Lunch Break"
 description=""
 
+[[timeslots]]
+startTime="14:00"
+speakers=[]
+title="Roundtables & Hack Time"
+description=""
