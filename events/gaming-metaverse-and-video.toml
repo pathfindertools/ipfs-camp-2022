@@ -73,7 +73,7 @@ description=""
 
 [[timeslots]]
 startTime="11:45"
-speakers=["Crystal Mills", "Matt Wisniewski", "Pasquale Sorrentino", "Yondan Fu"]
+speakers=["Crystal Mills", "Matt Wisniewski", "Pasquale Sorrentino", "Shannon Wells"]
 title="Live streaming infra - video and real time challenges in web3"
 description="Crystal Mills will moderate a discussion across teams building on streaming technology in web3."
 
@@ -104,18 +104,18 @@ description="Participate to this session to find out where Space meets the Metav
 
 [[timeslots]]
 startTime="14:30"
-speakers=["Shannon Wells"]
+speakers=["Yondon Fu"]
 title="Video and Metadata Standards with Livepeer"
 description="Shannon will share the learnings and observations from Livepeer, as they work across ecosystems to help steward shared open standards."
 
 [[timeslots]]
-startTime="15:15"
+startTime="15:00"
 speakers=["Daryl Lim"]
 title="Metapals: Importance of usability in Web3"
 description="Metapals COO Daryl Lim will share useful insights the team gathered since embarking on their journey early this year, especially on converting and helping non-crypto users transition into the web3."
 
 [[timeslots]]
-startTime="15:45"
+startTime="15:30"
 speakers=["Justin Melillo", "Nathalie Nunez", "Matthew Bradley", "Metageist", "Matt Marshall"]
 title="World Builders"
 description="A roundtable discussion with creators building ownable metaverses"
