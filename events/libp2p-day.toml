@@ -83,7 +83,7 @@ description=""
 
 [[timeslots]]
 startTime="12:10"
-speakers=["Tanguy Cizain"]
+speakers=["Tanguy"]
 title="libp2p in Nim"
 description=""
 
