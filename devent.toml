@@ -228,9 +228,9 @@ company = "Dag House"
 image = "speakers/david-choi.jpeg"
 
 [[speakers]]
-name = "Tanguy Cizain"
+name = "Tanguy"
 company = "Status.im"
-image = "speakers/tanguy-cizain.jpg"
+image = "speakers/tanguy.jpg"
 
 [[speakers]]
 name = "Pedro Akos Costa"
