@@ -25,7 +25,7 @@ export default function Footer({ config }) {
 					<Logo image={config.devent.logo} name={config.devent.name} />
 				</div>
 				<div className="w-full text-white text-body-1">
-					<div className="grid grid-cols-2 mb-8 lg:grid-cols-3 gap-8 max-w-2xl ">
+					<div className="grid grid-cols-2 mb-8 lg:grid-cols-4 gap-8 max-w-2xl ">
 						<div>
 							<h3 className="mb-4">IPFS Camp</h3>
 							<nav>
@@ -51,8 +51,17 @@ export default function Footer({ config }) {
 								<Link name="Discord/Matrix/Slack" link="https://docs.ipfs.tech/community/chat/" />
 							</nav>
 						</div>
+						<div>
+							<h3 className="mb-4">Legal Links</h3>
+							<nav>
+								<Link name="Terms of Use" link="https://discuss.ipfs.tech/tos" />
+								<Link name="Privacy Policy" link="https://discuss.ipfs.tech/privacy" />
+								<Link name="DMCA Policy" link="https://ipfs.tech/legal/" />
+							</nav>
+						</div>
 					</div>
 				</div>
+	
 				<hr className="mt-2 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8 opacity-10" />
 				<div className="sm:flex sm:items-center sm:justify-between container max-w-8xl mx-auto">
 					<p className="text-sm text-gray-500 sm:text-center dark:text-gray-400 mt-4 lg:mt-0 lg:mb-2">
