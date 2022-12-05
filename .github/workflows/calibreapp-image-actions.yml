@@ -12,8 +12,9 @@ on:
       - 'website/public/speakers/*.jpg'
       - 'website/public/speakers/*.jpeg'
       - 'website/public/speakers/*.png'
-  schedule:
-    - cron: '00 23 * * 0'
+  # Disable routine runs of the action
+  # schedule:
+    # - cron: '00 23 * * 0'
   workflow_dispatch:
 jobs:
   build:
