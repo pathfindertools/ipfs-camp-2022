@@ -17,9 +17,7 @@ IPFS Camp 2022  is a gathering for the entire IPFS community: devs, operators, i
 """
 
 description="""
-Join us for talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
-
-October 28-30, Convento do Beato, Lisbon, Portugal
+Thank you for attending the talks, workshops, discussion circles, hacking time, and more, all focused on celebrating and advancing IPFS.
 """
 
 
@@ -30,6 +28,8 @@ link="https://2022.ipfs.camp/"
 ticketLink="#tickets"
 
 venueMapLink="/map-shuttle.pdf"
+
+youtubePlaylist="https://youtube.com/playlist?list=PLuhRWgmPaHtSEv2DM9J7nSvN7dnVFMM6q"
 
 # a link to RSVP for the event
 # rsvpLink="#tickets"
@@ -615,12 +615,6 @@ image = "speakers/lindsay-walker.jpg"
 name = "Shannon Wells"
 twitterProfile = "shanvasion"
 company = "Livepeer"
-image = "speakers/shannon-wells.jpeg"
-
-[[speakers]]
-name = "Shannon Wells"
-company = "Livepeer"
-twitterProfile = "shanvasion"
 image = "speakers/shannon-wells.jpeg"
 
 [[speakers]]

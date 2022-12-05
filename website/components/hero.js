@@ -33,11 +33,8 @@ export default function Hero({ config }) {
                 <Markdown >{config.devent.description}</Markdown>
               </div>
               <div className="flex flex-col lg:flex-row gap-4 mt-16">
-                {config.devent.ticketLink &&
-                  <Button href={config.devent.ticketLink} target="_blank">Get Tickets</Button>
-                }
-                {config.devent.venueMapLink &&
-                  <Button href={config.devent.venueMapLink} target="_blank">Venue map & shuttle info</Button>
+                {config.devent.youtubePlaylist &&
+                  <Button href={config.devent.youtubePlaylist} target="_blank">Watch the talks</Button>
                 }
                 {config.devent.speakLink &&
                   <Button href={config.devent.speakLink} target="_blank" variation="outline">Apply to Speak</Button>
