@@ -36,8 +36,8 @@ export default function Hero({ config }) {
                 {config.devent.youtubePlaylist &&
                   <Button href={config.devent.youtubePlaylist} target="_blank">Watch the Talks</Button>
                 }
-                {config.devent.recapBlog &&
-                  <Button href={config.devent.blogRecap} target="_blank">Read the Recap</Button>
+                {config.devent.blogRecap &&
+                  <Button href={config.devent.blogRecap}>Read the Recap</Button>
                 }
                 {config.devent.speakLink &&
                   <Button href={config.devent.speakLink} target="_blank" variation="outline">Apply to Speak</Button>
