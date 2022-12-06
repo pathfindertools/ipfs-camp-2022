@@ -34,7 +34,10 @@ export default function Hero({ config }) {
               </div>
               <div className="flex flex-col lg:flex-row gap-4 mt-16">
                 {config.devent.youtubePlaylist &&
-                  <Button href={config.devent.youtubePlaylist} target="_blank">Watch the talks</Button>
+                  <Button href={config.devent.youtubePlaylist} target="_blank">Watch the Talks</Button>
+                }
+                {config.devent.recapBlog &&
+                  <Button href={config.devent.blogRecap} target="_blank">Read the Recap</Button>
                 }
                 {config.devent.speakLink &&
                   <Button href={config.devent.speakLink} target="_blank" variation="outline">Apply to Speak</Button>
